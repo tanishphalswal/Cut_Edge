@@ -1,4 +1,4 @@
-/*reset CSS starts*/
+/* reset CSS starts */
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -65,8 +65,7 @@ input {
     margin: 0;
     border: 0;
 }
-
-/*Reset CSS Ends*/
+/* Reset CSS Ends */
 
 
 
@@ -214,6 +213,49 @@ input {
 
 }  
 
+.services-section .left-section .card-section{
+    width: 273px;
+    height: 370.17px;
+    border:solid 1px;
+    border-radius: 15.64px;
+    border-color: #ffffff;
+    padding: 25px;
+
+}
+.services-section .left-section .card-section .heading-card {
+    display: flex;
+    
+}
+.services-section .left-section .card-section .heading-card  h3{
+    margin-left: 25px;
+    
+}
+.services-section .left-section .card-section .card-items{
+    display: flex;
+    
+    
+}
+.services-section .left-section .card-section ul{
+    list-style: none;
+    line-height: 40px;
+    padding: 10px 0px;
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.services-section .left-section .card-section button{
+    background-color: #01001c;
+    border: solid 1px rgb(19, 157, 248) ;
+    border-radius: 5px;
+    padding: 3px 6px;
+    opacity: 70%;
+
+    
+}
+
+
     .services-section .services{
         display: flex;
         flex-direction: column;
@@ -233,7 +275,7 @@ input {
     }
     .services-section .line-section img{
         width: 60.49px;
-        height: 556px;
+        height: 500px;
         top: 611px;
         left: 83px;
         
@@ -313,10 +355,10 @@ input {
 
 
  
-.leading-section {
+/* .leading-section {
     width: 90%;
     margin: auto;
-    margin-right: 90px;
+     margin-right: 90px; 
     display: flex; 
     
     
@@ -382,7 +424,825 @@ input {
         justify-content: space-between;
         padding: 0px 20px 0px 20px;
         margin-top: 20px;
+    } */
+
+.leading-section {
+    width: 90%;
+    margin: auto;
+    /* margin-right: 90px;  */
+    display: flex;       
+
+
+} 
+    .leading-section .client1-section .dot-section img{
+        width: 22px;
+        height: 14px;
+        margin-left: -10px;
+
     }
 
-       
+    .leading-section .client1-section .line-section img{
+        width: 3px;
+        height: 110px;
+
+    }
+
+    .leading-section .client-section h2{
+        width: 343px;
+        height: 50px;
+        margin-left: -30px;
+        margin-top: -20px;
+
+    }
+
+    .leading-section .image1-section img{
+        width: 1237px;
+        height: 66px;
+        border: 5px;
+        margin-top: -30px;
+        margin-left: 30px;
+    }
+
+
+
+
+
+
+      
+
+
+  
+
+.about-section {
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    
+    
+    
+}  
+
+    .about-section .about1{
+        display: flex;
+        flex-direction: column;
+    
+    } 
+
+    .about-section .dot-section img{
+        width: 8.59px;
+        height: 8.59px;
+        top: 1343px;
+        left: 78.21px;
+        
+
+    }
+
+    .about-section .line-section img{
+        width: 3px;
+        height: 300px;
+        top: 1392px;
+        left: 80px;
+        border-radius: 6px;
+        
+
+    }
+
+    .about-section .left-section .title-section{
+        width: 229px;
+        height: 34px;
+        top: 1863px;
+        left: 133px;
+        opacity: 70%;
+        font-weight: 700;
+        size: 30px;
+        
+        letter-spacing: 2%;
+        font-size: 0px;
+
+
+
+    }
+
+    .about-section .left-section .title-section h3{
+        font-size: 25px;
+        margin-left: 20px;
+    
+    }
+
+
+    .about-section .left-section .description h3{
+        width: 505px;
+        height: 100px;
+        top: 1917px;
+        left: 133px;
+        font-weight: 700;
+        size: 35px;
+        letter-spacing: 2%;
+        font-size: 30px;
+        margin-left: 20px;
+
+
+    }
+    .left-section .detail-section p{
+        width: 474px;
+        height: 180px;
+        top: 2047px;
+        left: 133px;
+        opacity: 70%;
+        margin-left: 20px;
+        font-size: 25px;
+        
+
+
+    }
+
+    .about-section  .right-section .image2-section img{
+        width: 538px;
+        height: 279px;
+        top: 1860;
+        left: 732px;
+        border-radius: 5px;
+        border: 1px;
+        margin-left: 100px;
+
+    } 
+
+
+
+
+.company-section {
+        width: 90%;
+        margin: 1rem auto;  
+        display: flex;
+
+        
+    }  
+    
+        .company-section .company1{
+            flex-direction: column;
+        
+        } 
+        .company-section .left-section{
+            margin-left: 30px;
+        }
+
+        .company-section .dot-section img{
+            width: 15px;
+            height: 20px;
+            margin-top: 20px;
+
+        }
+        .company-section .line-section img{
+            width: 3px;
+            height: 438px;
+            border-radius: 6px;
+
+        }
+        .company-section .left-section .title-section h2{
+            width: 235px ;
+            height: 34px;
+            opacity: 70%;
+            letter-spacing: 2%;
+            font: 25px;
+            
+
+        }
+        .company-section .left-section .heading-section h2 {
+        
+           
+            font-size: 30px;
+            
+
+        }
+        .company-section .description-section p{
+            width: 1237px;
+            height: 144px;
+            opacity: 70%;
+            line-height: 36px;
+            size: 24px;
+            font-weight: 400;
+            
+
+        }
+        
+        .company-section .image2-section img{
+            width: 960px;
+            height: 101px;
+            border-radius: 5px;
+            border: 1px;
+        
+        }
+
+
+.mobile-section {
+    width: 90%;
+    margin: 1rem auto;  
+    display: flex;
+          
+}  
+        
+        /* .mobile-section .about1{
+            flex-direction: column;
+            
+        }  */
+        .mobile-section .dot-section img{
+            width: 21px;
+            height: 21px;
+            margin-left: -10px;
+            
+        }
+        .mobile-section .line-section img{
+            width: 1.39px;
+            height: 218px;
+            border-radius: 2.77px;
+
+        }
+        .mobile-section .title-section h3{
+
+            width: 170px;
+            height: 34px;
+            margin-left: 20px;
+            opacity: 70%;
+            font-size: 20px;
+        }
+
+        .mobile-section .heading-section h2{
+            width: 376px;
+            height: 40px;
+            margin-left: 20px;
+            margin-top: -5px;
+        }
+
+
+        .mobile-section .image2-section img{
+            width: 1233px;
+            height: 123px;
+            margin-left: 20px;
+
+        }
+
+
+
+    
+
+.news-section {
+    width: 90%;
+    margin: 1rem auto;  
+    display: flex;
+                  
+}  
+                
+        .news-section .about1{
+            flex-direction: column;
+                    
+        } 
+
+        .news-section .dot-section img{
+            width: 21px;
+            height: 21px;
+
+        }
+        
+        .news-section .line-section img{
+            width: 1.39px;
+            height: 734px;
+            border-radius: 2.77px;
+        }
+
+        .news-section .heading-section h2{
+            width: 410px;
+            height: 34px;
+            opacity: 70%;
+
+        }
+        .news-section .heading1-section h1{
+            width: 472px;
+            height: 53px;
+
+            
+
+        }
+
+        .news-section .button-section .custom-button{
+            width: 100px;
+            height: 39px;
+            border-radius: 60px;
+            /* padding: 10px 20px 10px 20px; */
+            
+
+        }
+
+        .news-section .image1-section .imag2 img{
+            width: 593px;
+            height: 396px;
+            border-radius: 9.77px;
+            border: 1px;
+
+        }
+        .news-section .development1-section h2{
+            width: 169px;
+            height: 22px;
+        }
+
+        .news-section .development2-section p{
+            width: 117px;
+            height: 10px;
+            size: 13px;
+            line-height: 15px;
+
+        }
+        .news-section .development3-section h1{
+            width: 538px;
+            height: 74px;
+
+        }
+
+
+
+.client-section{
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+
+}
+
+        .client-section .client{
+            display: flex;
+            flex-direction: column;
+            }
+
+        .client-section .dot-section img{
+            width:25px;
+            height: 26pxpx;
+            top: 487px;
+            left: 69px;
+            margin-left: -10px;
+            }
+        .client-section .line-section img{
+            width: 63.49px;
+            height: 352px;
+            top: 611px;
+            left: 83px;
+
+            }
+
+          .client-section .heading-section h3{
+                width: 114px;
+                height: 28px;
+                opacity: 70%;
+                
+
+          } 
+          .client-section .discribe-section h2{
+            width: 192px;
+            height: 40px;
+            margin-left: 5px;
+            margin-top: -5px;
+      }  
+
+
+      .client-section .left-section .card-section{
+        width: 323px;
+        height: 227px;
+        border:solid 1px;
+        border-radius: 5px;
+        border-color: #ffffff;
+        
+        
+    
+    }
+    .client-section .left-section .card-section .heading-card {
+        display: flex;
+        
+    }
+    .client-section .left-section .card-section .heading-card  h3{
+        margin-left: 25px;
+        
+    }
+
+    .client-section .left-section .card-section .heading-card  img{
+        /* margin-left: 25px; */
+        width: 89px;
+        height: 20px;
+
+
+        
+    }
+    .client-section .left-section .card-section .card-items{
+        display: flex;
+        
+        
+    }
+ 
+    
+
+
+
+
+    .client-section{
+        width: 90%;
+        margin: 1rem auto;
+        display: flex;
+            
+            }
+            .client-section .left-section .review-section{
+                display: flex;
+                gap:30px;
+            
+            }
+            
+                    .client-section .client{
+                        display: flex;
+                        flex-direction: column;
+                        }
+            
+                    .client-section .dot-section img{
+                        width:25px;
+                        height: 26pxpx;
+                        top: 487px;
+                        left: 69px;
+                        margin-left: -10px;
+                        }
+                    .client-section .line-section img{
+                        width: 63.49px;
+                        height: 300px;
+                        top: 611px;
+                        left: 83px;
+            
+                        }
+            
+                      .client-section .heading-section h3{
+                            width: 114px;
+                            height: 28px;
+                            opacity: 70%;
+                            
+            
+                      } 
+                      .client-section .discribe-section h2{
+                        width: 192px;
+                        height: 40px;
+                        margin-left: 5px;
+                        margin-top: -5px;
+                  } 
+                  
+                  .client-section .left-section  .review-section .heading-card h3{
+                    margin-left: -5px;
+                  } 
+    
+            
+            
+                  .client-section .left-section .card-section{
+                    width: 323px;
+                    height: 227px;
+                    border:  1px;
+    
+                    border-radius: 5px;
+                    /* border-color: #01001c;; */
+                    display: flex;
+                    padding: 20px;
+                    background: rgba(22, 27, 34, 1);
+     
+                    opacity: 70%;
+                    gap: 10px;
+    
+                    
+                    
+                
+                }
+    
+                .client-section .left-section .card-section .heading-card {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 20px;
+                    margin-top:10px;
+                    
+                }
+                .client-section .left-section .card-section .heading-card .name{
+                    text-align: end;
+                    
+                    
+                }
+            
+                .client-section .left-section .card-section .heading-card  img{
+                    /* margin-left: 25px; */
+                    width: 89px;
+                    height: 20px;
+            
+            
+                    
+                }
+                .client-section .left-section .card-section .card-items{
+                    display: flex;
+                    flex-direction: column;
+                    
+                    
+                }
+             
+                
+    
+    
+
+ 
+
+.touch-section {
+    width: 90%;
+    margin: 1rem auto;  
+    display: flex;
+    margin-left: -60px;
+    margin-top: 30px;
+
+              
+}  
+            
+        /* .touch-section .touch{
+            flex-direction: column;
+             
+        }  */
+        .touch-section .left-section{
+            margin-left: 20px;
+            
+        }
+        /* .touch-section .form-section{
+            background-color: rgba(22, 27, 34, 1);
+        } */
+        .touch-section .dot-section img{
+            width: 21px;
+            height: 21px;
+            
+                
+        }
+        .touch-section .line-section img{
+            width: 3px;
+            height: 470px;
+            border-radius: 2.77px;
+    
+        
+        }  
+        
+        .touch-section .heading-section h3{
+            width: 148px;
+            height: 28px;
+            opacity: 70%;
+            margin-left: 10px;
+
+        }
+        .touch-section .description h2{
+            width: 441px;
+            height: 80px;
+            margin-left: 10px;
+            margin-top: 10px;
+
+        }
+
+        .touch-section .image img{
+            width: 525px;
+            height: 432px;
+        }
+        .touch-section .second-section .images img{
+            width: 525px;
+            height: 432px;
+            padding-top: 120px;
+            margin-left: 150px;
+        }
+
+        .touch-section .form-group label{
+            width: 162px;
+            height: 27px;
+            font-size: 20px;
+
+        }
+
+        .touch-section .form-group input{
+            width: 275px;
+            height: 48px;
+            background-color: #161B224a;
+            opacity: 70%;
+            color: white;
+            border-radius: 5px;
+
+            
+        }
+
+        .touch-section .form1-group label{
+            width: 162px;
+            height: 27px;
+            font-size: 20px;
+
+        }
+
+
+        .touch-section .form1-group input{
+            width: 575px;
+            height: 84px;
+            background-color: #161B224a;
+            /* opacity: 70%; */
+            color: white;
+            border-radius: 5px;
+
+
+            
+        }
+
+
+        .touch-section .form2-group label{
+            width: 162px;
+            height: 27px;
+            font-size: 20px;
+
+        }
+
+
+        .touch-section .form2-group input{
+            width: 575px;
+            height: 84px;
+            background-color: #161B224a;
+            opacity: 70%;
+            color: white;
+            border-radius: 5px;
+
+
+            
+        }
+        .touch-section .phone{
+            margin-top:-70px ;
+        }
+
+        .touch-section .phone label{
+            width: 162px;
+            height: 27px;
+            font-size: 20px;
+            margin-left: 350px;
+            
+
+        }
+
+
+        .touch-section .phone input{
+            width: 275px;
+            height: 48px;
+            background-color: #161B224a;
+            opacity: 70%;
+            color: white;
+            border-radius: 5px;
+            margin-left: 350px;
+
+
+            
+        }
+        .touch-section .custom-button{
+            width: 164px;
+            height: 51px;
+        }
+
+
+        .touch-section .form-section{
+            margin-left: 10px;
+        }
+
+
+
+
+
+.footer-section{
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+
+} 
+
+
+    .footer-section .final-section{
+        width: 1440px;
+        height: 341px;
+
+    }
+    .footer-section  .footer-container{
+        width: 1300px;
+        height: 184px;
+
+    }
+    .footer-section .footer-container img{
+        width: 1440px;
+
+        
+    }
+
+    .footer-section .final-section .footer-container .footer img{
+        width:197px ;
+        height: 38px;
+        margin-left: 70px;
+        margin-top: 20px;
+
+    }
+    .footer-section .final-section .footer-container .description p{
+        width: 528px;
+        height: 87px;
+        margin-left: 70px;
+        margin-top: 20px;
+        padding-top: 30px;
+
+
+    }
+
+    .footer-section .final-section .ourServices {
+        width: 176px;
+        height: 184;
+        margin-left: 800px;
+        margin-top: -170px;
+
+
+    }
+
+    .footer-section .final-section .ourServices .Servicesss h3{
+        width: 111px;
+        height: 29px;
+
+    }
+
+    .footer-section .final-section .ourServices .Servicesss .Services1 p{
+        width: 176px;
+        height: 139px;
+    }
+
+
+    
+
+    .footer-section .final-section .Contact-section{
+        width: 270px;
+        height: 126px;
+
+    }
+
+    .footer-section .final-section .Contact-section .contact{
+        margin-left: 1100px;
+        margin-top: -200px;
+    }
+
+
+    .footer-section .final-section .Contact-section .contact .content-section h2{
+        width: 1251px;
+        height: 29px;
+
+    }
+
+    .footer-section .final-section .Contact-section .contact .detail-section p{
+        width: 270px;
+        height: 81px;
+
+    }
+
+    .footer-section .final-section .footer2{
+        background-color: rgba(22, 27, 34, 1);
+        margin-left: 90px;
+        margin-top: 90px;
+        width: 1440px;
+        height: 100px;
+
+    }
+
+    .footer-section .final-section .footer2 .footer2-content h3{
+        width: 469px ;
+        height: 24px;
+        padding-left: 50px;
+        padding-top: 50px;
+        
+    }
+
+
+    .footer-section .final-section .footer2 .media-section img{
+        width: 36.92px;
+        height: 37.16px;
+        margin-left: 1100px;
+    }
+
+    /* .footer-section .final-section .footer2 .media1-section img{
+        width: 31.92px;
+        height: 37.16px;
+        margin-left: 1150px;
+        
+    }
+    .footer-section .final-section .footer2 .media2-section img{
+        width: 31.92px;
+        height: 37.16px;
+        margin-left: 1200px;
+        margin-top: -190px;
+    }
+
+    .footer-section .final-section .footer2 .media3-section img{
+        width: 31.92px;
+        height: 37.16px;
+        margin-left: 1250px;
+        padding-top: -170px;
+    }
+ */
+
+
+
+
+
+
+
+
+
+
 
