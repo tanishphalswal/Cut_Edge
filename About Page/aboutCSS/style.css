@@ -1,0 +1,823 @@
+/* reset CSS starts */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: none;
+}
+
+body {
+    margin: 0;
+    background-color: inherit;
+    color: inherit;
+    background: #01001c;
+    color:#fff;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: unset;
+}
+
+table {
+    border-style: hidden;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    font: inherit;
+    line-height: inherit;
+    outline: none;
+    border: 0;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+ul, ol {
+    padding-inline-start: unset;
+    margin-block-start: unset;
+    margin-block-end: unset;
+    margin-inline-start: unset;
+    margin-inline-end: unset;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font-size: inherit;
+    line-height: inherit;
+    background-color: #fff;
+    padding-block: 0;
+    padding-inline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/* Reset CSS Ends */
+
+
+
+
+.header-container {
+    margin-top: 2rem;
+    width: 100%
+}
+
+    .headers {
+        width: 90%;
+        padding:1rem;
+        margin: auto;
+        display: table;
+        background: #161B224a;
+        backdrop-filter: blur(2px);
+        border-radius:10rem;
+    }
+
+    /* .headers:hover {
+        border-style:auto;
+        border-color:lightgreen;
+
+    } */
+
+    .logo{
+        display:table-cell;
+        width:max-content;
+    }
+    .logo img{
+        width:10rem;
+    }
+    .navbar {
+        display: table-cell;
+        text-align: right;
+        vertical-align: middle;
+
+    }
+    .navbar span{
+    margin:0 1rem;
+    }
+
+    
+
+
+
+.about-section {
+    width: 90%;
+    margin:  auto;
+    display: flex;
+     margin-top: 20px;  
+}
+
+    .about-section .dot-section img{
+        width: 12px;
+        height: 12px;
+    }
+
+    .about-section .line-section img{
+        width: 3px;
+        height: 680px;
+
+    }
+
+    /* .about-section .left-section {
+        width: 364px;
+        height: 198px; 
+
+    }  */
+
+    .about-section .left-section .heading {
+        width: 264px;
+        height: 80px;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-top: 200px;
+
+    }
+
+
+     .about-section .left-section .heading img{
+        width: 190px;
+        height: 8px;
+        margin-bottom: 30px;
+        
+
+    }
+
+    .about-section .right-section .image{
+        height:656px;
+        width:876px;
+        background-color: rgba(22, 27, 34, 1);
+        border: solid 0.5px #404040;
+        border-radius: 5px;
+        margin-left: 170px;
+
+
+
+        
+    }
+    .about-section .right-section .image img{
+        
+        margin: 80px;
+        
+    }
+
+
+   
+
+
+
+
+
+
+
+
+.services-section {
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    margin-top: -120px;
+    
+    }  
+    
+    .services-section .left-section .card-section{
+        width: 273px;
+        height: 370.17px;
+        border:solid 1px;
+        border-radius: 15.64px;
+        border-color: #ffffff;
+        padding: 25px;
+    
+    }
+    .services-section .left-section .card-section .heading-card {
+        display: flex;
+        
+    }
+    .services-section .left-section .card-section .heading-card  h3{
+        margin-left: 25px;
+        
+    }
+    .services-section .left-section .card-section .card-items{
+        display: flex;
+        height: 260px;
+    
+        
+        
+    }
+    .services-section .left-section .card-section ul{
+        list-style: none;
+        line-height: 40px;
+        padding: 10px 0px;
+        opacity: 70%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+    }
+    .services-section .left-section .card-section button{
+        background-color: #01001c;
+        border: solid 1px rgb(19, 157, 248) ;
+        border-radius: 5px;
+        padding: 3px 6px;
+        opacity: 70%;
+    
+        
+    }
+    
+    
+        .services-section .services{
+            display: flex;
+            flex-direction: column;
+            margin-top: 130px;
+            
+            
+    
+        }
+    
+        .services-section .dot-section img{
+            width:25px;
+            height: 26pxpx;
+            
+            
+    
+        }
+        .services-section .line-section img{
+            width: 60.49px;
+            height: 500px;
+            
+            
+    
+        }
+    
+        /* .services-section .left-section {
+            padding: 1rem;
+            margin: 0 1rem 0 0;
+        } */
+        .services-section .title-box{
+            width: 151px;
+            height: 28px;
+            top: 478px;
+            left: 133px;
+            opacity: 70%;
+            line-height: 27.58px;
+            size: 24px;
+            font-weight: 700;
+            margin-top: 130px;
+    
+    
+        }
+        .services-section .title-box h3{
+            font-size: 24px;
+            /* margin-top: -20px; */
+        }
+    
+        .services-section .description{
+            width: 539px;
+            height: 100px;
+            /* top: 526px; */
+            /* left: 133px; */
+            font-weight: 700;
+            font-size: 95px;
+        
+            letter-spacing: 2%;
+            color: white;
+            
+        }
+        .services-section .description h3{
+            font-size: 24px;
+        }
+        
+    
+    
+        .services-section .flex-container{
+            width: 1200px;
+            height: 380.17px;
+            /* top: 664px;
+            left: 170px; */
+            gap: 36px;
+    
+        }
+        .flex-container .app-section img{
+            width: 273px;
+            height: 380.17px;
+            border-radius: 15.64px;   
+        }
+    
+        .flex-container .web-section img{
+            width: 273px;
+            height: 380.17px;
+            border-radius: 15.64px;
+        }
+    
+        .flex-container .ui-section img{
+            width: 273px;
+            height: 380.17px;
+            border-radius: 15.64px;
+        }
+        .flex-container .digital-section img{
+            width: 273px;
+            height: 380.17px;
+            border-radius: 15.64px;
+        }
+ 
+        
+
+
+
+
+
+
+
+
+
+.choose-section{
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+                
+}
+
+    .choose-section .choose .dot-section img{
+        width: 25px;
+        height: 26px;
+        
+
+    }
+
+    .choose-section .choose .line-section img{
+        width: 3px;
+        height: 606px;
+        margin-top: 20px;
+
+    }
+
+     
+
+    .choose-section .left-section .left{
+        width: 332px;
+        height: 28px;
+        line-height: 17.58px;
+        letter-spacing: 2%;
+
+        opacity: 70%;
+        margin-left: 20px; 
+
+    }
+
+
+
+
+
+    .choose-section .left1 h2{
+        width: 349px;
+        height: 40px;
+        line-height: 40.22px;
+        letter-spacing: 2%;
+        size:35px;
+        margin-top: -5px;
+        margin-left: 20px; 
+
+    }
+
+    .choose-section .description {
+        width: 450px;
+        height: 596px;
+        opacity: 70%;
+        line-height: 36px;
+        margin-left: 20px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .client-section{
+            width: 90%;
+            margin: 1rem auto;
+            display: flex;
+                
+                }
+                .client-section .left-section .review-section{
+                    display: flex;
+                    
+    
+                
+                }
+                
+                        .client-section .client{
+                            display: flex;
+                            flex-direction: column;
+                            }
+                
+                        .client-section .dot-section img{
+                            width:25px;
+                            height: 26pxpx;
+                            top: 487px;
+                            left: 69px;
+                            margin-left: -10px;
+                            }
+                        .client-section .line-section img{
+                            width: 63.49px;
+                            height: 300px;
+                            top: 611px;
+                            left: 83px;
+                
+                            }
+                
+                          .client-section .heading-section h3{
+                                width: 114px;
+                                height: 28px;
+                                opacity: 70%;
+                                
+                
+                          } 
+                          .client-section .discribe-section h2{
+                            width: 192px;
+                            height: 40px;
+                            margin-left: 5px;
+                            margin-top: -5px;
+                      } 
+                      
+                      .client-section .left-section  .review-section .heading-card h3{
+                        margin-left: -5px;
+                      } 
+        
+                
+                
+                      .client-section .left-section .card-section{
+                        width: 323px;
+                        height: 227px;
+                        border:  1px;
+        
+                        border-radius: 5px;
+                        
+                        display: flex;
+                         padding: 20px; 
+                        background: rgba(22, 27, 34, 1);
+         
+                        opacity: 70%;
+                
+                        margin-left: 20px; 
+                        
+                      
+          
+                    }
+    
+    
+        
+                    .client-section .left-section .card-section .heading-card {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 20px;
+                        margin-top:10px;
+                        
+                    }
+                    .client-section .left-section .card-section .heading-card .name{
+                        text-align: end;
+                        
+                        
+                    }
+                
+                    .client-section .left-section .card-section .heading-card  img{
+                
+                        width: 89px;
+                        height: 20px;
+                
+                
+                        
+                    }
+                    .client-section .left-section .card-section .card-items{
+                        display: flex;
+                        flex-direction: column;
+                        
+                        
+                    }
+                 
+                    
+                
+    
+
+
+
+
+        .touch-section {
+            width: 90%;
+            margin: 1rem auto;  
+            display: flex;
+             
+        
+                      
+        }  
+               
+                .touch-section .dot-section img{
+                    width: 21px;
+                    height: 21px;
+                    
+                    
+                        
+                }
+                .touch-section .line-section img{
+                    width: 3px;
+                    height: 470px;
+                    border-radius: 2.77px;
+            
+                
+                }  
+                
+                .touch-section .heading-section h3{
+                    width: 48px;
+                    height: 28px;
+                    opacity: 70%;
+                    margin-left: 10px;
+        
+                }
+                .touch-section .description h2{
+                    width: 441px;
+                    height: 80px;
+                    margin-left: 10px;
+                    margin-top: 10px;
+        
+                }
+        
+                .touch-section .image img{
+                    width: 525px;
+                    height: 432px;
+                }
+                .touch-section .second-section .images img{
+                    width: 625px;
+                    height: 532px;
+                    padding-top: 80px;
+                    margin-left: 80px;
+                    color: white;
+                    background-color: #161B224a;
+                }
+        
+                .touch-section .form-group label{
+                    width: 162px;
+                    height: 27px;
+                    font-size: 20px;
+        
+                }
+        
+                .touch-section .form-group input{
+                    width: 275px;
+                    height: 48px;
+                    background-color: #161B224a;
+                    opacity: 70%;
+                    color: white;
+                    border-radius: 5px;
+        
+                    
+                }
+        
+                .touch-section .form1-group label{
+                    width: 162px;
+                    height: 27px;
+                    font-size: 20px;
+        
+                }
+        
+        
+                .touch-section .form1-group input{
+                    width: 575px;
+                    height: 84px;
+                    background-color: #161B224a;
+                     opacity: 70%; 
+                    
+        
+        
+                    
+                } 
+        
+        
+                .touch-section .form2-group label{
+                    width: 162px;
+                    height: 27px;
+                    font-size: 20px;
+        
+                }
+        
+        
+                .touch-section .form2-group input{
+                    width: 575px;
+                    height: 84px;
+                    background-color: #161B224a;
+                    opacity: 70%;
+                    color: white;
+                    border-radius: 5px;
+        
+        
+                    
+                }
+                .touch-section .phone{
+                    margin-top:-70px ;
+                }
+        
+                .touch-section .phone label{
+                    width: 162px;
+                    height: 27px;
+                    font-size: 20px;
+                    margin-left: 350px;
+                    
+        
+                }
+        
+        
+                .touch-section .phone input{
+                    width: 275px;
+                    height: 48px;
+                    background-color: #161B224a;
+                    opacity: 70%;
+                    color: white;
+                    border-radius: 5px;
+                    margin-left: 350px;
+        
+        
+                    
+                }
+                .touch-section .custom-button{
+                    width: 164px;
+                    height: 51px;
+                }
+        
+        
+                .touch-section .form-section{
+                    margin-left: 10px;
+                } 
+         
+                .touch-section .touch  .second-section .images img{
+                    width: 1625px;
+                    height: 425px;
+        
+                }
+                .touch-section .button-section .custom-button{
+                    color: white;
+                    background-color: #161B224a;
+                    border-radius: 3px;
+
+
+                }
+            
+
+        
+        
+
+
+    
+    
+
+
+
+        .footer-section{
+            width: 100%;
+            margin: 1rem auto;
+            display: flex;
+        
+        } 
+
+
+        
+            .footer-section .final-section{
+                width: 1440px;
+                height: 341px;
+        
+            }
+            .footer-section  .footer-container{
+                width: 1300px;
+                height: 184px;
+        
+            }
+            .footer-section .footer-container img{
+                width: 1440px;
+        
+                
+            }
+        
+            .footer-section .final-section .footer-container .footer img{
+                width:197px ;
+                height: 38px;
+                margin-left: 70px;
+                margin-top: 20px;
+        
+            }
+            .footer-section .final-section .footer-container .description p{
+                width: 528px;
+                height: 87px;
+                margin-left: 70px;
+                margin-top: 20px;
+                padding-top: 30px;
+        
+        
+            }
+        
+            .footer-section .final-section .ourServices {
+                width: 176px;
+                height: 184;
+                margin-left: 800px;
+                margin-top: -170px;
+        
+        
+            }
+        
+            .footer-section .final-section .ourServices .Servicesss h3{
+                width: 111px;
+                height: 29px;
+        
+            }
+        
+            .footer-section .final-section .ourServices .Servicesss .Services1 p{
+                width: 176px;
+                height: 139px;
+            }
+        
+        
+            
+        
+            .footer-section .final-section .Contact-section{
+                width: 270px;
+                height: 126px;
+        
+            }
+        
+            .footer-section .final-section .Contact-section .contact{
+                margin-left: 1100px;
+                margin-top: -200px;
+            }
+        
+        
+            .footer-section .final-section .Contact-section .contact .content-section h2{
+                width: 1251px;
+                height: 29px;
+        
+            }
+        
+            .footer-section .final-section .Contact-section .contact .detail-section p{
+                width: 270px;
+                height: 81px;
+        
+            }
+        
+             .footer-section .final-section .footer2{
+                background-color: rgba(22, 27, 34, 1);
+                margin-left: 90px;
+                margin-top: 90px;
+                width: 100%;
+                height: 100px;
+        
+            } 
+        
+            .footer-section .final-section .footer2 .footer2-content h3{
+                width: 469px ;
+                height: 24px;
+                padding-left: 50px;
+                padding-top: 50px;
+                
+            }
+        
+        
+            
+        
+            .footer-section .final-section .footer2 .flex-container{
+                display:flex;
+                
+                
+            }
+        
+            .footer-section .final-section .footer2 .flex-container .media-section{
+                width: 278px;
+                height: 40px;
+                margin-left: 1200px;
+                margin-top: -10px;
+        
+                
+            }
+        
+            .footer-section .final-section .footer2 .flex-container .media-section img{
+                width: 26px;
+                height: 27px;
+                margin-left: 10px;
+        
+            
+            }
+        

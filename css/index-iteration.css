@@ -121,14 +121,14 @@ input {
 
 
 
-
+/* 
 .menu-toggle {
     display: none;
     cursor: pointer;
 }
 .menu-toggle i {
     font-size: 24px;
-}
+} */
 
 /* 
 @media (max-width: 768px) {
@@ -157,13 +157,13 @@ input {
 
 
 
-
+/* 
     .navbar.active {
         display: flex;
     }
     .menu-toggle {
         display: block;
-    }
+    } */
 
 
 .grow-section {
@@ -903,19 +903,11 @@ input {
             
                     margin-left: 20px; 
                     
-                    /* animation: scrollCards 10s linear infinite; */
+                  
       
                 }
 
-/* 
-                @keyframes scrollCards {
-                    0% {
-                        transform: translateX(100%);
-                    }
-                    100% {
-                        transform: translateX(-100%);
-                    }
-                } */
+
     
                 .client-section .left-section .card-section .heading-card {
                     display: flex;
@@ -1452,5 +1444,19 @@ input {
     height: 17px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
