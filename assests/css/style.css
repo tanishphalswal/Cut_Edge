@@ -362,6 +362,7 @@ input {
 
 }  
 
+
     .services-section  img.background{
         position: absolute;
         width: 200px;
@@ -370,6 +371,12 @@ input {
         right: 0px;
         z-index: -1;
         animation: rotate 10s infinite linear;
+
+
+
+
+        border: none;
+        opacity: 70%;
 
 
 
@@ -466,12 +473,7 @@ input {
     .services-section .line-section img{
         width: 60.49px;
         height: 500px;
-        /* top: 611px;
-        left: 83px; */
-        margin-top: 10px;
-
-        
-        
+        margin-top: 10px;    
 
     }
 
@@ -481,12 +483,9 @@ input {
     }
     .services-section .title-box{
         width: 151px;
-        height: 28px;
-        
+        height: 28px; 
         opacity: 70%;
-        /* line-height: 27.58px; */
-        /* size: 24px; */
-        /* font-weight: 700; */
+        
 
 
     }
@@ -500,12 +499,7 @@ input {
         width: 539px;
         height: 100px;
       
-        margin-top: -25px;
-        font-size: 1055px;
-    
-        /* letter-spacing: 150%; */
-        /* color: white; */
-        
+        margin-top: -25px;        
     }
     .services-section .description h2{
         font-size: 34px;
