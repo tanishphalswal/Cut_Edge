@@ -71,6 +71,7 @@ input {
 
 
 
+
 .header-container {
     margin-top: 2rem;
     width: 100%
@@ -108,11 +109,134 @@ input {
     display: table-cell;
     text-align: right;
     vertical-align: middle;
+    margin-left: 20px;
+    padding-left: -30pxpx;
 
 }
 .navbar span{
     margin:0 1rem;
 }
+
+
+
+
+.navbar span {
+    position: relative;
+    /* padding: 14px 16px; */
+    padding: 5px 0px;
+    margin: 0 0.5rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+   
+    text-align: center;
+}
+
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+
+.navbar .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.navbar .dropdown-content a:hover {
+    background-color: rgba(237, 93, 35, 1);
+}
+
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar span{
+    margin:0 1rem;
+}
+
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu-content {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-submenu:hover .dropdown-submenu-content {
+    display:block;
+}
+
+
+
+
+/* 
+.services-menu {
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-img {
+    width: 16px; 
+    height: 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.dropdown-img:hover + .dropdown-content,
+.dropdown-img:hover + .dropdown-content {
+    display: block;
+}
+ */
 
 
 
@@ -181,7 +305,6 @@ input {
         opacity: 70%;
         line-height: 2.25rem;
         margin-left: 20px;
-        font-family: 'Ubuntu';
 
 
     }
@@ -196,7 +319,6 @@ input {
         border: 0.5px solid #fff;
         background: #161B224a;
         margin-left: 20px;
-        font-family: 'Ubuntu';
 
     }
     .custom-button .arrow-img{
@@ -236,10 +358,17 @@ input {
     margin: 1rem auto;
     display: flex;
     margin-top: -120px;
-    font-family: 'Ubuntu';
+    position: relative;
+
 }  
 
-/* .services-section .left-section .card-section{
+    
+
+
+
+.services-section .left-section .card-section {
+    
+    
     width: 273px;
     height: 370.17px;
     border: none;
@@ -249,22 +378,11 @@ input {
     box-shadow: 
             7.82px 7.82px 3.91px 0px rgba(255, 255, 255, 0.1) inset, 
             0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
-    
-
-} */
-
-
-.services-section .left-section .card-section {
-    width: 273px;
-    height: 370.17px;
-    border: 0.5px solid transparent ; /* Ensure no border is displayed */
-    border-radius: 15.64px;
-    padding: 25px;
-    box-shadow: 7.82px 7.82px 3.91px 0px rgba(255, 255, 255, 0.1) inset;
-    box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
-
+    margin-left: 20px;
 
 }
+
+    
 
 .services-section .left-section .card-section .heading-card {
     display: flex;
@@ -340,19 +458,18 @@ input {
     .services-section .title-box{
         width: 151px;
         height: 28px;
-        top: 478px;
-        left: 133px;
+        
         opacity: 70%;
-        line-height: 27.58px;
-        size: 24px;
-        font-weight: 700;
+        /* line-height: 27.58px; */
+        /* size: 24px; */
+        /* font-weight: 700; */
 
 
     }
     .services-section .title-box h3{
         font-size: 24px;
         margin-top: -20px;
-        margin-left: -30px;
+        margin-left: -20px;
     }
 
     .services-section .description{
@@ -361,13 +478,14 @@ input {
       
         margin-top: -25px;
         font-size: 1055px;
-        margin-left: -30px;
     
-       
+        /* letter-spacing: 150%; */
+        /* color: white; */
         
     }
     .services-section .description h2{
         font-size: 34px;
+        margin-left: -20px;
     }
     
 
@@ -426,8 +544,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
     width: 90%;
     margin: auto;
     
-    display: flex;  
-    font-family: 'Ubuntu';     
+    display: flex;       
 
 
 } 
@@ -435,21 +552,19 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         width: 22px;
         height: 14px;
         margin-left: -10px;
-        /* margin-top: 10px; */
 
     }
 
     .leading-section .client1-section .line-section img{
         width: 3px;
         height: 110px;
-        margin-top: 10px;
 
     }
 
     .leading-section .client-section h2{
         width: 343px;
         height: 50px;
-        margin-left: -30px;
+        margin-left: -20px;
         margin-top: -20px;
 
     }
@@ -459,7 +574,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         height: 66px;
         border: 5px;
         margin-top: -30px;
-        margin-left: 30px;
+        margin-left: 40px;
     }
 
 
@@ -476,7 +591,6 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
     width: 90%;
     margin: 1rem auto;
     display: flex;
-    font-family: 'Ubuntu';
     
     
     
@@ -485,27 +599,27 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
     .about-section .about1{
         display: flex;
         flex-direction: column;
+        
     
     } 
 
     .about-section .dot-section img{
-        width: 9.59px;
-        height: 13.59px;
-        top: 1343px;
-        left: 78.21px;
+        width: 15.59px;
+        height: 15.59px;
+        /* top: 1343px;
+        left: 78.21px; */
         margin-left: -5px;
-        
         
 
     }
 
     .about-section .line-section img{
         width: 3px;
-        height: 300px;
-        top: 1392px;
-        left: 80px;
+        height: 180px;
+        /* top: 1392px;
+        left: 80px; */
         border-radius: 6px;
-        margin-left: -1px;
+        margin-top: 10px;
         
 
     }
@@ -513,14 +627,15 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
     .about-section .left-section .title-section{
         width: 229px;
         height: 34px;
-        top: 1863px;
-        left: 133px;
+        /* top: 1863px;
+        left: 133px; */
         opacity: 70%;
         font-weight: 700;
         size: 30px;
         
         letter-spacing: 2%;
         font-size: 0px;
+        margin-left: 10px;
 
 
 
@@ -536,13 +651,14 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
     .about-section .left-section .description h3{
         width: 505px;
         height: 100px;
-        top: 1917px;
-        left: 133px;
+         /* top: 1917px; */
+        /* left: 133px; */
         font-weight: 700;
-        size: 35px;
-        letter-spacing: 2%;
-        font-size: 30px;
-        margin-left: 20px;
+        /* size: 35px; */
+        /* letter-spacing: 2%;  */
+        font-size: 30px; 
+        margin-left: 30px;
+
 
 
     }
@@ -554,6 +670,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         opacity: 70%;
         margin-left: 20px;
         font-size: 20px;
+        margin-left: 30px;
         
 
 
@@ -577,7 +694,6 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         width: 90%;
         margin: 1rem auto;  
         display: flex;
-        font-family: 'Ubuntu';
 
         
     }  
@@ -599,7 +715,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         }
         .company-section .line-section img{
             width: 3px;
-            height: 438px;
+            height: 400px;
             border-radius: 6px;
             margin-top: 10px;
 
@@ -610,6 +726,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
             opacity: 70%;
             letter-spacing: 2%;
             font: 25px;
+            margin-left: 10px;
             
 
         }
@@ -617,6 +734,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         
            
             font-size: 30px;
+            margin-left: 10px;
             
 
         }
@@ -627,6 +745,8 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
             line-height: 36px;
             size: 24px;
             font-size: 20px;
+            margin-left: 10px;
+            
 
             
 
@@ -637,7 +757,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
             height: 101px;
             border-radius: 5px;
             border: 1px;
-        
+            margin-left: 10px;
         }
 
 
@@ -645,7 +765,6 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
     width: 90%;
     margin: 1rem auto;  
     display: flex;
-    font-family: 'Ubuntu';
           
 }  
         
@@ -658,7 +777,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         }
         .mobile-section .line-section img{
             width: 1.39px;
-            height: 200px;
+            height: 218px;
             border-radius: 2.77px;
             margin-top: 10px;
 
@@ -667,15 +786,16 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
 
             width: 170px;
             height: 34px;
-            margin-left: 20px;
+            margin-left: 30px;
             opacity: 70%;
             font-size: 20px;
+            
         }
 
         .mobile-section .heading-section h2{
             width: 376px;
             height: 40px;
-            margin-left: 20px;
+            margin-left: 30px;
             margin-top: -5px;
         }
 
@@ -683,7 +803,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         .mobile-section .image2-section img{
             width: 1233px;
             height: 123px;
-            margin-left: 20px;
+            margin-left: 30px;
 
         }
 
@@ -695,7 +815,6 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
     width: 90%;
     margin: 1rem auto;  
     display: flex;
-    font-family: 'Ubuntu';
                   
 }  
                 
@@ -765,31 +884,244 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         }
 
 
-/* 
+
+.news-section{
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    font: ubuntu;
+}  
+    .news-section .dot-section{
+        width: 28px;
+        height: 32px;
+        margin-left: -5px;
+
+    }
+    .news-section .line-section{
+        width: 139px;
+        height: 734px;
+        border-radius: 2.77px;
+        margin-top: 5px;
+    }
+    .news-section  .heading-section h2{
+        width: 410px;
+        height: 34px;
+        opacity: 70%;
+        font-family: ubuntu;
+        letter-spacing: 2%;
+        line-height: 34px;
+        margin-left: -100px;
+        margin-top: -5px;
+    }
+    .news-section .about-section .about h1{
+        width: 1237px;
+        height: 53px;
+        justify-content: space space-between;
+        margin-top: -10px;
+        margin-left: -160px;
+
+    }
+
+    .news-section .button-section .custom-button{
+        width: 100px;
+        height: 39px;
+        border-radius: 60px;
+        /* border:1px; */
+        padding: 10px 20px 10px 20px;
+        gap: 10px;
+        border: 1px solid rgba(255, 255, 255, 1)
+        
+    }
+
+
+    .news-section .button-section{
+        margin-top: -20px;
+        margin-left: -150px;
+
+        
+    }
+
+    .news-section .picture-section{
+        width: 594px;
+        height: 617px;
+
+    }
+
+    .news-section .picture img{
+        width: 594px;
+        height: 396;
+        border-radius: 9.77px;
+        border: 1px solid rgba(48, 54, 61, 1);
+        margin-left: -110px;
+        margin-top: -30px;
+    }
+
+
+    .news-section .describe-section .describe h2{
+        width: 269px;
+        height: 22px;
+        font: ubuntu;
+        line-height: 22.46px; 
+        margin-left: -110px;
+    
+        
+
+}
+
+.news-section .describe-section .describe h4{
+    width: 217px;
+    height: 15px;
+    font:ununtu;
+    
+    margin-left: -110px;
+    margin-top: -10px;
+    
+
+    }
+    
+    .news-section .describe1 h2{
+        width: 480px;
+        height: 74px;
+        font: ubuntu;
+        line-height: 36.77px;
+        margin-left: -110px;
+        font-size: 30px;
+        margin-top: -15px;
+        
+    }
+
+    .news-section .describe2-section .describe p{
+        width: 593px;
+        height: 73px;
+        font:ununtu;
+        margin-left: -110px;
+        color: rgba(163, 163, 163, 1);
+        margin-top: -20px;
+
+    }
+
+    .news-section .right-section .describe img{
+        width: 188px;
+        height: 183px;
+        border-radius: 9.77px;
+        border-radius: 1px;
+        margin-left: -550px;
+        margin-top:100px;
+
+    } 
+
+    .news-section .right-section .describe1 img{
+        width: 188px;
+        height: 183px;
+        border-radius: 9.77px;
+        border-radius: 1px;
+        margin-left: -550px;
+        margin-top:20px;
+
+    } 
+
+    .news-section .right-section .describe1 img{
+        width: 188px;
+        height: 183px;
+        border-radius: 9.77px;
+        border-radius: 1px;
+        margin-left: -550px;
+        margin-top:20px;
+
+    }
+
+
+    .news-section .right-section .describe2 img{
+        width: 188px;
+        height: 183px;
+        border-radius: 9.77px;
+        border-radius: 1px;
+        margin-left: -550px;
+        margin-top:20px;
+
+    } 
+    .news-section .right-section .describe{
+        width: 389px;
+        height: 73px;
+    }
+
+    .news-section .right-section .describe .describe3 h2{
+        width: 269px;
+        height: 22px;
+        margin-top: -180px;
+        margin-left: -350px;
+        font-size: 15px;
+    }
+
+    .news-section .right-section .describe .describe3 h4{
+        width: 217px;
+        height: 15px;
+        margin-top: -5px;
+        margin-left: -350px;
+        font-size: 10px;
+    }
+
+    .news-section .right-section .describe3-section .describe1 h4{
+
+        width:250px;
+        height: 50px;
+        margin-left: -350px;
+        margin-top: -5px;
+        font-size: 15px;
+
+    }
+
+
+    .news-section .right-section .describe .describe4-section .describe  p{
+        width:450px;
+        height: 93px;
+        margin-left: -350px;
+        margin-top: -25px;
+        color: rgba(163, 163, 163, 1);
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .client-section{
     width: 90%;
     margin: 1rem auto;
     display: flex;
-    font-family: 'Ubuntu';
 
 }
 
+        
         .client-section .client{
             display: flex;
             flex-direction: column;
             }
 
         .client-section .dot-section img{
-            width:10px;
-            height: 10pxpx;
+            width:15px;
+            height: 20px;
+            top: 487px;
+            left: 69px;
             margin-left: -10px;
             }
         .client-section .line-section img{
             width: 63.49px;
             height: 352px;
-            top: 611px;
-            left: 83px;
             margin-top: 10px;
+            
 
             }
 
@@ -797,15 +1129,17 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
                 width: 114px;
                 height: 28px;
                 opacity: 70%;
+                margin-left: -10px;
                 
 
           } 
           .client-section .discribe-section h2{
             width: 192px;
             height: 40px;
-            margin-left: 5px;
+             margin-left: -15px;
             margin-top: -5px;
       }  
+
 
 
       .client-section .left-section .card-section{
@@ -816,10 +1150,16 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         border-color: #ffffff;
         
         
+        
+        
     
     }
+
+    
+    
     .client-section .left-section .card-section .heading-card {
         display: flex;
+        
         
     }
     .client-section .left-section .card-section .heading-card  h3{
@@ -840,19 +1180,33 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         
         
     }
-  */
+ 
     
 
 
 
 
-    .client-section{
+     .client-section{
         width: 90%;
         margin: 1rem auto;
         display: flex;
-        font-family: 'Ubuntu';
             
             }
+
+
+            .review-section {
+                overflow-x: scroll;
+                white-space: nowrap;
+                /* -ms-overflow-style: none; */
+                scrollbar-width: none;
+                /* ::-webkit-scrollbar { display: none; } */
+            }
+
+
+
+
+
+
             .client-section .left-section .review-section{
                 display: flex;
                 
@@ -866,19 +1220,17 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
                         }
             
                     .client-section .dot-section img{
-                        width:15px;
-                        height: 15pxpx;
+                        width:25px;
+                        height: 26pxpx;
                         top: 487px;
                         left: 69px;
-                        margin-left: -5px;
+                        margin-left: -10px;
                         }
                     .client-section .line-section img{
                         width: 63.49px;
                         height: 300px;
                         top: 611px;
                         left: 83px;
-                        margin-top: 10px;
-
             
                         }
             
@@ -950,10 +1302,22 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
                     
                     
                 }
-             
+              
                 
     
     
+
+
+
+
+
+
+
+
+
+
+
+              
 
  
 
@@ -961,19 +1325,15 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
     width: 90%;
     margin: 1rem auto;  
     display: flex;
-    font-family: 'Ubuntu';
-    margin-left: 70px;
      
 
               
 }  
-
-        
        
         .touch-section .dot-section img{
             width: 15px;
             height: 15px;
-            
+            margin-left: -5px;
             
                 
         }
@@ -982,26 +1342,25 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
             height: 470px;
             border-radius: 2.77px;
             margin-top: 10px;
+    
         
         }  
         
         .touch-section .heading-section h3{
-            width: 60px;
-            height: 40px;
+            width: 100px;
+            height: 18px;
             opacity: 70%;
-             margin-left: 10px; 
+            margin-left: 30px;
+
+
 
         }
         .touch-section .description h2{
             width: 441px;
             height: 80px;
-            margin-left: 10px;
+            margin-left: 30px;
             margin-top: 10px;
 
-
-        }
-        .touch-section .left-section{
-            margin-left: 40px;
         }
 
         .touch-section .image img{
@@ -1019,6 +1378,8 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
             width: 162px;
             height: 27px;
             font-size: 20px;
+            margin-left: 30px;
+            
 
         }
 
@@ -1029,6 +1390,8 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
             opacity: 70%;
             color: white;
             border-radius: 5px;
+            margin-left: 30px;
+            
 
             
         }
@@ -1037,6 +1400,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
             width: 162px;
             height: 27px;
             font-size: 20px;
+            margin-left: 30px;
 
         }
 
@@ -1048,6 +1412,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
              opacity: 70%; 
              color: white;
             border-radius: 5px;
+            margin-left: 30px;
 
 
             
@@ -1058,6 +1423,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
             width: 162px;
             height: 27px;
             font-size: 20px;
+            margin-left: 30px;
 
         }
 
@@ -1069,6 +1435,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
             opacity: 70%;
             color: white;
             border-radius: 5px;
+            margin-left: 30px;
 
 
             
@@ -1102,7 +1469,6 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         .touch-section .custom-button{
             width: 164px;
             height: 51px;
-            margin-left: -10px;
         }
 
 
@@ -1133,7 +1499,6 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
     width: 100%;
     margin: 1rem auto;
     display: flex;
-    font-family: 'Ubuntu';
 
 } 
 
@@ -1234,13 +1599,16 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         padding-top: 50px;
         margin-top: -30px;
         
+        
     }
 
-    
+
     
 
     .footer-section .final-section .footer2 .flex-container{
         display:flex;
+        margin-left: -20px;
+        
         
         
     }
@@ -1258,6 +1626,7 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
         width: 26px;
         height: 27px;
         margin-left: 10px;
+        
 
     
     }
@@ -1526,16 +1895,17 @@ box-shadow: 0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
 
 
 
+
  /* about page css process 
 
 
 
-f           f
+f           f
 
 
 
 
 
 
-f */
+f */
 
