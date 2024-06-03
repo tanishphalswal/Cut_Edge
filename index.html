@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="../assests/css/style.css" >
     <link rel="stylesheet" href="../assests/css/logo.png" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
 
     <style>
         .flex-container {
@@ -625,7 +624,7 @@
 
 
 
-<div class="touch-section">
+<div class="touch-section "  >
     <div class="touch">
         <div class="dot-section">
             <img src="../assests/images/pictures/dot6.png">
@@ -639,7 +638,7 @@
         <div class="heading-section">
             <h3>Get in Touch</h3>
         </div>    
-        <div class="description">
+        <div class="description"  >
             <h2>Do you have any Project?<br><span style="color:rgba(237, 93, 35, 1);">Discuss with us</span></h2>
             <div class="full-section"></div>    
             <div class="form-section">
@@ -688,6 +687,7 @@
     </div>    
 
         <div class="second-section">
+            <div class="green-shadow card-effect"></div>
             <div class="images">
                 <img src="../assests/images/touchPic/touch1.png">
             </div>    
@@ -767,7 +767,36 @@
 </div>
 
 
-<!-- <script src="../Cut_Edge/assests/style.js"></script> -->
+
+<script src="/assests/js/jquert.min.js"></script>
+<script src="/assests/js/tilt.js"></script>
+<script>
+
+
+
+  var containers = document.querySelectorAll('.second-section');
+  containers.forEach(function(container) {
+    var greenShadow = container.querySelector('.green-shadow');
+    container.addEventListener('mousemove', function(event) {
+      var x = event.clientX - container.offsetLeft;
+      var y = event.clientY - container.offsetTop;
+        greenShadow.style.left = x + 'px';
+        greenShadow.style.top = y + 'px';
+    });
+  });
+    ( function( $ ) {
+        "use strict";
+        $(".card-effect").tilt({
+            maxTilt: 30,
+            perspective: 1400,
+            easing: "cubic-bezier(.03,.98,.52,.99)",
+            speed: 1200,
+            glare: false,
+            maxGlare: 0,
+            scale: 1
+        });
+    }( jQuery ) );
+</script>
 
 
 </body>
