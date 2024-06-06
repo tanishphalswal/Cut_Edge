@@ -30,6 +30,10 @@
          * {
             box-sizing: border-box;
         } 
+
+        .custom-button:hover {
+            background-color: rgba(237, 93, 35, 1); 
+        } 
         .footer-section {
             
             overflow: hidden; 
@@ -47,9 +51,23 @@
                 <div class="navbar">
                     <span>  <a href="#home" >HOME</a></span>
                     <span> <a href="#about"  class="active" style="color: rgba(237, 93, 35, 1) ";>ABOUT</a></span>
-                    <span> <a href="#skills">SERVICES</a>
-                        <img src="../assests/images/about/Header/dropdown.png">
-                    </span>
+                    <span class="dropdown">
+                        <a href="skills"  >SERVICES</a>
+                        <img src="../assests/images/pictures/dropdown1.png">
+                        <div class="dropdown-content">
+                            <a href="#service1">Web Development</a>
+                            <a href="#service2">App Development</a>
+                            <div class="dropdown-submenu">
+                                <a href="#service3">Digital Marketing</a>
+                                <img src="assests/images/pictures/dropdown1.png">
+                                <div class="dropdown-submenu-content">
+                                    <a href="#seo">SEO</a>
+                                    <a href="#smm">Social Media Marketing</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+           </span>
                     <span><a href="#blog">BLOG</a></span>
                     <span><a href="#contact-form">CONTACT US</a></span>
                 </div>
@@ -58,7 +76,7 @@
 
 
 
-    <div class="about-section">
+    <div class="about-section1">
         <div class="about">
             <div class="dot-section">
                 <img src="../assests/images/about/About/dot.png">
@@ -75,7 +93,7 @@
         </div>
         <div class="right-section">
             <div  class="image" >
-                <img height="560px" width="711px" src="../assests/images/about/About/Frame (5).webp">
+                <img height="560px" width="611px" src="../assests/images/about/About/Frame (5).webp">
             </div>
             
         </div>
@@ -85,112 +103,115 @@
 
 
 
-    
-<div class="services1-section">
-            
-    <div class="services">
-        <div class="dot-section">
-            <img src="../assests/images/about/sPicture/dot21.png">
-        </div>
 
-        <div class="line-section">
-            <img src="../assests/images/about/sPicture/line2.png">
-        </div>
+
+
+
+
+    <div class="services-section1">
+            
+        <img class="background" src="assests/images/sPicture/back.png">
         
+        <div class="services">
+            <div class="dot-section">
+                <img src="assests/images/sPicture/logo2.png">
+            </div>
+
+            <div class="line-section">
+                <img src="../assests/images/pictures/line2.png">
+            </div>
+        </div>
+            
+        <div class="left-section"> 
+            <div class="title-box">
+                <h3>Our Services</h3>
+            </div><br>
+            <div class="description">
+            <h2>Boost Your Business with <br><span style="color:rgba(237, 93, 35, 1);">Classy Servies</span></h2>
+            </div>
+            <div class="flex-container">
+                <div class="card-section">
+                    <div class="heading-card">
+                        <img height="40.24px" width="25.81px" src="../assests/images/pictures/photo.png">
+                         <h3>App<br> Development</h3>
+                    </div>
+                    
+                        <ul class="card-items">
+                            <li><img height="20px" width="20px" src="../assests/images/sPicture/Andriod-app.png"> &nbsp;Android App</li>
+                            <li><img height="20px" width="20px" src="../assests/images/sPicture/ios.png"> &nbsp;iOS App</li>
+                            <li><img height="20px" width="20px" src="../assests/images/sPicture/flutter.png"> &nbsp;Flutter</li>
+                            <li><img height="20px" width="20px" src="../assests/images/sPicture/react.png"> &nbsp;React Native</li>
+                            <li><img height="20px" width="20px" src="../assests/images/sPicture/kotlin.png"> &nbsp;Kotlin</li>
+                            <li><img height="20px" width="20px" src="../assests/images/sPicture/ionic.png"> &nbsp;Ionic</li>
+                        </ul>
+
+                        <button>Read more &nbsp;<img height="10px" width="10px" src="../assests/images/pictures/arrow1.png"></button>
+                    
+                    
+                </div>
+                <div class="card-section">
+                    <div class="heading-card">
+                        <img height="42.24px" width="25.81px" src="../assests/images/pictures/photo.png">
+                         <h3>Web<br> Development</h3>
+                    </div>
+                    <div>
+                        
+                    </div>
+                        <ul class="card-items">
+                            <li><img height=" 20px" width="20px" src="../assests/images/sPicture/html.png"> &nbsp;HTML</li>
+                            <li><img height=" 20px" width="20px" src="../assests/images/sPicture/css.png"> &nbsp;CSS<li>
+                            <li> <img height="20px" width="20px" src="../assests/images/sPicture/js.png"> &nbsp;JavaScript</li>
+                            <li> <img height="20px" width="20px" src="../assests/images/sPicture/bootstrap.png"> &nbsp;Bootstrap</li>
+                            <li> <img height="20px" width="20px" src="../assests/images/sPicture/jquery.png"> &nbsp;Jquery</li>
+                            <li> <img height="20px" width="20px" src="../assests/images/sPicture/react.png"> &nbsp;React JS</li>
+
+                             <li> <img height="20px" width="20px" src="../assests/images/sPicture/php.png"> &nbsp;PHP</li>
+                            <li> <img height="20px" width="20px" src="assests/images/sPicture/node.png"> &nbsp;Node Js</li>
+                            <li> <img height="20px" width="20px" src="../assests/images/sPicture/java.png"> &nbsp;Java</li>
+                        </ul>
+
+                        <button>Read more &nbsp;<img height="10px" width="10px" src="../assests/images/pictures/arrow1.png"></button>
+                </div>
+                <div class="card-section">
+                    <div class="heading-card">
+                        <img height="42.24px" width="25.81px" src="../assests/images/pictures/photo.png">
+                         <h3>Ui/Ux<br> Design</h3>
+                    </div>
+                    
+                        <ul class="card-items">
+                            <li> <img height="20px" width="20px" src="../assests/images/sPicture/figma.png"> &nbsp;Figma</li>
+                            <li> <img height="20px" width="20px" src="../assests/images/sPicture/Appdesign.png"> &nbsp;App Design</li>
+                            <li> <img height="20px" width="20px" src="../assests/images/sPicture/websitedesign.png"> &nbsp;Website Design</li>
+                            <li> <img height="20px" width="20px" src="../assests/images/sPicture/Deshboarddesign.png"> &nbsp;Dashboard Design</li>
+                            <li> <img height="20px" width="20px" src="../assests/images/sPicture/usersearch.png"> &nbsp;User Research</li>
+                        </ul>
+
+                        <button>Read more &nbsp;<img height="10px" width="10px" src="../assests/images/pictures/arrow1.png"></button>
+                </div>
+                <div class="card-section">
+                    <div class="heading-card">
+                        <img height="42.24px" width="25.81px" src="../assests/images/pictures/photo.png">
+                         <h3>Digital<br> Marketing</h3>
+                    </div>
+                    
+                        <ul class="card-items">
+                            <li> <img height="20px" width="20px" src="../assests/images/sPicture/SearchEngine.png"> &nbsp;Search Engine Optimazation</li>
+                        
+                        <li> <img height="20px" width="20px" src="../assests/images/sPicture/Socialmedia.png"> &nbsp;Social Media Marketing</li>
+
+                        <li> <img height="20px" width="20px" src="../assests/images/sPicture/contentmarketing.png"> &nbsp;Content Marketing</li>
+
+                        <li> <img height="20px" width="20px" src="../assests/images/sPicture/email.png"> &nbsp;Email Marketing</li>
+
+                        </ul>
+
+                        <button>Read more &nbsp;<img height="10px" width="10px" src="../assests/images/pictures/arrow1.png"></button>
+
+                        
+                </div>
+            </div>
+        </div>    
     </div>
-        
-    <div class="left-section">
-        <div class="title-box">
-            <h3>Our Services</h3>
-            
-        </div><br>
-        
-        <div class="description">
-        <h3>Boost Your Business with <br><span style="color:rgba(237, 93, 35, 1);">Classy Servies</span></h3>
-        </div>
-        <div class="flex-container">
-            <div class="card-section">
-                <div class="heading-card">
-                    <img height="40.24px" width="25.81px" src="../assests/images/about/sPicture/photo.png">
-                     <h3>App<br> Development</h3>
-                </div>
-                
-                    <ul class="card-items">
-                        <li><img height="20px" width="20px" src="../assests/images/about/sPicture/Andriod-app.png"> &nbsp;Android App</li>
-                        <li><img height="20px" width="20px" src="../assests/images/about/sPicture/ios.png"> &nbsp;iOS App</li>
-                        <li><img height="20px" width="20px" src="../assests/images/about/sPicture/flutter.png"> &nbsp;Flutter</li>
-                        <li><img height="20px" width="20px" src="../assests/images/about/sPicture/react.png"> &nbsp;React Native</li>
-                        <li><img height="20px" width="20px" src="../assests/images/about/sPicture/kotlin.png"> &nbsp;Kotlin</li>
-                        <li><img height="20px" width="20px" src="../assests/images/about/sPicture/ionic.png"> &nbsp;Ionic</li>
-                    </ul>
-
-                    <button>Read more &nbsp;<img height="10px" width="10px" src="../assests/images/about/sPicture/arrow1.png"></button>
-                
-                
-            </div>
-            <div class="card-section">
-                <div class="heading-card">
-                    <img height="42.24px" width="25.81px" src="../assests/images/about/sPicture/photo.png">
-                     <h3>Web<br> Development</h3>
-                </div>
-                <div>
-                    
-                </div>
-                    <ul class="card-items">
-                        <li><img height=" 20px" width="20px" src="../assests/images/about/sPicture/html.png"> &nbsp;HTML</li>
-                        <li><img height=" 20px" width="20px" src="../assests/images/about/sPicture/css.png"> &nbsp;CSS<li>
-                        <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/js.png"> &nbsp;JavaScript</li>
-                        <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/bootstrap.png"> &nbsp;Bootstrap</li>
-                        <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/jquery.png"> &nbsp;Jquery</li>
-                        <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/react.png"> &nbsp;React JS</li>
-
-                         <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/php.png"> &nbsp;PHP</li>
-                        <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/node.png"> &nbsp;Node Js</li>
-                        <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/java.png"> &nbsp;Java</li>
-                    </ul>
-
-                    <button>Read more &nbsp;<img height="10px" width="10px" src="../assests/images/about/sPicture/arrow1.png"></button>
-            </div>
-            <div class="card-section">
-                <div class="heading-card">
-                    <img height="42.24px" width="25.81px" src="../assests/images/about/sPicture/photo.png">
-                     <h3>Ui/Ux<br> Design</h3>
-                </div>
-                
-                    <ul class="card-items">
-                        <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/figma.png"> &nbsp;Figma</li>
-                        <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/Appdesign.png"> &nbsp;App Design</li>
-                        <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/websitedesign.png"> &nbsp;Website Design</li>
-                        <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/Deshboarddesign.png"> &nbsp;Dashboard Design</li>
-                        <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/usersearch.png"> &nbsp;User Research</li>
-                    </ul>
-
-                    <button>Read more &nbsp;<img height="10px" width="10px" src="../assests/images/about/sPicture/arrow1.png"></button>
-            </div>
-            <div class="card-section">
-                <div class="heading-card">
-                    <img height="42.24px" width="25.81px" src="../assests/images/about/sPicture/photo.png">
-                     <h3>Digital<br> Marketing</h3>
-                </div>
-                
-                    <ul class="card-items">
-                        <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/SearchEngine.png"> &nbsp;Search Engine Optimazation</li>
-                    
-                    <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/Socialmedia.png"> &nbsp;Social Media Marketing</li>
-
-                    <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/contentmarketing.png"> &nbsp;Content Marketing</li>
-
-                    <li> <img height="20px" width="20px" src="../assests/images/about/sPicture/email.png"> &nbsp;Email Marketing</li>
-
-                    </ul>
-
-                    <button>Read more &nbsp;<img height="10px" width="10px" src="../assests/images/about/sPicture/arrow1.png"></button>
-
-                    
-            </div>
-        </div>
-    </div>    
-</div>
 
 
 
@@ -201,7 +222,9 @@
 <div class="choose-section">
     <div class="choose">
         <div class="dot-section">
-            <img src="../assests/images/about/Choose/dot.png">
+            
+            <img src="assests/images/about/Choose/dot3.png">
+            
 
         </div>
         <div class="line-section">
@@ -212,11 +235,11 @@
 
     <div class="left-section">
         <div class="left">
-            <span>There Are Many IT Company</span>
+            <h2>There Are Many IT Company</h2>
 
         </div>
         <div class="left1">
-            <h2>But Why Choose <span style="color:rgba(237, 93, 35, 1);">Us</span></h2>
+            <h1>But Why Choose <span style="color:rgba(237, 93, 35, 1);">Us</span></h1>
 
         </div>
 
@@ -226,8 +249,8 @@
 
         <div class="description-section">
             <div class="description">
-                <span>We Cut Edge Technology, web and app development Company in Delhi NCR specilazing in providing business worldwide with cutting edge technology solutions. As a mobile and web application development company , Cut Edge company technology combines technologies expertise and domain-specific experience to ensure the highest level of security and satisfaction through a deep commitment to clients.Once you partner with us , you can be sure that we will take care of your online presence.Whether it's your brand's visibility, your reach or engagement with your target audience. we've got your coverved... 
-                </span>
+                <h2>We Cut Edge Technology, web and app development Company in Delhi NCR specilazing in providing business worldwide with cutting edge technology solutions. As a mobile and web application development company , Cut Edge company technology combines technologies expertise and domain-specific experience to ensure the highest level of security and satisfaction through a deep commitment to clients.Once you partner with us , you can be sure that we will take care of your online presence.Whether it's your brand's visibility, your reach or engagement with your target audience. we've got your coverved... 
+                </h2>
                 <div class="bottom">
                     <div class="bottom-image">
                         <img src="../assests/images/about/Choose/Frame.png">
@@ -265,46 +288,6 @@
 
 
 
-<!-- 
-<div class="choose-section">
-    <div class="choose">
-        <div class="dot-section">
-            <img src="../assests/images/about/Choose/dot.png">
-
-        </div>
-        <div class="line-section">
-            <img src="../assests/images/about/Choose/line.png">
-        </div>
-    </div>
-
-
-    <div class="left-section">
-        <div class="left">
-            <span>There Are Many IT Company</span>
-
-        </div>
-        <div class="left1">
-            <h2>But Why Choose <span style="color:rgba(237, 93, 35, 1);">Us</span></h2>
-
-        </div>
-
-        <div class="description-section">
-            <div class="description">
-                <span>We Cut Edge Technology, web and app development Company in Delhi NCR specilazing in providing business worldwide with cutting edge technology solutions. As a mobile and web application development company , Cut Edge company technology combines technologies expertise and domain-specific experience to ensure the highest level of security and satisfaction through a deep commitment to clients.Once you partner with us , you can be sure that we will take care of your online presence.Whether it's your brand's visibility, your reach or engagement with your target audience. we've got your coverved.
-                </span>
-            </div>
-
-
-            <div></div>
-        </div>
-
-        
-    </div>
-
-    
-
-
-</div>
 
 
 
@@ -313,32 +296,14 @@
 
 
 
-
-
-
-
-
- -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="client-section">
+ 
+<div class="client-section1">
     <div class="client">
         <div class="dot-section">
-            <img src="../assests/images/about/client/dot7.png">
+            <img src="assests/images/pictures/dot6 .png">
         </div>   
         <div class="line-section">
-            <img src="../assests/images/about/client/line2.png">
+            <img src="../assests/images/pictures/line2.png">
         </div>  
     </div>    
     <div class="left-section">
@@ -348,103 +313,105 @@
         <div class="discribe-section">
             <h2>Client Says</h2> 
         </div>  
-        <div class="review-section">
-            <div class="flex-container">
-                <div class="card-section">
-                    <img height="56px" width="56px" src="../assests/images/about/client/arrow.png">
-                    <div class="heading-card">
-                        
-                         <h3>Olivia Rhye</h3>
-                         <img src="../assests/images/about/client/star.png">
-                         <div class="card-items">
-                            <p>Our mission is to help customers achieve their business goals by providing innovative, first-class consulting, It solution and.</p>
-                            <p class="name">-Lorem lpsum</p>
-                            
-                        </div>  
-                    </div>       
-                </div>
-            </div>   
-            <div class="flex-container">
-                <div class="card-section">
-                    <img height="56px" width="56px" src="../assests/images/about/client/arrow.png">
-                    <div class="heading-card">
-                         <h3>Olivia Rhye</h3>
-                         <img src="../assests/images/about/client/star.png">
-                         <div class="card-items">
-                            <p>Our mission is to help customers achieve their business goals by providing innovative, first-class consulting, It solution and.</p>
-                            <p class="name">-Lorem lpsum</p>    
-                        </div>  
-                    </div>  
-                </div>  
-            </div>  
-        
-
-            <div class="flex-container">
-                <div class="card-section">
-                    <img height="56px" width="56px" src="../assests/images/about/client/arrow.png">
-                    <div class="heading-card">
-                        
-                         <h3>Olivia Rhye</h3>
-                         <img src="../assests/images/about/client/star.png">
-                         <div class="card-items">
-                            <p>Our mission is to help customers achieve their business goals by providing innovative, first-class consulting, It solution and.</p>
-                            <p class="name">-Lorem lpsum</p>
-                            
-                        </div>  
-                    </div>  
-             </div>  
-         </div>   
-            <div class="flex-container">
-                <div class="card-section">
-                    <img height="56px" width="56px" src="../assests/images/about/client/arrow.png">
-                    <div class="heading-card">
-                        
-                         <h3>Olivia Rhye</h3>
-                         <img src="../assests/images/about/client/star.png">
-                         <div class="card-items">
-                            <p>Our mission is to help customers achieve their business goals by providing innovative, first-class consulting, It solution and.</p>
-                            <p class="name">-Lorem lpsum</p>    
-                            </div>  
-                    </div>  
-   
-                </div>  
+        <div class="container-fluid review-sec">
+            <div class="review-section">
                 <div class="flex-container">
                     <div class="card-section">
-                        <img height="56px" width="56px" src="../assests/images/about/client/arrow.png">
+                        <img height="56px" width="56px" src="../assests/images/ClientPicture/arrow.png">
                         <div class="heading-card">
                             
                              <h3>Olivia Rhye</h3>
-                             <img src="../assests/images/about/client/star.png">
+                             <img src="../assests/images/ClientPicture/star.png">
                              <div class="card-items">
                                 <p>Our mission is to help customers achieve their business goals by providing innovative, first-class consulting, It solution and.</p>
                                 <p class="name">-Lorem lpsum</p>
-                                    
-                                </div>     
+                                
+                            </div>  
+                        </div>       
+                    </div>
+                </div>   
+                <div class="flex-container">
+                    <div class="card-section">
+                        <img height="56px" width="56px" src="../assests/images/ClientPicture/arrow.png">
+                        <div class="heading-card">
+                             <h3>Olivia Rhye</h3>
+                             <img src="../assests/images/ClientPicture/star.png">
+                             <div class="card-items">
+                                <p>Our mission is to help customers achieve their business goals by providing innovative, first-class consulting, It solution and.</p>
+                                <p class="name">-Lorem lpsum</p>    
+                            </div>  
                         </div>  
                     </div>  
+                </div>  
+            
     
+                <div class="flex-container">
+                    <div class="card-section">
+                        <img height="56px" width="56px" src="../assests/images/ClientPicture/arrow.png">
+                        <div class="heading-card">
+                            
+                             <h3>Olivia Rhye</h3>
+                             <img src="../assests/images/ClientPicture/star.png">
+                             <div class="card-items">
+                                <p>Our mission is to help customers achieve their business goals by providing innovative, first-class consulting, It solution and.</p>
+                                <p class="name">-Lorem lpsum</p>
+                                
+                            </div>  
+                        </div>  
+                 </div>  
+             </div>   
+                <div class="flex-container">
+                    <div class="card-section">
+                        <img height="56px" width="56px" src="../assests/images/ClientPicture/arrow.png">
+                        <div class="heading-card">
+                            
+                             <h3>Olivia Rhye</h3>
+                             <img src="../assests/images/ClientPicture/star.png">
+                             <div class="card-items">
+                                <p>Our mission is to help customers achieve their business goals by providing innovative, first-class consulting, It solution and.</p>
+                                <p class="name">-Lorem lpsum</p>    
+                                </div>  
+                        </div>  
+       
+                    </div>  
                     <div class="flex-container">
                         <div class="card-section">
-                            <img height="56px" width="56px" src="../assests/images/about/client/arrow.png">
+                            <img height="56px" width="56px" src="../assests/images/ClientPicture/arrow.png">
                             <div class="heading-card">
                                 
                                  <h3>Olivia Rhye</h3>
-                                 <img src="../assests/images/about/client/star.png">
+                                 <img src="../assests/images/ClientPicture/star.png">
                                  <div class="card-items">
                                     <p>Our mission is to help customers achieve their business goals by providing innovative, first-class consulting, It solution and.</p>
                                     <p class="name">-Lorem lpsum</p>
                                         
+                                    </div>     
+                            </div>  
+                        </div>  
+        
+                        <div class="flex-container">
+                            <div class="card-section">
+                                <img height="56px" width="56px" src="../assests/images/ClientPicture/arrow.png">
+                                <div class="heading-card">
+                                    
+                                     <h3>Olivia Rhye</h3>
+                                     <img src="../assests/images/ClientPicture/star.png">
+                                     <div class="card-items">
+                                        <p>Our mission is to help customers achieve their business goals by providing innovative, first-class consulting, It solution and.</p>
+                                        <p class="name">-Lorem lpsum</p>
+                                            
+                                        </div>  
                                     </div>  
-                                </div>  
-                        </div>    
-                    </div> 
-                </div>  
-            </div>            
-        </div>   
+                            </div>    
+                        </div> 
+                    </div>  
+                </div>            
+            </div>   
+        </div>
        </div>  
 
-    </div> 
-</div>  
+    </div>  
+ </div>  
 
 
 
@@ -453,13 +420,27 @@
 
 
 
-<div class="touch-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="touch-section1 "  >
     <div class="touch">
         <div class="dot-section">
-            <img src="../assests/images/about/touchPic/dot6.png">
+            <img src="assests/images/pictures/dot6 .png">
         </div>    
         <div class="line-section">
-            <img src="../assests/images/about/touchPic/line6.png">
+            <img src="../assests/images/pictures/line6.png">
         </div>    
 
     </div>    
@@ -467,7 +448,7 @@
         <div class="heading-section">
             <h3>Get in Touch</h3>
         </div>    
-        <div class="description">
+        <div class="description"  >
             <h2>Do you have any Project?<br><span style="color:rgba(237, 93, 35, 1);">Discuss with us</span></h2>
             <div class="full-section"></div>    
             <div class="form-section">
@@ -499,7 +480,7 @@
 
                         <div class="button-section">
                             <button class="custom-button" type="button">
-                                Send Now <img class="arrow-img" src="../assests/images/about/touchPic/arrow1.png" alt="Vector">
+                                Send Now <img class="arrow-img" src="../assests/images/pictures/arrow1.png" alt="Vector">
                             </button>
                             
         
@@ -516,8 +497,9 @@
     </div>    
 
         <div class="second-section">
+            <div class="green-shadow card-effect"></div>
             <div class="images">
-                <img src="../assests/images/about/touchPic/touch1.png">
+                <img src="../assests/images/touchPic/touch1.png">
             </div>    
 
         </div>    
@@ -533,19 +515,26 @@
 
 
 
-<div class="footer-section">
+
+
+
+
+
+
+
+<div class="footer-section1">
     <div class="final-section">
         <div class="footer-container">
-            <img src="../assests/images/about/footer-pictures/line.png">
+            <img src="../assests/images/footer-pictures/line.png">
             <div class="footer">
-                <img src="../assests/images/about/footer-pictures/logo.png">
+                <img src="../assests/images/footer-pictures/logo.png">
             </div>
             <div class="description">
                 <p>We Cut Edge Technology, web and app development company in Delhi NCR specializing in providing businesses worldwide with cutting edge technology solutions.</p>
             </div>
             <div class="ourServices">
                 <div class="Servicesss">
-                    <h3>Our Services</h3>
+                    <h2>Our Services</h2>
                 </div>
                 
                 <div class="Services1">
@@ -583,11 +572,11 @@
             
 
                 <div class="media-section">
-                    <img src="../assests/images/about/footer-pictures/facebook.png">
-                    <img src="../assests/images/about/footer-pictures/message.png">
+                    <img src="../assests/images/footer-pictures/facebook.png">
+                    <img src="../assests/images/footer-pictures/message.png">
 
-                    <img src="../assests/images/about/footer-pictures/linkedin.png">
-                    <img src="../assests/images/about/footer-pictures/github.png">
+                    <img src="../assests/images/footer-pictures/linkedin.png">
+                    <img src="../assests/images/footer-pictures/github.png">
 
 
                     
@@ -601,6 +590,39 @@
 
 
 
+
+
+<script src="/assests/js/jquert.min.js"></script>
+<script src="/assests/js/tilt.js"></script>
+<script>
+
+
+
+  var containers = document.querySelectorAll('.second-section');
+  containers.forEach(function(container) {
+    var greenShadow = container.querySelector('.green-shadow');
+    container.addEventListener('mousemove', function(event) {
+      var x = event.clientX - container.offsetLeft;
+      var y = event.clientY - container.offsetTop;
+        greenShadow.style.left = x + 'px';
+        greenShadow.style.top = y + 'px';
+    });
+  });
+
+
+    ( function( $ ) {
+        "use strict";
+        $(".card-effect").tilt({
+            maxTilt: 30,
+            perspective: 1400,
+            easing: "cubic-bezier(.03,.98,.52,.99)",
+            speed: 1200,
+            glare: false,
+            maxGlare: 0,
+            scale: 1
+        });
+    }( jQuery ) );
+</script>
 
 
 
