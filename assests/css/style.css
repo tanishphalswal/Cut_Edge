@@ -76,7 +76,8 @@ input {
 
 .header-container {
     margin-top: 2rem;
-    width: 100%
+    width: 100%;
+    
 }
 
 .headers {
@@ -88,6 +89,11 @@ input {
     backdrop-filter: blur(2px);
     border-radius:10rem;
     position: relative;
+    border: 1px solid rgba(48, 54, 61, 1);
+    display: none;
+    
+    
+
 }
 
 
@@ -105,7 +111,8 @@ input {
     text-align: right;
     vertical-align: middle;
     margin-left: 20px;
-    padding-left: -30pxpx;
+    /* padding-left: -30px; */
+    
 
 }
 .navbar span{
@@ -182,6 +189,17 @@ input {
     display:block;
 }
 
+
+.navbar .button{
+    background-color: #f9f9f9;
+    width: 143px;
+    height: 55px;
+    border-radius: 80px;
+    border: 1px;
+
+    border: 1px solid rgba(242, 92, 0, 1);
+
+}
 
 
 
@@ -301,9 +319,9 @@ input {
     margin-top: 0;
     position: relative;
     overflow: hidden;
-    /* padding: 0 60px; */
-    margin-left: 80px;
-    margin-top: -120px;
+    
+    margin-left: 70px;
+    margin-top: -90px;
 
 }  
 
@@ -316,9 +334,9 @@ input {
         right: 0px;
         z-index: -1;
         animation: rotate 10s infinite linear;
-        margin-top: 70px;
-        margin-left: 90px;
-        
+         margin-top: 90px;
+        margin-left: 70px;
+         
 
 
 
@@ -361,8 +379,9 @@ input {
     box-shadow: 
             7.82px 7.82px 3.91px 0px rgba(255, 255, 255, 0.1) inset, 
             0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
-    margin-left: -5px;
+    /* margin-left: -5px; */
     background: #02001c;
+    
 }
 
     
@@ -397,7 +416,7 @@ input {
     border: solid 1px rgb(19, 157, 248) ;
     border-radius: 5px;
     padding: 3px 6px;
-    opacity: 70%;
+    /* opacity: 70%; */
 
     
 }
@@ -406,21 +425,22 @@ input {
     .services-section .services{
         display: flex;
         flex-direction: column;
-        width: 10%;
+         /* width: 10%;  */
     }
 
     .services-section .dot-section img{
         width:55px;
         height: 26pxpx;
-        margin-left: -20px;
+        margin-left: -15px;
         margin-top: -20px;
         
 
     }
     .services-section .line-section img{
-        width: 60.49px;
+        width: 70px;
         height: 500px;
-        margin-top: 10px;    
+        margin-top: 10px;
+        margin-left: 10px;    
 
     }
 
@@ -431,7 +451,7 @@ input {
     .services-section .title-box{
         width: 151px;
         height: 28px; 
-        opacity: 70%;
+        /* opacity: 70%; */
         
 
 
@@ -459,7 +479,7 @@ input {
         width: 100%;
         overflow: scroll;
         height: 380.17px;
-        gap: 36px;
+        gap: 26px;
         scrollbar-width: none;
     }
     
@@ -657,13 +677,12 @@ input {
     }
 
     .about-section  .right-section .image2-section img{
-        width: 538px;
+        width: 550px;
         height: 279px;
-        top: 1860;
-        left: 732px;
+        
         border-radius: 5px;
         border: 1px;
-        margin-left: 100px;
+        margin-left: 140px;
 
     } 
 
@@ -791,305 +810,258 @@ input {
 
 
 
-     
-
+ 
 .news-section {
     width: 90%;
     margin: 1rem auto;  
     display: flex;
-                  
+                          
 }  
-                
-        /* .news-section .about1{
-            flex-direction: column;
-                    
-        }   */
 
-        .news-section .dot-section img{
+        .news-section .news .dot-section img{
             width: 51px;
             height: 51px;
-            margin-left: -15px;
+            margin-left: -20px;
             margin-top: -10px;
 
         }
-        
+
         .news-section .line-section img{
             width: 1.39px;
-            height: 700px;
+            height: 750px;
             border-radius: 2.77px;
         }
 
-        .news-section .heading-section h2{
+        .news-section  .heading-section h2{
             width: 410px;
             height: 34px;
             opacity: 70%;
-
-        }
-        .news-section .heading1-section h1{
-            width: 472px;
-            height: 53px;
-
+            font-family: ubuntu;
+            letter-spacing: 2%;
+            line-height: 34px;
+            margin-left: 10px;
             
+        } 
 
-        }
+        .news-section .about-section .about h1{
+            width: 1237px;
+            height: 53px;
+            justify-content: space space-between;
+            margin-top: -10px;
+            margin-left: -60px;
+    
+        } 
 
-        .news-section .button-section .custom-button{
+
+        
+        .news-section  .left-section .button-section .custom-button{
             width: 100px;
             height: 39px;
             border-radius: 60px;
+        
             
             
 
         }
 
-        .news-section .image1-section .imag2 img{
-            width: 593px;
+        /* .news-section .picture-section{
+            width: 594px;
+            height: 617px;
+            margin-top: 50px;
+    
+        } */
+    
+        .news-section .picture img{
+            width: 594px;
             height: 396px;
             border-radius: 9.77px;
-            border: 1px;
-
+            border: 1px solid rgba(48, 54, 61, 1);
+            margin-left: px;
+            margin-top: px;
+            
+    
         }
-        .news-section .development1-section h2{
-            width: 169px;
+
+
+        .news-section .describe-section .describe h2{
+            width: 269px;
             height: 22px;
-            margin-top: 30px;
-        }
-
-        .news-section .development2-section p{
-            width: 117px;
-            height: 10px;
-            size: 13px;
-            line-height: 15px;
-
-        }
-        .news-section .development3-section h1{
-            width: 538px;
-            height: 74px;
-
-        }
-
-
-
-.news-section{
-    width: 90%;
-    margin: 1rem auto;
-    display: flex;
-    font: ubuntu;
-}  
-    .news-section .dot-section{
-        width: 28px;
-        height: 32px;
-        margin-left: -5px;
-
-    }
-    .news-section .line-section{
-        width: 139px;
-        height: 734px;
-        border-radius: 2.77px;
-        margin-top: 5px;
-    }
-    .news-section  .heading-section h2{
-        width: 410px;
-        height: 34px;
-        opacity: 70%;
-        font-family: ubuntu;
-        letter-spacing: 2%;
-        line-height: 34px;
-        margin-left: -100px;
-        margin-top: -5px;
-    }
-    .news-section .about-section .about h1{
-        width: 1237px;
-        height: 53px;
-        justify-content: space space-between;
-        margin-top: -10px;
-        margin-left: -160px;
-
-    }
-
-    .news-section .button-section .custom-button{
-        width: 100px;
-        height: 39px;
-        border-radius: 60px;
-        /* border:1px; */
-        padding: 10px 20px 10px 20px;
-        gap: 10px;
-        border: 1px solid rgba(255, 255, 255, 1)
-        
-    }
-
-
-    .news-section .button-section{
-        margin-top: -20px;
-        margin-left: -150px;
-
-        
-    }
-
-    .news-section .picture-section{
-        width: 594px;
-        height: 617px;
-
-    }
-
-    .news-section .picture img{
-        width: 594px;
-        height: 396;
-        border-radius: 9.77px;
-        border: 1px solid rgba(48, 54, 61, 1);
-        margin-left: -110px;
-        margin-top: -30px;
-    }
-
-
-    .news-section .describe-section .describe h2{
-        width: 269px;
-        height: 22px;
-        font: ubuntu;
-        line-height: 22.46px; 
-        margin-left: -110px;
-        margin-top: 20px;
-    
-        
-
-}
-
-.news-section .describe-section .describe h4{
-    width: 217px;
-    height: 15px;
-    font:ununtu;
-    
-    margin-left: -110px;
-    margin-top: 10px;
-    
-
+            font: ubuntu;
+            line-height: 22.46px; 
+            margin-top: 20px; 
     }
     
-    .news-section .describe1 h2{
-        width: 480px;
-        height: 74px;
-        font: ubuntu;
-        line-height: 36.77px;
-        margin-left: -110px;
-        font-size: 30px;
-        margin-top: 15px;
-        
-    }
-
-    .news-section .describe2-section .describe p{
-        width: 593px;
-        height: 73px;
-        font:ununtu;
-        margin-left: -110px;
-        color: rgba(163, 163, 163, 1);
-        margin-top: 20px;
-
-    }
-
-    .news-section .right-section .describe img{
-        width: 188px;
-        height: 183px;
-        border-radius: 9.77px;
-        border-radius: 1px;
-        margin-left: -550px;
-        margin-top:100px;
-
-    } 
-
-    .news-section .right-section .describe1 img{
-        width: 188px;
-        height: 183px;
-        border-radius: 9.77px;
-        border-radius: 1px;
-        margin-left: -550px;
-        margin-top:20px;
-
-    } 
-
-    .news-section .right-section .describe1 img{
-        width: 188px;
-        height: 183px;
-        border-radius: 9.77px;
-        border-radius: 1px;
-        margin-left: -550px;
-        margin-top:20px;
-
-    }
-
-
-    .news-section .right-section .describe2 img{
-        width: 188px;
-        height: 183px;
-        border-radius: 9.77px;
-        border-radius: 1px;
-        margin-left: -550px;
-        margin-top:20px;
-
-    } 
-    .news-section .right-section .describe{
-        width: 389px;
-        height: 73px;
-    }
-
-    .news-section .right-section .describe .describe3 h2{
-        width: 269px;
-        height: 22px;
-        margin-top: -180px;
-        margin-left: -350px;
-        font-size: 15px;
-    }
-
-    .news-section .right-section .describe .describe3 h4{
+    .news-section .describe-section .describe h4{
         width: 217px;
         height: 15px;
-        margin-top: -5px;
-        margin-left: -350px;
-        font-size: 10px;
-    }
-
-    .news-section .right-section .describe3-section .describe1 h4{
-
-        width:250px;
-        height: 50px;
-        margin-left: -350px;
-        margin-top: -5px;
-        font-size: 15px;
-
-    }
-
-
-    .news-section .right-section .describe .describe4-section .describe  p{
-        width:450px;
-        height: 93px;
-        margin-left: -350px;
-        margin-top: -25px;
-        color: rgba(163, 163, 163, 1);
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               .client-section{
-                width: 90%;
-                margin: 0;
-                display: flex;
-                /* padding: 20px 60px; */
-                margin-left: 80px;
+        font:ununtu;
+        margin-top: 10px;
+        
+    
         }
-            .client-section .client{
+        
+
+        .news-section .describe1 h2{
+            width: 480px;
+            height: 74px;
+            font: ubuntu;
+            line-height: 36.77px;
+            font-size: 30px;
+            margin-top: 15px;
+            
+        }
+    
+        .news-section .describe2-section .describe p{
+            width: 593px;
+            height: 73px;
+            font:ununtu;
+            color: rgba(163, 163, 163, 1);
+            margin-top: 20px;
+    
+        }
+
+
+        .news-section .right-section .describe img{
+            width: 188px;
+            height: 183px;
+            border-radius: 9.77px;
+           
+            margin-left: -680px;
+            margin-top:120px;
+            
+            
+    
+        } 
+    
+        .news-section .right-section .describe1 img{
+            width: 188px;
+            height: 183px;
+            border-radius: 9.77px;
+            margin-left: -680px;
+            margin-top:-360px;
+            
+            
+    
+        } 
+
+
+        .news-section .right-section .describe2 img{
+            width: 188px;
+            height: 183px;
+            border-radius: 9.77px;
+            border-radius: 1px;
+            margin-left: -680px;
+            margin-top:-330px;
+    
+        } 
+    
+        .news-section .right-section .describe{
+            width: 489px;
+            height: 373px;
+        }      
+        .news-section .right-section .describe .describe3 h2{
+            width: 269px;
+            height: 22px;
+            margin-top: -180px;
+            margin-left: -480px;
+            font-size: 15px;
+        }
+    
+        .news-section .right-section .describe .describe3 h4{
+            width: 217px;
+            height: 15px;
+            margin-top: -5px;
+            margin-left: -480px;
+            font-size: 10px;
+        }
+        .news-section .right-section .describe3-section .describe1 h4{
+
+            width:250px;
+            height: 50px;
+            margin-left: -480px;
+            margin-top: -5px;
+            font-size: 15px;
+    
+        }
+    
+    
+         .news-section .right-section .describe .describe4-section .describe  p{
+            width:450px;
+            height: 93px;
+            margin-left: -480px;
+            margin-top: -20px;
+        } 
+
+
+        .news-section .right-section .describe1 .describe3 h2{
+            width: 269px;
+            height: 22px;
+            margin-top: -290px;
+            margin-left: -480px;
+            font-size: 15px;
+
+        }
+
+
+        .news-section .right-section .describe2 .describe3 h2{
+            width: 269px;
+            height: 22px;
+            margin-top: -280px;
+            margin-left: -480px;
+            font-size: 15px;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.client-section{
+    width: 90%;
+    margin: 0;
+    display: flex;
+                /* padding: 20px 60px; */
+    margin-left: 80px;
+}
+            /* .client-section .client{
                 width: 10%;
-            }
+            } */
             .client-section .left-section{
                 width: 90%;
                 overflow: scroll;
@@ -1245,8 +1217,11 @@ input {
     margin: 1rem auto;  
     display: flex;
     position: relative;
+    width: 1360px;
+    height: 560px;
               
 }  
+
        
         .touch-section .dot-section img{
             width: 45px;
@@ -1394,12 +1369,12 @@ input {
             margin-left: 10px;
         } 
  
-        .touch-section .touch  .second-section .images img{
-            width: 1625px;
+        /* .touch-section .touch  .second-section .images img{
+            width: 625px;
             height: 425px;
              
 
-        }
+        } */
         .touch-section .second-section{
             position: relative;
         }
@@ -1540,6 +1515,7 @@ input {
     .footer-section .final-section .footer2 .flex-container{
         display:flex;
         margin-left: -20px;
+    
         
         
         
@@ -1547,7 +1523,7 @@ input {
     }
 
     .footer-section .final-section .footer2 .flex-container .media-section{
-        width: 278px;
+        width: 478px;
         height: 40px;
         margin-left: 1200px;
         margin-top: -10px;
@@ -2060,9 +2036,9 @@ input {
         /* padding: 20px 60px; */
         margin-left: 80px;
 }
-    .client-section1 .client{
+    /* .client-section1 .client{
         width: 10%;
-    }
+    } */
     .client-section1 .left-section{
         width: 90%;
         overflow: scroll;
@@ -2464,5 +2440,418 @@ input {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    *{
+        font: ubuntu;
+    }
+    
+    
+    
+    .header-container {
+        margin-top: 2rem;
+        width: 100%
+    }
+    
+    .headers1 {
+        width: 95%;
+        padding:1rem;
+        margin: auto;
+        display: table;
+        background: #161B224a;
+        backdrop-filter: blur(2px);
+        border-radius:10rem;
+        position: relative;
+    
+    }
+    
+    .logo{
+        display:table-cell;
+        width:max-content;
+    }
+    .logo img{
+        width:10rem;
+    }
+    .navbar {
+        display: table-cell;
+        text-align: right;
+        vertical-align: middle;
+        margin-left: 20px;
+        margin-left: 300px;
+    }
+    .navbar span{
+        margin:0 1rem;
+    }
+    
+    
+    
+    
+    .navbar span {
+        position: relative;
+        
+        padding: 5px 0px;
+        margin: 0 0.5rem;
+    }
+    
+    .navbar a {
+        color: white;
+        text-decoration: none;
+       
+        text-align: center;
+    }
+    
+    .navbar .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 100%;
+        left: 0;
+    }
+    
+    .navbar .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .navbar .dropdown-content a:hover {
+        background-color: rgba(237, 93, 35, 1);
+        opacity: 90%;
+    }
+    
+    .navbar .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .navbar span{
+        margin:0 1rem;
+    }
+    
+    
+    
+    .dropdown-submenu {
+        position: relative;
+    }
+    
+    .dropdown-submenu-content {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-submenu:hover .dropdown-submenu-content {
+        display:block;
+    }
+    
+
+    .nav-button .custom-button{
+        width:9.8rem;
+        height: 2.5rem;
+        border-radius:3.1rem;
+        border:0.5px;
+        padding:5px;
+        
+        border: 0.5px solid #fff;
+        background: #161B224a;
+        margin-left: 20px;
+        border: 1px solid rgba(242, 92, 0, 1);
+        background-color: #f9f9f9;
+        color: black;
+
+    }
+    
+     .navbar .button-section{
+        width: 143px;
+        height:55px;
+        border-radius:3.1rem;
+        border: 0.5px;
+        padding: 5px;
+
+
+
+    }
+
+
+ 
+
+ 
+.contact-section {
+    width: 90%;
+    margin:  auto;
+    display: flex;
+     margin-top: 20px;  
+}
+
+        .contact-section .dot-section img{
+            width: 12px;
+            height: 12px;
+        }
+
+        .contact-section .line-section img{
+            width: 3px;
+            height: 750px;
+        }
+
+        .contact-section .left-section .heading {
+            width: 250px;
+            height: 80px;
+            font-size: 50px;
+            margin-left: 50px;
+            margin-top: 300px;
+        }
+
+
+        .contact-section .left-section .heading img{
+            width: 190px;
+            height: 8px;
+            margin-top: -80px;
+            margin-left: 10px;
+        }
+
+        .contact-section .right-section .image{
+            height:756px;
+            width:920px;
+            background-color: rgba(22, 27, 34, 1);
+            border: solid 0.5px #404040;
+            border-radius: 5px;
+            margin-left: 170px;
+     
+        }
+        .contact-section .right-section .image img{
+            
+            margin: 80px;
+            
+        }
+
+
+
+
+
+
+
+
+
+.form-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font: ubuntu;
+
+}
+
+    .form-section .form .dot-section img{
+        width:45px ;
+        height: 45px;
+        margin-left: 55px;
+        margin-top: 20px;
+    }
+
+    .form-section .form .line-section img{
+        width:3px ;
+        height: 510px;
+        margin-left: 75px;
+        
+    }
+
+
+
+    .form-section .left-section .header h2{
+        font-size: 24px;
+        width: 270px;
+        height: 40px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .form-section .left-section .left img{
+        width: 532px;
+        height: 296px;
+        border-radius: 5px;
+        border: 1px;
+        margin-top: -5px;
+        margin-left: 20px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.map-section{
+    width: 100%;
+    margin: 1rem auto;
+        
+} 
+
+    .map-section .map img{
+        width: 1237px;
+        height: 642px;
+        border: 1px;
+        border-radius: 5px;
+        margin-left: 150px;
+
+    }
+
+
+
+
+
+
+
+
+
+        
+        .footer-section2{
+            width: 100%;
+            margin: 1rem auto;
+            display: flex;
+            font: ubuntu;
+        
+        } 
+            .footer-section2 .final-section{
+                width: 1440px;
+                height: 400px;
+        
+            }
+            .footer-section2  .footer-container{
+                width: 1300px;
+                height: 250px;
+        
+            }
+            .footer-section2 .footer-container img{
+                width: 1440px;
+        
+                
+            }
+        
+            .footer-section2 .final-section .footer-container .footer img{
+                width:197px ;
+                height: 38px;
+                margin-left: 70px;
+                margin-top: 20px;
+        
+            }
+            .footer-section2 .final-section .footer-container .description p{
+                width: 528px;
+                height: 87px;
+                margin-left: 70px;
+                margin-top: 20px;
+                padding-top: 30px;
+        
+        
+            }
+        
+            .footer-section2 .final-section .ourServices {
+                width: 276px;
+                height: 184;
+                margin-left: 800px;
+                margin-top: -160px;
+        
+        
+            }
+        
+            .footer-section2 .final-section .ourServices .Servicesss h2{
+                width: 211px;
+                height: 29px;
+                font-size: 20px;
+        
+            }
+        
+            .footer-section2 .final-section .ourServices .Servicesss .Services1 p{
+                width: 176px;
+                height: 139px;
+            }
+            .footer-section2 .final-section .Contact-section{
+                width: 270px;
+                height: 126px;
+                margin-top: -20px;
+        
+            }
+            .footer-section2 .final-section .Contact-section .contact{
+                margin-left: 1100px;
+                margin-top: -190px;
+                
+            }
+            .footer-section2 .final-section .Contact-section .contact .content-section h2{
+                width: 1251px;
+                height: 29px;
+        
+            }
+            .footer-section2 .final-section .Contact-section .contact .detail-section p{
+                width: 270px;
+                height: 81px;
+                
+            }
+             .footer-section2 .final-section .footer2{
+                background-color: rgba(22, 27, 34, 1);
+                margin-left: 90px;
+                margin-top: 90px;
+                width: 100%;
+                height: 100px;
+                margin-top: 120px;
+            } 
+            .footer-section2 .footer2 .footer2-content h3{
+                width: 469px ;
+                height: 24px;
+                padding-left: 50px;
+                padding-top: 50px;
+                margin-top: -60px;  
+            }
+            .footer-section2 .final-section .footer2 .flex-container{
+                display:flex;
+                margin-left: -20px;    
+            }
+            .footer-section2 .final-section .footer2 .flex-container .media-section{
+                width: 278px;
+                height: 40px;
+                margin-left: 1200px;
+                margin-top: -10px;   
+            }
+            .footer-section2 .final-section .footer2 .flex-container .media-section img{
+                width: 26px;
+                height: 27px;
+                margin-left: 10px;
+                margin-top: 0px;
+            }
+        
+        
+
+
+
+      
+
+    
 
 
