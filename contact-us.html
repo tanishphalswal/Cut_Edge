@@ -21,6 +21,16 @@
      <link rel="icon" href="assests/images/pictures/favicon.png"> 
     <link rel="stylesheet" href="../assests/css/style.css" >
     <link rel="stylesheet" href="../assests/css/logo.png" >
+    <link rel="stylesheet" href="assests/css/responsive.css">
+
+
+
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 
 
@@ -44,35 +54,28 @@
             
             overflow: hidden; 
         }
+        .form-section .custom-button:hover {
+            background-color: rgba(237, 93, 35, 1); 
+        } 
 
     </style>
 </head>
 <body>
     
-    <!-- <div id="header">
-        <div class="container">
-            <div class="row">
-            <div class="col-md-3">
-                <img src="assests/images/pictures/logo.png">
-
-            </div>
-            <div class="col-md-7">
-                <ul id="menu" class="float-md-right">
-                    <li> <a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    
-                </ul>
-            </div>
-        </div>
-    </div>
-</div> -->
+    
+    <div class="header-container1 ">
+        <!-- <input type="checkbox" id="check" class="checkbtn">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+        </label> -->
 
 
-
-<div class="header-container ">
     <div class="headers1">
+
+        <input type="checkbox" id="check" class="checkbtn">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+        </label>
         <div class="logo">
             <a href="#" class="logo"><img src="../assests/images/pictures/logo.png" alt="Logo"></a>
         </div>
@@ -116,6 +119,7 @@
 
 
 <div class="contact-section">
+
     <div class="contact">
         <div class="dot-section">
             <img src="assests/images/Contact-us page/dot.png">
@@ -132,7 +136,7 @@
     </div>
     <div class="right-section">
         <div  class="image" >
-            <img height="560px" width="611px" src="assests/images/Contact-us page/right_image.png">
+            <img height="560px" width="611px" src="assests/images/Contact-us page/Group 1261153902 (2).png">
         </div>
         
     </div>
@@ -144,6 +148,8 @@
 
 
 <div class="form-section">
+
+    <img class="background" src="assests/images/sPicture/back.png">
     <div class="form">
         <div class="dot-section">
             <img src="assests/images/Contact-us page/dot1.png">
@@ -153,16 +159,63 @@
         </div>
     </div>
 
-    <div class="left-section">
-        <div class="header">
-            <h2>Contact Detail</h2>
+    
 
-        </div>
-        <div class="left">
-
-            <img src="assests/images/Contact-us page/div.png">
-        </div>
+    
+        <div class="left-section">
+            <div class="header">
+                <h2>Contact Details</h2>
+            </div>
+            <div class="left">
+                <div class="contact-item">
+                    <img src="assests/images/Contact-us page/map 1.png" class="icon">
+                    <span>B-38 Old DLF Sec-14 Gurugram, Haryana</span>
+                </div>
+                <div class="contact-item">
+                    <img src="assests/images/Contact-us page/phone 1.png" class="icon">
+                    <span>079883 15190</span>
+                    <span>087007 61417</span>
+                </div>
+                <div class="contact-item">
+                    <img src="assests/images/Contact-us page/email 1.png" class="icon">
+                    <span>cutedgeweb@gmail.com</span>
+                </div>
+            </div>
     </div>
+
+    <div class="right-section">
+        <div class="final-form">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name " placeholder="Olivia">
+
+
+        
+        </div>
+
+        <div class="phone">
+            <label for="mobile">Mobile Number</label><br>
+        <input type="text" id="phone" name="phone" placeholder="+91 1234567890">
+        </div>  
+
+        <div class="form11-group">
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+        </div>    
+
+        <div class="form22-group">
+            <label for="message">Message</label><br>
+            <input type="messasge" id="message" name="email" placeholder="main menu/2nd menu">
+        </div> 
+
+         <div class="button-section">
+            <button class="custom-button" type="button">
+                Send Now <img class="arrow-img" src="../assests/images/pictures/arrow1.png" alt="Vector">
+            </button>
+            
+
+        </div>    
+    </div>
+    
 
 </div>
 
@@ -171,10 +224,9 @@
 
 
 
+ 
 
-
-
-<!-- 
+ 
 
 <div class="map-section">
     <div class="map">
@@ -182,7 +234,6 @@
     </div>
 </div>
 
- -->
 
 
 
@@ -226,12 +277,17 @@
                         <p>+91 7988315190</p>
                         
                     </div>
+                    
                 </div>
+                <img style="margin-top: -70px; " src="assests/images/footer-pictures/line.png">
+                
             </div>
+           
         </div>
 
 
         <div class="footer2">
+           
             <div class="footer2-content">
                 <h3>B-38, Old DLF Colony, Sector 14, Gurugram, Haryana 122001</h3>
             </div>
@@ -254,6 +310,41 @@
     </div>   
 </div>
 
+
+
+
+
+<script src="/assests/js/jquert.min.js"></script>
+<script src="/assests/js/tilt.js"></script>
+<script>
+
+
+
+  var containers = document.querySelectorAll('.second-section');
+  containers.forEach(function(container) {
+    var greenShadow = container.querySelector('.green-shadow');
+    container.addEventListener('mousemove', function(event) {
+      var x = event.clientX - container.offsetLeft;
+      var y = event.clientY - container.offsetTop;
+        greenShadow.style.left = x + 'px';
+        greenShadow.style.top = y + 'px';
+    });
+  });
+
+
+    ( function( $ ) {
+        "use strict";
+        $(".card-effect").tilt({
+            maxTilt: 30,
+            perspective: 1400,
+            easing: "cubic-bezier(.03,.98,.52,.99)",
+            speed: 1200,
+            glare: false,
+            maxGlare: 0,
+            scale: 1
+        });
+    }( jQuery ) );
+</script>
 
 
 </body>

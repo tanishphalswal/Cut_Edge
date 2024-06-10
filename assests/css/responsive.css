@@ -23,6 +23,7 @@
         width: 100%;
         height: auto;
         margin-left: 20px;
+        margin-top:10px ;
         
     }
     .mobile-section .heading-section h2 {
@@ -104,20 +105,729 @@
         padding-left: 13px;
         padding-top: 20px;
         padding-bottom: 16px;
+        
+         
     }
     .footer-section .final-section .footer2 .flex-container .media-section
+    {
+        width: 100%; 
+    height: auto;
+    margin-left:0px;
+    margin-top: -10px; 
+    }
+    .footer-section .final-section .Contact-section .contact .detail-section p
+{
+    height: auto;
+    
+}
+.footer-section .final-section .footer2 .flex-container .media-section img {
+    width: 17px;
+    height:17px;
+    
+}
+}
+
+
+
+
+
+
+
+                                    /* ABOUT US PAGE */
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    
+
+    .about-section1 .left-section .heading {
+        width: 264px;
+        height: 80px;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+
+
+    .about-section1 .right-section .image{
+        height:756px;
+        width:520px;
+        background-color: rgba(22, 27, 34, 1);
+        border: solid 0.5px #404040;
+        border-radius: 5px;
+        margin-left: -300px;
+        margin-top: 100px;
+ 
+    }
+    .about-section1 .right-section .image img{
+            
+        margin: 80px;
+         width: 300px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .services-section1 .dot-section img{
+        width:55px;
+        height: 26pxpx;
+        margin-left: -50px;
+        margin-top: 0px;
+        
+
+    }
+    .services-section1 .line-section img{
+        width: 60.49px;
+        height: 500px;
+        margin-top: 10px;   
+        margin-left: 10px; 
+
+    }
+ */
+
+
+
+
+
+
+    .choose-section{
+        width: 450px;
+        height: 1400px;
+
+                    
+    }
+
+    .choose-section .choose .dot-section img{
+        width: 55px;
+        height: 55px;
+        margin-left: -5px;
+    }
+
+    .choose-section .choose .line-section img{
+        width: 3px;
+        height: 1300px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+
+    .choose-section .description {
+        width: 350px;
+        height: 396px;
+        opacity: 70%;
+        line-height: 36px; 
+        margin-left: 0px;
+        font: ubuntu;
+        font-size: 14px;
+        margin-left: 20px;
+
+    }
+
+    .choose-section .bottom .bottom-image img{
+        width: 400px;
+        height: 101px;
+        border-radius: 5px;
+        margin-top: -40px;
+        margin-left: -20px;      
+    }
+
+    .choose-section  .image-section img{
+        width: 350px;
+        height: 502px;
+        border-radius: 5px;
+        border-radius: 1px;
+        margin-left: -360px;
+        margin-top: 850px;
+
+    }
+
+
+
+
+
+
+    
+    .client-section1 .dot-section img{
+        width:55px;
+        height: 56pxpx;
+        top: 487px;
+        left: 69px;
+        margin-left: -65px;
+
+        }
+    .client-section1 .line-section img{
+        width: 63.49px;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: -40px;
+
+        }
+
+        .client-section1 .heading-section h3{
+            width: 114px;
+            height: 28px;
+            opacity: 70%;
+            margin-top: 20px;
+            margin-left: -0px;
+
+      } 
+      .client-section1 .discribe-section h2{
+        width: 192px;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: -5px;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.touch-section1 {
+    
+    height: 830px;
+
+                          
+}   
+
+    .touch-section1 .dot-section img{
+        width: 45px;
+        height: 55px;
+        margin-left: 15px;
+        margin-top: -15px;
+            
+    }
+    .touch-section1 .line-section img{
+        width: 3px;
+        height: 800px;
+        border-radius: 2.77px;
+        margin-top: 10px;
+        margin-left: 35px;
+
+    
+    } 
+
+    .touch-section1 .heading-section h3{
+        width: 100px;
+        height: 18px;
+        opacity: 70%;
+        margin-left: 10px;
+    }
+
+    .touch-section1 .description h2{
+        width: 441px;
+        height: 80px;
+        margin-left: 10px;
+        margin-top: 10px;
+
+    }
+
+
+    .touch-section1 .form-group label{
+        width: 100px;
+        height: 15px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 20px;
+      
+    }
+
+    .touch-section1 .form-group input{
+        width: 175px;
+        height: 45px;
+        background-color: #161B224a;
+        opacity: 70%;
+        color: white;
+        border-radius: 5px;
+        margin-left: 10px;
+        
+    }
+
+    .touch-section1 .form1-group label{
+        width: 162px;
+        height: 27px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top:20px;
+
+    }
+
+    .touch-section1 .form1-group input{
+        width: 375px;
+        height: 84px;
+        background-color: #161B224a;
+         opacity: 70%; 
+         color: white;
+        border-radius: 5px;
+        margin-left: 20px;
+
+    } 
+    .touch-section1 .form2-group label{
+        width: 162px;
+        height: 27px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+
+    }
+    .touch-section1 .form2-group input{
+        width: 375px;
+        height: 84px;
+        background-color: #161B224a;
+        opacity: 70%;
+        color: white;
+        border-radius: 5px;
+        margin-left: 10px;    
+    }
+    .touch-section1 .phone{
+        margin-top:-70px ;
+        
+    }
+    .touch-section1 .phone label{
+        width: 162px;
+        height: 27px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .touch-section1 .phone input{
+        width: 100px;
+        height: 48px;
+        background-color: #161B224a;
+        opacity: 70%;
+        color: white;
+        border-radius: 5px;
+        margin-left: 20px;
+        /* border-color: none; */
+        
+    }
+   
+    
+
+
+    
+    .touch-section1 .second-section .images img{
+        width: 325px;
+        height: 432px;
+        padding-top: 120px;
+        margin-left: -430px;
+        margin-top: 420px;
+    }
+
+
+
+
+
+
+
+
+    .footer-section1
+    {
+        padding-left: 40px;
+         padding-right: 40px;
+    }
+    .footer-section1 .final-section {
+        width: 100%;
+        height: auto;
+    }
+    .footer-section1 .footer-container
+    {
+        width: 100%;
+        height: auto;
+    }
+    .footer-section1 .footer-container img
+    {
+        width: 100%;
+    }
+    .footer-section1 .final-section .footer-container .footer img
+    {
+        width: 146px;
+        margin-left: 0px;
+        margin-top: 0px;
+        height:auto !important;
+    }
+    .footer-section1 .final-section .footer-container .description p
+    {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .footer-section1 .final-section .ourServices
+    {
+        width: 100%;
+        height:auto;
+        margin-left: 0px;
+        margin-top: 0px;
+       
+    }
+    .footer-section1 .final-section .Contact-section
+    {
+        width:auto !important;
+        height:auto !important;
+    }
+
+    .footer-section1 .final-section .Contact-section .contact
+    {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .footer-section1 .final-section .footer2
+    {
+        margin-left: 0px;
+    margin-top: 0px;
+    }
+    .footer-section1 .final-section .footer2 .footer2-content h3
+    {
+        width: 100%;
+        height: auto !important;
+        padding-left: 13px;
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+    .footer-section1 .final-section .footer2 .flex-container .media-section
     {
         width: 100%; 
     height: auto;
     margin-left: 0px;
     margin-top: 0px; 
     }
-    .footer-section .final-section .Contact-section .contact .detail-section p
+    .footer-section1 .final-section .Contact-section .contact .detail-section p
 {
     height: auto;
 }
-.footer-section .final-section .footer2 .flex-container .media-section img {
+.footer-section1 .final-section .footer2 .flex-container .media-section img {
     width: 17px;
-    height: 17px;
+    height:17px;
+    margin-left: 20px;
+
 }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            /* CONTACT US PAGE */
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    
+    
+    .contact-section .line-section img{
+        width: 3px;
+        height: 770px;
+    }
+
+
+
+    .contact-section .left-section .heading {
+        width: 250px;
+        height: 80px;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-top: -5px;
+    }
+
+
+    .contact-section .left-section .heading img{
+        width: 190px;
+        height: 8px;
+        margin-top: -80px;
+        margin-left: 10px;
+    }
+
+    .contact-section .right-section .image{
+        height:700px;
+        width:350px;
+        background-color: rgba(22, 27, 34, 1);
+        border: solid 0.5px #404040;
+        border-radius: 5px;
+        margin-left: -280px;
+        margin-top: 90px;
+
+ 
+    }
+    .contact-section .right-section .image img{
+        width: 300px;
+        /* margin: 80px; */
+        margin-left: 15px;
+        
+        
+    }
+
+
+
+
+
+
+
+
+    .form-section .form .dot-section img{
+        width:45px ;
+        height: 45px;
+        margin-left: inherit;
+        /* margin-top: 20px; */
+    }
+
+    .form-section .form .line-section img{
+        width:3px ;
+        height: 730px;
+        margin-left: 20px;
+        
+    }
+
+    .form-section .left-section {
+        background: rgba(22, 27, 34, 1); 
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        max-width: 400px;
+        
+        text-align: center;
+        
+        
+
+        width: 415px;
+        height: 216px;
+        margin-left: -10px;
+        margin-top: 70px;
+
+
+
+    }
+
+    .form-section  img.background{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: -80px;
+        right: -10px;
+        z-index: -1;
+        animation: rotate 10s infinite linear;
+         margin-top: 90px;
+        margin-left: 70px;
+        border: none;
+        opacity: 70%;
+
+
+
+    }
+
+
+    .form-section .right-section{
+        background: rgba(22, 27, 34, 1); 
+        padding: 30px 30px 30px 30px;
+        border-radius: 10px;
+        margin-top: 292px;
+        margin-left: -400px;
+        width: 670px;
+        height: 516px;
+    }
+
+
+    .form-section .final-form input{
+        width: 150px;
+        height: 48px;
+        
+   }
+
+
+
+   
+   .form-section .phone{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-left: 170px;
+    margin-top: -100px;
+}
+
+.form-section  .phone input{
+    width: 170px;
+    height: 48px;
+    background-color: #161B224a;
+    color: white;
+    border-radius: 10px;
+    border: 0.5px solid rgba(48, 54, 61, 1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+
+.form-section .form11-group input{
+    width: 275px;
+    height: 48px;
+    background-color: #161B224a;
+    color: white;
+    border-radius: 10px;
+    border: 0.5px solid rgba(48, 54, 61, 1);
+    padding: 5px 10px;
+    border-radius: 5px;
+     margin-top: 50px; 
+     margin-left:-50px;
+     
+}
+
+
+.form-section .form22-group input{
+    width: 275px;
+    height: 48px;
+    background-color: #161B224a;
+    color: white;
+    border-radius: 10px;
+    border: 0.5px solid rgba(48, 54, 61, 1);
+    padding: 5px 10px;
+    border-radius: 5px;
+     margin-top: 50px; 
+     margin-left:-80px;
+}
+
+
+.map-section .map img{
+    width: 370px;
+    height: 442px;
+    border: 1px;
+    border-radius: 5px;
+    margin-left:40px;
+    margin-top: 220px;
+
+}
+
+
+
+
+
+    .footer-section2
+    {
+        padding-left: 40px;
+         padding-right: 40px;
+    }
+    .footer-section2 .final-section {
+        width: 100%;
+        height: auto;
+    }
+    .footer-section2 .footer-container
+    {
+        width: 100%;
+        height: auto;
+    }
+    .footer-section2 .footer-container img
+    {
+        width: 100%;
+    }
+    .footer-section2 .final-section .footer-container .footer img
+    {
+        width: 146px;
+        margin-left: 0px;
+        margin-top: 0px;
+        height:auto !important;
+    }
+    .footer-section2 .final-section .footer-container .description p
+    {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .footer-section2 .final-section .ourServices
+    {
+        width: 100%;
+        height:auto;
+        margin-left: 0px;
+        margin-top: 0px;
+       
+    }
+    .footer-section2 .final-section .Contact-section
+    {
+        width:auto !important;
+        height:auto !important;
+    }
+
+    .footer-section2 .final-section .Contact-section .contact
+    {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .footer-section2 .final-section .footer2
+    {
+        margin-left: 0px;
+    margin-top: 0px;
+    }
+    .footer-section2 .final-section .footer2 .footer2-content h3
+    {
+        width: 100%;
+        height: auto !important;
+        padding-left: 13px;
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+    .footer-section2 .final-section .footer2 .flex-container .media-section
+    {
+        width: 100%; 
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px; 
+    }
+    .footer-section2 .final-section .Contact-section .contact .detail-section p
+{
+    height: auto;
+}
+.footer-section2 .final-section .footer2 .flex-container .media-section img {
+    width: 17px;
+    height:17px;
+    margin-left: 20px;
+
+}
+
+}
+
+
+
+
+
+
