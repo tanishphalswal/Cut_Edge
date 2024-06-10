@@ -332,11 +332,11 @@ input {
     width: 90%;
     display: flex;
     margin-top: 0;
-    position: relative;
-    overflow: hidden;
+    /* position: relative;
+    overflow: hidden; */
     
-    margin-left: 70px;
-    margin-top: -90px;
+    /* margin-left: 70px;
+    margin-top: -90px; */
 
 }  
 
@@ -345,21 +345,14 @@ input {
         position: absolute;
         width: 200px;
         height: 200px;
-        top: 0px;
-        right: 0px;
+         top: 0px;
+         right: 0px; 
         z-index: -1;
         animation: rotate 10s infinite linear;
-         margin-top: 90px;
-        margin-left: 70px;
-         
-
-
-
-
+         margin-top:730px;
+        margin-right: 100px;
         border: none;
         opacity: 70%;
-
-
 
     }
 
@@ -396,6 +389,7 @@ input {
             0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
     /* margin-left: -5px; */
     background: #02001c;
+    margin-left: 0px;
     
 }
 
@@ -446,7 +440,7 @@ input {
     .services-section .dot-section img{
         width:55px;
         height: 26pxpx;
-        margin-left: -15px;
+        margin-left: 55px;
         margin-top: -20px;
         
 
@@ -455,7 +449,7 @@ input {
         width: 70px;
         height: 500px;
         margin-top: 10px;
-        margin-left: 10px;    
+        margin-left: 80px;    
 
     }
 
@@ -746,12 +740,8 @@ input {
 
         }
         .company-section .left-section .heading-section h2 {
-        
-           
             font-size: 30px;
             margin-left: 10px;
-            
-
         }
         .company-section .description-section{
             width: 1237px;
@@ -761,10 +751,6 @@ input {
             size: 24px;
             font-size: 20px;
             margin-left: 10px;
-            
-
-            
-
         }
         
         .company-section .image2-section img{
@@ -911,9 +897,7 @@ input {
         height: 15px;
         font:ununtu;
         margin-top: 10px;
-        
-    
-        }
+         }
         
 
         .news-section .describe1 h2{
@@ -922,11 +906,9 @@ input {
             font: ubuntu;
             line-height: 36.77px;
             font-size: 30px;
-            margin-top: 15px;
-            
+            margin-top: 15px;     
         }
-    
-        .news-section .describe2-section .describe p{
+     .news-section .describe2-section .describe p{
             width: 593px;
             height: 73px;
             font:ununtu;
@@ -1292,14 +1274,15 @@ input {
             
         }
         .touch-section .phone{
-            margin-top:-70px ;
+            margin-top:-50px ;
         }
 
         .touch-section .phone label{
             width: 162px;
             height: 27px;
             font-size: 20px;
-            margin-left: 350px;
+            margin-left: 30px;
+            margin-top: 20px;
             
 
         }
@@ -1312,7 +1295,7 @@ input {
             opacity: 70%;
             color: white;
             border-radius: 5px;
-            margin-left: 350px;
+            margin-left: 30px;
 
 
             
@@ -1348,6 +1331,7 @@ input {
             transition: all 0.1s ease; 
             top: 0;
             left: 0;
+            margin-left: -90px;
           }
 
 
