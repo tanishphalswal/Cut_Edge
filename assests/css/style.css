@@ -1147,6 +1147,8 @@ input {
                             display: flex;
                             flex-direction: column;
                             
+                            /* letter-spacing:inherit; */
+                            
                             
                         }
                       
@@ -1167,7 +1169,7 @@ input {
     display: flex;
     position: relative;
     width: 1360px;
-    height: 560px;
+    height: 680px;
               
 }  
 
@@ -1181,7 +1183,7 @@ input {
         }
         .touch-section .line-section img{
             width: 3px;
-            height: 470px;
+            height: 650px;
             border-radius: 2.77px;
             margin-top: 10px;
     
@@ -1209,14 +1211,134 @@ input {
             width: 525px;
             height: 432px;
         }
-        .touch-section .second-section .images img{
+
+
+
+
+
+
+
+
+        .touch-section .form-section .right-section{
+            background: rgba(22, 27, 34, 1); 
+            padding: 30px 30px 30px 30px;
+            border-radius: 10px;
+            margin-top: 0px;
+            margin-left: 20px;
+            width: 1300px;
+            height: 550px;
+        }
+    
+        
+    
+         .touch-section .form-section .right-section .final-form{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .touch-section .form-section .right-section .final-form input{
+             width: 275px;
+             height: 48px;
+             background-color: #161B224a;
+             color: white;
+             border-radius: 10px;
+             border: 0.5px solid rgba(48, 54, 61, 1);
+             padding: 5px 10px;
+             border-radius: 5px;
+        }
+    
+        .touch-section  .form-section .right-section .phone{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            margin-left: 350px;
+            margin-top: -100px;
+        }
+    
+        .touch-section .form-section .right-section .phone input{
+            width: 275px;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-top: -10px;
+       }
+    
+    
+       .touch-section .form-section .right-section .form11-group {
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+    
+        .touch-section .form-section .right-section .form11-group input{
+            width: 625px;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+            padding: 5px 10px;
+            border-radius: 5px;
+             margin-top: 50px; 
+             margin-left:-50px;
+             
+        }
+    
+        .touch-section .form-section .right-section .form22-group{
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+            margin-top: 30px;
+    
+        }
+        .touch-section .form-section .right-section .form22-group input{
+            width: 625px;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+            padding: 5px 10px;
+            border-radius: 5px;
+             margin-top: 50px; 
+             margin-left:-80px;
+        }
+    
+        .touch-section .form-section .right-section  .button-section .custom-button {
+            width: 164px;
+            height: 51px;
+            margin-top:30px ;
+            margin-left:auto;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 30px;
+            border: 1px solid rgba(48, 54, 61, 1);
+            /* padding: 5px 10px; */
+            /* border-radius: 5px; */
+        }
+       
+    
+        
+    
+    
+    
+
+
+
+         .touch-section .form-section .second-section .images img{
             width: 525px;
             height: 432px;
-            padding-top: 120px;
-            margin-left: 150px;
-        }
+            margin-top: -450px;
+            margin-left: 700px;
+        } 
 
-        .touch-section .form-group label{
+        /* .touch-section .form-group label{
             width: 162px;
             height: 27px;
             font-size: 20px;
@@ -1318,14 +1440,14 @@ input {
         .touch-section .form-section{
             margin-left: 10px;
         } 
- 
+  */
         /* .touch-section .touch  .second-section .images img{
             width: 625px;
             height: 425px;
              
 
         } */
-        .touch-section .second-section{
+        /* .touch-section .second-section{
             position: relative;
         }
         .green-shadow {
@@ -1341,7 +1463,7 @@ input {
             top: 0;
             left: 0;
             margin-left: -90px;
-          }
+          } */
 
 
 
