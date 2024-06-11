@@ -715,22 +715,23 @@
 
 
 
-    /* .services-section1 .dot-section img{
+
+    .services-section1 .dot-section img{
         width:55px;
-        height: 26pxpx;
-        margin-left: -50px;
-        margin-top: 0px;
+        height: 26px;
+        margin-left: 0px;
+        margin-top: 20px;
         
 
     }
     .services-section1 .line-section img{
-        width: 60.49px;
+        width: 70px;
         height: 500px;
-        margin-top: 10px;   
-        margin-left: 10px; 
+        margin-top: 10px;
+        margin-left: 20px;    
 
     }
- */
+
 
 
 
@@ -984,7 +985,9 @@
     {
         padding-left: 40px;
          padding-right: 40px;
+         
     }
+    
     .footer-section1 .final-section {
         width: 100%;
         height: auto;
