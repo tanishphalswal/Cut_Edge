@@ -2,17 +2,12 @@
 {
     .grow-section{
         height: 1000px;
-    }
-
-    
+    } 
     .right-section .image img{
         width: 29rem;
         height: 38rem;
         margin-top: 270px;
         margin-left: -470px;
-
-
-
     }
     
     .grow-section .line-section img{
@@ -21,7 +16,6 @@
         top: 11.1rem;
         left:5rem;
         border-radius:0.3rem;
-
     }
     .grow-section .description{
         font-size: 1.5rem;
@@ -30,9 +24,8 @@
         opacity: 70%;
         line-height: 2.25rem;
         margin-left: 20px;
-
-
     }
+
 
 
 
