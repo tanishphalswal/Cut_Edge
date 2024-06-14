@@ -1,3 +1,31 @@
+@media (max-width: 1440px) {
+    .services-section {
+        width: 100%;
+    }
+
+    .services-section .description {
+        width: 90%;
+    }
+
+
+    .services-section  img.background{
+        margin-left:20px;
+        
+
+    }
+    .services-section .flex-container .app-section img,
+    .services-section .flex-container .web-section img,
+    .services-section .flex-container .ui-section img,
+    .services-section .flex-container .digital-section img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
 @media (min-width: 320px) and (max-width: 480px)
 {
     .grow-section{

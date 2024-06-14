@@ -329,7 +329,6 @@ input {
         margin-left: -110px;
 
 
-
     }
 
 
@@ -338,12 +337,8 @@ input {
     width: 90%;
     display: flex;
     margin-top: 0;
-    /* position: relative;
-    overflow: hidden; */
-    
-     /* margin-left: 70px; */
     margin-top: -90px;
-
+    
 }  
 
 
@@ -378,11 +373,6 @@ input {
     }
 
 
-
-
-
-
-
 .services-section .left-section .card-section {
     min-width: 273px;
     height: 370.17px;
@@ -393,7 +383,7 @@ input {
     box-shadow: 
             7.82px 7.82px 3.91px 0px rgba(255, 255, 255, 0.1) inset, 
             0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
-    /* margin-left: -5px; */
+    
     background: #030120;
     margin-left: 0px;
 
@@ -432,7 +422,7 @@ input {
     border: solid 1px rgb(19, 157, 248) ;
     border-radius: 5px;
     padding: 3px 6px;
-    /* opacity: 70%; */
+    
 
     
 }
@@ -441,7 +431,7 @@ input {
     .services-section .services{
         display: flex;
         flex-direction: column;
-         /* width: 10%;  */
+         
     }
 
     .services-section .dot-section img{
@@ -467,7 +457,7 @@ input {
     .services-section .title-box{
         width: 151px;
         height: 28px; 
-        /* opacity: 70%; */
+        
         
 
 
@@ -497,6 +487,10 @@ input {
         height: 380.17px;
         gap: 26px;
         scrollbar-width: none;
+    }
+
+    .flex-container::-webkit-scrollbar{
+        display: none;
     }
     
     .flex-container .app-section img {
@@ -871,6 +865,9 @@ input {
             margin-top: -20px;
         }
 
+
+        
+
         /* .news-section .picture-section{
             width: 594px;
             height: 617px;
@@ -995,7 +992,7 @@ input {
             height: 93px;
             margin-left: -480px;
             margin-top: -20px;
-            padding-top: 10px;
+            padding-top: ;
         } 
 
 
