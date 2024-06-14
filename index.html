@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../assests/css/style.css" >
     <link rel="stylesheet" href="../assests/css/logo.png" >
     <link rel="stylesheet" href="assests/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
     
     
 
@@ -68,36 +69,26 @@
             <div class="logo">
                 <a href="#" class="logo"><img src="../assests/images/about/Header/logo.png" alt="Logo"></a>
             </div>
-            <div class="navbar">
-                <span>  <a href="#home" class="active" style="color: rgba(237, 93, 35, 1) ">HOME</a></span>
-                <span> <a href="#about"  ;>ABOUT</a></span>
-                <span class="dropdown">
-                    <a href="skills"  >SERVICES</a>
-                    <img src="../assests/images/pictures/dropdown1.png">
-                    <div class="dropdown-content">
-                        <a href="#service1">Web Development</a>
-                        <a href="#service2">App Development</a>
-                        <div class="dropdown-submenu">
-                            <a href="#service3">Digital Marketing</a>
-                            <img src="assests/images/pictures/dropdown1.png">
-                            <div class="dropdown-submenu-content">
-                                <a href="#seo">SEO</a>
-                                <a href="#smm">Social Media Marketing</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-       </span>
-                <span><a href="#blog">BLOG</a></span>
-                <span><a href="#contact-form">CONTACT US</a></span>
-
-                <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                  </a> -->
+            <i class="fa-solid fa-bars" id="hamburger"></i>
+            <div class="navbar" id="navbar">
+                <i class="fa-solid fa-x" id="crossBtn"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li class="has-dropdown"><p>Services</p>
+                        <ul>
+                            <li><a href="#">Web development</a></li>
+                            <li><a href="#">app development</a></li>
+                            <li><a href="#">digital marketing</a></li>
+                            <li><a href="#">social media marketing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
             </div>
     </div>
 </div>
-
 
 
 
@@ -1017,7 +1008,15 @@
 <script src="/assests/js/tilt.js"></script>
 <script>
 
-
+let hamburger = document.getElementById("hamburger");
+    let navbar = document.getElementById("navbar");
+    let crossBtn = document.getElementById("crossBtn");
+    hamburger.addEventListener("click",function(){
+        navbar.style.right = "0px"
+    })
+    crossBtn.addEventListener("click",function(){
+        navbar.style.right = "-100%"
+    })
 
   var containers = document.querySelectorAll('.second-section');
   containers.forEach(function(container) {
@@ -1044,7 +1043,6 @@
         });
     }( jQuery ) );
 </script>
-
 
 </body>
 </html>

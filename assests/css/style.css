@@ -76,8 +76,7 @@ input {
 
 .header-container {
     margin-top: 2rem;
-    width: 100%;
-    
+    width: 100%
 }
 
 .headers {
@@ -89,27 +88,7 @@ input {
     backdrop-filter: blur(2px);
     border-radius:10rem;
     position: relative;
-    border: 1px solid rgba(48, 54, 61, 1);
-    display: none;
-
-    
-
 }
-
-.checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-
-}
-#check{
-     display: none;
-}
-
 
 
 
@@ -117,20 +96,14 @@ input {
 .logo{
     display:table-cell;
     width:max-content;
-    
 }
 .logo img{
     width:10rem;
-    margin-top: 10px;
 }
 .navbar {
-    display: table-cell;
-    text-align: right;
-    vertical-align: middle;
-    margin-left: 20px;
-    /* padding-left: -30px; */
-    
-
+    display: flex;
+    justify-content: end;
+    width: 100%;
 }
 .navbar span{
     margin:0 1rem;
@@ -142,17 +115,16 @@ input {
 .navbar span {
     position: relative;
     
-    padding: 0px 0px;
+    padding: 5px 0px;
     margin: 0 0.5rem;
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
-   
+   text-transform: uppercase;
     text-align: center;
 }
-
 
 .navbar .dropdown-content {
     display: none;
@@ -171,13 +143,11 @@ input {
     text-decoration: none;
     display: block;
     text-align: left;
-    width: 180px;
 }
 
 .navbar .dropdown-content a:hover {
-    /* background-color: rgba(254, 67, 15, 0.912); */
-    opacity: 70%;
-    background-color: orangered;
+    background-color: rgba(237, 93, 35, 1);
+    opacity: 90%;
 }
 
 .navbar .dropdown:hover .dropdown-content {
@@ -203,8 +173,6 @@ input {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin-top: 72px;
-    margin-left: -120px;
 }
 
 .dropdown-submenu:hover .dropdown-submenu-content {
@@ -212,17 +180,6 @@ input {
 }
 
 
-.navbar .button{
-    background-color: #f9f9f9;
-    width: 143px;
-    height: 55px;
-    border-radius: 80px;
-    border: 1px;
-
-    /* border: 1px solid rgba(242, 92, 0, 1); */
-    border: 1px solid #FF7518;
-
-}
 
 
 
@@ -247,7 +204,7 @@ input {
 
     .grow-section .line-section img{
         width: 0.1rem;
-        height: 17.8rem;
+        height: 15.8rem;
         top: 11.1rem;
         left:5rem;
         border-radius:0.3rem;
@@ -324,10 +281,11 @@ input {
     }
 
     .right-section .image img{
-        width: 55rem;
+        width: 51rem;
         height: 38rem;
         margin-top: -170px;
         margin-left: -110px;
+
 
 
     }
@@ -335,11 +293,12 @@ input {
 
 
 .services-section {
-    width: 90%;
+    width: 100%;
     display: flex;
     margin-top: 0;
-    margin-top: -90px;
-    
+    position: relative;
+    overflow: hidden;
+    padding: 0 60px;
 }  
 
 
@@ -347,14 +306,21 @@ input {
         position: absolute;
         width: 200px;
         height: 200px;
-         top: 0px;
-         right: 0px; 
+        top: 0px;
+        right: 0px;
         z-index: -1;
         animation: rotate 10s infinite linear;
-         margin-top:650px;
-        margin-right: 100px;
+        margin-top: 70px;
+        margin-left: 90px;
+        
+
+
+
+
         border: none;
-        opacity: 30%;
+        opacity: 70%;
+
+
 
     }
 
@@ -374,6 +340,11 @@ input {
     }
 
 
+
+
+
+
+
 .services-section .left-section .card-section {
     min-width: 273px;
     height: 370.17px;
@@ -384,11 +355,8 @@ input {
     box-shadow: 
             7.82px 7.82px 3.91px 0px rgba(255, 255, 255, 0.1) inset, 
             0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
-    
-    background: #030120;
-    margin-left: 0px;
-
-    
+    margin-left: -5px;
+    background: #02001c;
 }
 
     
@@ -423,7 +391,7 @@ input {
     border: solid 1px rgb(19, 157, 248) ;
     border-radius: 5px;
     padding: 3px 6px;
-    
+    opacity: 70%;
 
     
 }
@@ -432,22 +400,21 @@ input {
     .services-section .services{
         display: flex;
         flex-direction: column;
-         
+        width: 10%;
     }
 
     .services-section .dot-section img{
         width:55px;
         height: 26pxpx;
-        margin-left: 55px;
+        margin-left: -20px;
         margin-top: -20px;
         
 
     }
     .services-section .line-section img{
-        width: 70px;
+        width: 60.49px;
         height: 500px;
-        margin-top: 10px;
-        margin-left: 80px;    
+        margin-top: 10px;    
 
     }
 
@@ -458,7 +425,7 @@ input {
     .services-section .title-box{
         width: 151px;
         height: 28px; 
-        
+        opacity: 70%;
         
 
 
@@ -486,12 +453,8 @@ input {
         width: 100%;
         overflow: scroll;
         height: 380.17px;
-        gap: 26px;
+        gap: 36px;
         scrollbar-width: none;
-    }
-
-    .flex-container::-webkit-scrollbar{
-        display: none;
     }
     
     .flex-container .app-section img {
@@ -537,7 +500,7 @@ input {
         width: 45px;
         height: 45px;
         margin-left: -20px;
-        margin-top: 10px;
+        margin-top: -10px;
     }
 
     .leading-section .client1-section .line-section img{
@@ -551,7 +514,7 @@ input {
         width: 343px;
         height: 50px;
         margin-left: -20px;
-        margin-top: 10px;
+        margin-top: -20px;
 
     }
 
@@ -559,7 +522,7 @@ input {
         width: 1237px;
         height: 66px;
         border: 5px;
-        margin-top: 20px;
+        margin-top: -30px;
         margin-left: 40px;
     }
 
@@ -614,7 +577,6 @@ input {
     .about-section .about1{
         display: flex;
         flex-direction: column;
-        height: 400px;
         
     
     } 
@@ -631,7 +593,9 @@ input {
 
     .about-section .line-section img{
         width: 3px;
-        height: 330px;
+        height: 280px;
+        /* top: 1392px;
+        left: 80px; */
         border-radius: 6px;
         margin-top: 10px;
         
@@ -639,8 +603,8 @@ input {
     }
 
     .about-section .left-section .title-section{
-        width: 529px;
-        height: 54px;
+        width: 229px;
+        height: 34px;
         
         opacity: 70%;
         font-weight: 700;
@@ -657,7 +621,6 @@ input {
     .about-section .left-section .title-section h3{
         font-size: 25px;
         margin-left: 20px;
-        
     
     }
 
@@ -676,12 +639,12 @@ input {
     }
     .left-section .detail-section{
         width: 474px;
-        height: 190px;
+        height: 180px;
         top: 2047px;
         left: 133px;
         opacity: 70%;
-        margin-left: 30px;
-        font-size: 25px;
+        margin-left: 20px;
+        font-size: 20px;
         margin-left: 30px;
         
 
@@ -689,13 +652,13 @@ input {
     }
 
     .about-section  .right-section .image2-section img{
-        width: 650px;
-        height: 380px;
-        
+        width: 538px;
+        height: 279px;
+        top: 1860;
+        left: 732px;
         border-radius: 5px;
         border: 1px;
-        margin-left: 120px;
-        margin-top: 20px;
+        margin-left: 100px;
 
     } 
 
@@ -727,25 +690,28 @@ input {
         }
         .company-section .line-section img{
             width: 3px;
-            height: 350px;
+            height: 400px;
             border-radius: 6px;
             margin-top: 10px;
 
         }
         .company-section .left-section .title-section h2{
-            width: 335px ;
+            width: 235px ;
             height: 34px;
             opacity: 70%;
             letter-spacing: 2%;
             font: 25px;
             margin-left: 10px;
-            margin-top: 15px;
             
 
         }
         .company-section .left-section .heading-section h2 {
+        
+           
             font-size: 30px;
             margin-left: 10px;
+            
+
         }
         .company-section .description-section{
             width: 1237px;
@@ -755,6 +721,10 @@ input {
             size: 24px;
             font-size: 20px;
             margin-left: 10px;
+            
+
+            
+
         }
         
         .company-section .image2-section img{
@@ -815,242 +785,281 @@ input {
 
 
 
- 
+    
+
 .news-section {
     width: 90%;
     margin: 1rem auto;  
     display: flex;
-                          
+                  
 }  
+                
+        .news-section .about1{
+            flex-direction: column;
+                    
+        } 
 
-
-
-.news-section  img.background{
-    position: absolute;
-    width: 300px;
-    height:300px;
-     top: 500;
-     right: 0; 
-    z-index: -1;
-    animation: rotate 10s infinite linear;
-     margin-top:0px; 
-     margin-left: 40px;  
-    border: none;
-    opacity: 30%;
-
-}
-
-.news-section .card{
-    position: relative;
-    z-index: 1;
-}
-
-@keyframes rotate {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-
-}
-
-
-        .news-section .news .dot-section img{
-            width: 51px;
-            height: 51px;
-            margin-left: -20px;
+        .news-section .dot-section img{
+            width: 45px;
+            height: 45px;
+            margin-left: -15px;
             margin-top: -10px;
 
         }
-
+        
         .news-section .line-section img{
             width: 1.39px;
-            height: 700px;
+            height: 734px;
             border-radius: 2.77px;
         }
 
-        .news-section  .heading-section h2{
+        .news-section .heading-section h2{
             width: 410px;
             height: 34px;
             opacity: 70%;
-            font-family: ubuntu;
-            letter-spacing: 2%;
-            line-height: 34px;
-            margin-left: 10px;
-            
-        } 
 
-        .news-section .about-section .about h1{
-            width: 1237px;
+        }
+        .news-section .heading1-section h1{
+            width: 472px;
             height: 53px;
-            justify-content: space space-between;
-            margin-top: -10px;
-            margin-left: -60px;
-    
-        } 
 
+            
 
-        
-        .news-section  .left-section .button-section .custom-button{
+        }
+
+        .news-section .button-section .custom-button{
             width: 100px;
             height: 39px;
             border-radius: 60px;
-            margin-top: -20px;
+            
+            
+
         }
 
+        .news-section .image1-section .imag2 img{
+            width: 593px;
+            height: 396px;
+            border-radius: 9.77px;
+            border: 1px;
+
+        }
+        .news-section .development1-section h2{
+            width: 169px;
+            height: 22px;
+        }
+
+        .news-section .development2-section p{
+            width: 117px;
+            height: 10px;
+            size: 13px;
+            line-height: 15px;
+
+        }
+        .news-section .development3-section h1{
+            width: 538px;
+            height: 74px;
+
+        }
+
+
+
+.news-section{
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    font: ubuntu;
+}  
+    .news-section .dot-section{
+        width: 28px;
+        height: 32px;
+        margin-left: -5px;
+
+    }
+    .news-section .line-section{
+        width: 139px;
+        height: 734px;
+        border-radius: 2.77px;
+        margin-top: 5px;
+    }
+    .news-section  .heading-section h2{
+        width: 410px;
+        height: 34px;
+        opacity: 70%;
+        font-family: ubuntu;
+        letter-spacing: 2%;
+        line-height: 34px;
+        margin-left: -100px;
+        margin-top: -5px;
+    }
+    .news-section .about-section .about h1{
+        width: 1237px;
+        height: 53px;
+        justify-content: space space-between;
+        margin-top: -10px;
+        margin-left: -160px;
+
+    }
+
+    .news-section .button-section .custom-button{
+        width: 100px;
+        height: 39px;
+        border-radius: 60px;
+        /* border:1px; */
+        padding: 10px 20px 10px 20px;
+        gap: 10px;
+        border: 1px solid rgba(255, 255, 255, 1)
+        
+    }
+
+
+    .news-section .button-section{
+        margin-top: -20px;
+        margin-left: -150px;
 
         
+    }
 
-        /* .news-section .picture-section{
-            width: 594px;
-            height: 617px;
-            margin-top: 50px;
-    
-        } */
-    
-        .news-section .picture img{
-            width: 594px;
-            height: 360px;
-            border-radius: 9.77px;
-            border: 1px solid rgba(48, 54, 61, 1);
-            margin-left: px;
-            margin-top: px;
-            
-    
-        }
+    .news-section .picture-section{
+        width: 594px;
+        height: 617px;
+
+    }
+
+    .news-section .picture img{
+        width: 594px;
+        height: 396;
+        border-radius: 9.77px;
+        border: 1px solid rgba(48, 54, 61, 1);
+        margin-left: -110px;
+        margin-top: -30px;
+    }
 
 
-        .news-section .describe-section .describe h2{
-            width: 269px;
-            height: 22px;
-            font: ubuntu;
-            line-height: 22.46px; 
-            margin-top: 10px; 
+    .news-section .describe-section .describe h2{
+        width: 269px;
+        height: 22px;
+        font: ubuntu;
+        line-height: 22.46px; 
+        margin-left: -110px;
+    
+        
+
+}
+
+.news-section .describe-section .describe h4{
+    width: 217px;
+    height: 15px;
+    font:ununtu;
+    
+    margin-left: -110px;
+    margin-top: -10px;
+    
+
     }
     
-    .news-section .describe-section .describe h4{
+    .news-section .describe1 h2{
+        width: 480px;
+        height: 74px;
+        font: ubuntu;
+        line-height: 36.77px;
+        margin-left: -110px;
+        font-size: 30px;
+        margin-top: -15px;
+        
+    }
+
+    .news-section .describe2-section .describe p{
+        width: 593px;
+        height: 73px;
+        font:ununtu;
+        margin-left: -110px;
+        color: rgba(163, 163, 163, 1);
+        margin-top: -20px;
+
+    }
+
+    .news-section .right-section .describe img{
+        width: 188px;
+        height: 183px;
+        border-radius: 9.77px;
+        border-radius: 1px;
+        margin-left: -550px;
+        margin-top:100px;
+
+    } 
+
+    .news-section .right-section .describe1 img{
+        width: 188px;
+        height: 183px;
+        border-radius: 9.77px;
+        border-radius: 1px;
+        margin-left: -550px;
+        margin-top:20px;
+
+    } 
+
+    .news-section .right-section .describe1 img{
+        width: 188px;
+        height: 183px;
+        border-radius: 9.77px;
+        border-radius: 1px;
+        margin-left: -550px;
+        margin-top:20px;
+
+    }
+
+
+    .news-section .right-section .describe2 img{
+        width: 188px;
+        height: 183px;
+        border-radius: 9.77px;
+        border-radius: 1px;
+        margin-left: -550px;
+        margin-top:20px;
+
+    } 
+    .news-section .right-section .describe{
+        width: 389px;
+        height: 73px;
+    }
+
+    .news-section .right-section .describe .describe3 h2{
+        width: 269px;
+        height: 22px;
+        margin-top: -180px;
+        margin-left: -350px;
+        font-size: 15px;
+    }
+
+    .news-section .right-section .describe .describe3 h4{
         width: 217px;
         height: 15px;
-        font:ununtu;
-        margin-top: 10px;
-        }
-        
+        margin-top: -5px;
+        margin-left: -350px;
+        font-size: 10px;
+    }
 
-        .news-section .describe1 h2{
-            width: 480px;
-            height: 74px;
-            font: ubuntu;
-            line-height: 36.77px;
-            font-size: 30px;
-            margin-top: 10px;     
-        }
-     .news-section .describe2-section .describe p{
-            width: 593px;
-            height: 73px;
-            font:ununtu;
-            color: rgba(163, 163, 163, 1);
-            margin-top: 10px;
-    
-        }
+    .news-section .right-section .describe3-section .describe1 h4{
+
+        width:250px;
+        height: 50px;
+        margin-left: -350px;
+        margin-top: -5px;
+        font-size: 15px;
+
+    }
 
 
-        .news-section .right-section .describe img{
-            width: 188px;
-            height: 183px;
-            border-radius: 9.77px;
-           
-            margin-left: -680px;
-            margin-top:120px;
-            
-            
-    
-        } 
-    
-        .news-section .right-section .describe1 img{
-            width: 188px;
-            height: 183px;
-            border-radius: 9.77px;
-            margin-left: -680px;
-            margin-top:-360px;
-            
-            
-    
-        } 
+    .news-section .right-section .describe .describe4-section .describe  p{
+        width:450px;
+        height: 93px;
+        margin-left: -350px;
+        margin-top: -25px;
+        color: rgba(163, 163, 163, 1);
+
+    }
 
 
-        .news-section .right-section .describe2 img{
-            width: 188px;
-            height: 183px;
-            border-radius: 9.77px;
-            border-radius: 1px;
-            margin-left: -680px;
-            margin-top:-330px;
-    
-        } 
-    
-        .news-section .right-section .describe{
-            width: 489px;
-            height: 373px;
-        }      
-        .news-section .right-section .describe .describe3 h2{
-            width: 269px;
-            height: 22px;
-            margin-top: -180px;
-            margin-left: -480px;
-            font-size: 15px;
-        }
-    
-        .news-section .right-section .describe .describe3 h4{
-            width: 217px;
-            height: 15px;
-            margin-top: -5px;
-            margin-left: -480px;
-            font-size: 10px;
-            padding-top: 5px;
-        }
-        .news-section .right-section .describe3-section .describe1 h4{
-
-            width:340px;
-            height: 50px;
-            margin-left: -480px;
-            margin-top: -5px;
-            font-size: 20px;
-            padding-top: 10px;
-    
-        }
-    
-    
-         .news-section .right-section .describe .describe4-section .describe  p{
-            width:400px;
-            height: 93px;
-            margin-left: -480px;
-            margin-top: -0px;
-            opacity: 70%;
-            
-        } 
-
-
-        .news-section .right-section .describe1 .describe3 h2{
-            width: 269px;
-            height: 22px;
-            margin-top: -290px;
-            margin-left: -480px;
-            font-size: 15px;
-            
-
-        }
-
-
-        .news-section .right-section .describe2 .describe3 h2{
-            width: 269px;
-            height: 22px;
-            margin-top: -280px;
-            margin-left: -480px;
-            font-size: 15px;
-            
-
-        }
 
 
 
@@ -1059,151 +1068,208 @@ input {
 
 .client-section{
     width: 90%;
-    margin: 0;
+    margin: 1rem auto;
     display: flex;
-                
-    margin-left: 80px;
+
 }
+
+        
+        .client-section .client{
+            display: flex;
+            flex-direction: column;
+            }
+
+        .client-section .dot-section img{
+            width:55px;
+            height: 55px;
+            margin-left: -10px;
+            margin-top: -15px;
+            }
+        .client-section .line-section img{
+            width: 63.49px;
+            height: 352px;
+            margin-top: 10px;
             
-            .client-section .left-section{
-                width: 90%;
+
+            }
+
+          .client-section .heading-section h3{
+                width: 114px;
+                height: 28px;
+                opacity: 70%;
+                margin-left: -10px;
+                
+
+          } 
+          .client-section .discribe-section h2{
+            width: 192px;
+            height: 40px;
+             margin-left: -15px;
+            margin-top: -5px;
+      }      
+    
+    .client-section .left-section .card-section .heading-card {
+        display: flex;
+    }
+    .client-section .left-section .card-section .heading-card  h3{
+        margin-left: 25px;
+        
+    }
+
+    .client-section .left-section .card-section .heading-card  img{
+        
+        width: 89px;
+        height: 20px;
+
+
+        
+    }
+    .client-section .left-section .card-section .card-items{
+        display: flex;
+        
+        
+    }
+ 
+    
+
+
+
+
+    .client-section{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        padding: 20px 60px;
+    }
+    .client-section .client{
+        width: 10%;
+    }
+    .client-section .left-section{
+        width: 90%;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+
+
+            .review-sec {
                 overflow: scroll;
+                width: 100%;
                 scrollbar-width: none;
-                margin-left: -15px;
                 
             }
-        
-        
-                    .review-sec {
-                        overflow: scroll;
-                        width: 100%;
-                        scrollbar-width: none;
-                        
-                    }
-                    .review-section{
-                        width: 100%;
-                    }
-        
-        
-        
-        
-        
-        
-                    .client-section .left-section .review-section{
+            .review-section{
+                width: 100%;
+            }
+
+
+
+
+
+
+            .client-section .left-section .review-section{
+                display: flex;
+                
+
+            
+            }
+            
+                    .client-section .client{
                         display: flex;
-                        
-        
-                    
-                    }
-                    
-                            .client-section .client{
-                                display: flex;
-                                flex-direction: column;
-                                }
-                    
-                            .client-section .dot-section img{
-                                width:55px;
-                                height: 56pxpx;
-                                top: 487px;
-                                left: 69px;
-                                margin-left: -25px;
-        
-                                }
-                            .client-section .line-section img{
-                                width: 63.49px;
-                                height: 300px;
-                                margin-top: 10px;
-                    
-                                }
-                    
-                              .client-section .heading-section h3{
-                                    width: 114px;
-                                    height: 28px;
-                                    opacity: 70%;
-                                    margin-top: 20px;
-                                     margin-left: 20px; 
-                    
-                              } 
-                              .client-section .discribe-section h2{
-                                width: 192px;
-                                height: 40px;
-                                margin-left: 20px;
-                                margin-top: -5px;
-                          } 
-                          
-                          .client-section .left-section  .review-section .heading-card h3{
-                            margin-left: -5px;
-                          } 
+                        flex-direction: column;
+                        }
             
-                    
-                    
-                          .client-section .left-section .card-section{
-                            width: 323px;
-                            border:  1px;
-                            border-radius: 5px;
-                            
-                            display: flex;
-                             padding: 20px; 
-                            background: rgba(22, 27, 34, 1);
-             
+                    .client-section .dot-section img{
+                        width:25px;
+                        height: 26pxpx;
+                        top: 487px;
+                        left: 69px;
+                        margin-left: -10px;
+                        }
+                    .client-section .line-section img{
+                        width: 63.49px;
+                        height: 300px;
+                        top: 611px;
+                        left: 83px;
+            
+                        }
+            
+                      .client-section .heading-section h3{
+                            width: 114px;
+                            height: 28px;
                             opacity: 70%;
-                    
-                            margin-left: 20px; 
                             
-                          
-              
-                        }
-        
-        
             
-                        .client-section .left-section .card-section .heading-card {
-                            display: flex;
-                            flex-direction: column;
-                            margin-left: 20px;
-                            margin-top:10px;
-                            
-                        }
-                        .client-section .left-section .card-section .heading-card .name{
-                            text-align: end;
-                            position:relative;
-                            
-                            
-                        }
+                      } 
+                      .client-section .discribe-section h2{
+                        width: 192px;
+                        height: 40px;
+                        margin-left: 5px;
+                        margin-top: -5px;
+                  } 
+                  
+                  .client-section .left-section  .review-section .heading-card h3{
+                    margin-left: -5px;
+                  } 
+    
+            
+            
+                  .client-section .left-section .card-section{
+                    width: 323px;
+                    border:  1px;
+                    border-radius: 5px;
                     
-                        .client-section .left-section .card-section .heading-card  img{
+                    display: flex;
+                     padding: 20px; 
+                    background: rgba(22, 27, 34, 1);
+     
+                    opacity: 70%;
+            
+                    margin-left: 20px; 
                     
-                            width: 89px;
-                            height: 20px;
-                    
-                    
-                            
-                        }
-                        .client-section .left-section .card-section .card-items{
-                            display: flex;
-                            flex-direction: column;
-                            
-                            /* letter-spacing:inherit; */
-                            
-                            
-                 }
-                      
-                        
-        
-           
-        
+                  
+      
+                }
 
 
+    
+                .client-section .left-section .card-section .heading-card {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 20px;
+                    margin-top:10px;
+                    
+                }
+                .client-section .left-section .card-section .heading-card .name{
+                    text-align: end;
+                    
+                    
+                }
+            
+                .client-section .left-section .card-section .heading-card  img{
+            
+                    width: 89px;
+                    height: 20px;
+            
+            
+                    
+                }
+                .client-section .left-section .card-section .card-items{
+                    display: flex;
+                    flex-direction: column;
+                    
+                    
+                }
+              
+                
 
+ 
 .touch-section {
     width: 90%;
     margin: 1rem auto;  
     display: flex;
     position: relative;
-    width: 1360px;
-    height: 680px;
               
 }  
-
        
         .touch-section .dot-section img{
             width: 45px;
@@ -1214,7 +1280,7 @@ input {
         }
         .touch-section .line-section img{
             width: 3px;
-            height: 650px;
+            height: 470px;
             border-radius: 2.77px;
             margin-top: 10px;
     
@@ -1242,182 +1308,14 @@ input {
             width: 525px;
             height: 432px;
         }
-
-
-
-
-
-
-
-
-        .touch-section .form-section .right-section{
-            background: rgba(22, 27, 34, 1); 
-            padding: 30px 30px 30px 30px;
-            border-radius: 10px;
-            margin-top: 10px;
-            margin-left: 20px;
-            width: 1300px;
-            height: 550px;
-        }
-    
-        
-    
-         .touch-section .form-section .right-section .final-form{
-            display: flex;
-            flex-direction: column;
-            font-size: 20px;
-            margin-top: 0px;
-
-        }
-        .touch-section .form-section .right-section .final-form input{
-             width: 275px;
-             height: 48px;
-             background-color: #161B224a;
-             color: white;
-             border-radius: 10px;
-             border: 0.5px solid rgba(48, 54, 61, 1);
-             /* padding: 5px 10px; */
-             border-radius: 5px;
-             margin-bottom: 20px;
-             
-        }
-    
-        .touch-section .form-section .right-section .final-form span{
-            font-size: 18px;
-            color: #8B8B8B;
-            margin-top: -40px;
-            position: relative;
-
-
-        }
-        .touch-section  .form-section .right-section .phone{
-            display: flex;
-            flex-direction: column;
-            font-size: 20px;
-            margin-left: 350px;
-            margin-top: -115px;
-            position: relative;
-
-        }
-
-    
-        .touch-section .form-section .right-section .phone input{
-            width: 275px;
-            height: 48px;
-            background-color: #161B224a;
-            color: white;
-            border-radius: 10px;
-            border: 0.5px solid rgba(48, 54, 61, 1);
-             padding: 5px 10px; 
-            border-radius: 5px;
-            margin-top: 0px;
-       }
-    
-
-       .touch-section .form-section .right-section .phone span{
-        font-size: 18px;
-        color: #8B8B8B;
-        margin-top: -20px;
-
-       }
-    
-       .touch-section .form-section .right-section .form11-group {
-            display: flex;
-            flex-direction: row;
-            font-size: 20px;
-            margin-top: 10px;
-        }
-    
-        .touch-section .form-section .right-section .form11-group input{
-            width: 625px;
-            height: 48px;
-            background-color: #161B224a;
-            color: white;
-            border-radius: 10px;
-            border: 0.5px solid rgba(48, 54, 61, 1);
-            padding: 5px 10px;
-            border-radius: 5px;
-             margin-top: 40px; 
-             margin-left:-50px;
-             
-        }
-
-
-        .touch-section .form-section .right-section .form11-group span{
-            font-size: 18px;
-            color: #8B8B8B;
-            margin-top: 90px;
-            margin-left: -620px;
-
-
-        }
-    
-        .touch-section .form-section .right-section .form22-group{
-            display: flex;
-            flex-direction: row;
-            font-size: 20px;
-            margin-top: 20px;
-    
-        }
-        .touch-section .form-section .right-section .form22-group input{
-            width: 625px;
-            height: 48px;
-            background-color: #161B224a;
-            color: white;
-            border-radius: 10px;
-            border: 0.5px solid rgba(48, 54, 61, 1);
-            padding: 5px 10px;
-            border-radius: 5px;
-             margin-top: 40px; 
-             margin-left:-80px;
-        }
-
-        .touch-section .form-section .right-section .form22-group span{
-            font-size: 18px;
-            color: #8B8B8B;
-            margin-top: 100px;
-            margin-left: -620px;
-
-        }
-    
-        .touch-section .form-section .right-section  .button-section .custom-button {
-            width: 164px;
-            height: 51px;
-            margin-top:30px ;
-            margin-left:auto;
-            background-color: #161B224a;
-            color: white;
-            border-radius: 30px;
-            border: 1px solid rgba(48, 54, 61, 1);
-            /* padding: 5px 10px; */
-            /* border-radius: 5px; */
-        }
-       
-    
-        .touch-section .phone input{
-            
-            background-color: #161B224a;
-            
-            color: white;
-            
-
-
-            
-        }
-    
-    
-    
-
-
-
-         .touch-section .form-section .second-section .images img{
+        .touch-section .second-section .images img{
             width: 525px;
             height: 432px;
-            margin-top: -450px;
-            margin-left: 700px;
-        } 
+            padding-top: 120px;
+            margin-left: 150px;
+        }
 
-        /* .touch-section .form-group label{
+        .touch-section .form-group label{
             width: 162px;
             height: 27px;
             font-size: 20px;
@@ -1484,15 +1382,14 @@ input {
             
         }
         .touch-section .phone{
-            margin-top:-50px ;
+            margin-top:-70px ;
         }
 
         .touch-section .phone label{
             width: 162px;
             height: 27px;
             font-size: 20px;
-            margin-left: 30px;
-            margin-top: 20px;
+            margin-left: 350px;
             
 
         }
@@ -1505,7 +1402,7 @@ input {
             opacity: 70%;
             color: white;
             border-radius: 5px;
-            margin-left: 30px;
+            margin-left: 350px;
 
 
             
@@ -1519,14 +1416,14 @@ input {
         .touch-section .form-section{
             margin-left: 10px;
         } 
-  */
-        /* .touch-section .touch  .second-section .images img{
-            width: 625px;
+ 
+        .touch-section .touch  .second-section .images img{
+            width: 1625px;
             height: 425px;
              
 
-        } */
-        /* .touch-section .second-section{
+        }
+        .touch-section .second-section{
             position: relative;
         }
         .green-shadow {
@@ -1541,8 +1438,7 @@ input {
             transition: all 0.1s ease; 
             top: 0;
             left: 0;
-            margin-left: -90px;
-          } */
+          }
 
 
 
@@ -1592,7 +1488,7 @@ input {
     }
 
     .footer-section .final-section .ourServices {
-        width: 276px;
+        width: 176px;
         height: 184;
         margin-left: 800px;
         margin-top: -180px;
@@ -1601,14 +1497,14 @@ input {
     }
 
     .footer-section .final-section .ourServices .Servicesss h2{
-        width: 211px;
-        height: 19px;
+        width: 111px;
+        height: 29px;
         font-size: 20px;
 
     }
 
     .footer-section .final-section .ourServices .Servicesss .Services1 p{
-        width: 476px;
+        width: 176px;
         height: 139px;
     }
 
@@ -1616,7 +1512,7 @@ input {
     
 
     .footer-section .final-section .Contact-section{
-        width: 470px;
+        width: 270px;
         height: 126px;
         margin-top: -20px;
 
@@ -1642,9 +1538,9 @@ input {
 
      .footer-section .final-section .footer2{
         background-color: rgba(22, 27, 34, 1);
-        margin-left: 70px;
-        /* margin-top: 90px; */
-        /* width: 100%; */
+        margin-left: 90px;
+        margin-top: 90px;
+        width: 100%;
         height: 100px;
         margin-top: 120px;
 
@@ -1667,7 +1563,6 @@ input {
     .footer-section .final-section .footer2 .flex-container{
         display:flex;
         margin-left: -20px;
-    
         
         
         
@@ -1675,7 +1570,7 @@ input {
     }
 
     .footer-section .final-section .footer2 .flex-container .media-section{
-        width: 478px;
+        width: 278px;
         height: 40px;
         margin-left: 1200px;
         margin-top: -10px;
@@ -1703,7 +1598,7 @@ input {
 
 
 
-
+ /* about page css process  */
 
 
 #card-effect1 div[class*='kursor'].kursor--3 {
@@ -1727,1866 +1622,61 @@ input {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* about page css process  */
-
-
-
-
-
-
-.header-container {
-    margin-top: 2rem;
-    width: 100%
-    
-}
-
-        .headers {
-            width: 90%;
-            padding:1rem;
-            margin: auto;
-            display: table;
-            background: #161B224a;
-            backdrop-filter: blur(2px);
-            border-radius:10rem;
-            position: relative;
-        }
-
-        .logo{
-            display:table-cell;
-            width:max-content;
-        }
-        .logo img{
-            width:10rem;
-        }
-        .navbar {
-            display: table-cell;
-            text-align: right;
-            vertical-align: middle;
-            margin-left: 20px;
-            padding-left: -30pxpx;
-            font: ubuntu;
-
-        }
-        .navbar span{
-            margin:0 1rem;
-        }
-
-        .navbar span {
-            position: relative;
-            
-            padding: 5px 0px;
-            margin: 0 0.5rem;
-        }
-
-        .navbar a {
-            color: white;
-            text-decoration: none;
-        
-            text-align: center;
-        }
-
-        .navbar .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-            top: 100%;
-            left: 0;
-        }
-
-        .navbar .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left;
-        }
-
-        .navbar .dropdown-content a:hover {
-            background-color: rgba(237, 93, 35, 1);
-            opacity: 90%;
-        }
-
-        .navbar .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
-        .navbar span{
-            margin:0 1rem;
-        }
-
-
-
-        .dropdown-submenu {
-            position: relative;
-        }
-
-        .dropdown-submenu-content {
-            display: none;
-            position: absolute;
-            left: 100%;
-            top: 0;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-
-        .dropdown-submenu:hover .dropdown-submenu-content {
-            display:block;
-        }
-
-
-
-
-
-
-
-
-
-
-.about-section1 {
-    width: 90%;
-    margin:  auto;
+.navbar ul{
     display: flex;
-     margin-top: 20px;  
+    gap: 15px;    
 }
-
-        .about-section1 .dot-section img{
-            width: 12px;
-            height: 12px;
-        }
-
-        .about-section1 .line-section img{
-            width: 3px;
-            height: 850px;
-            
-        }
-
-        .about-section1 .left-section .heading {
-            width: 264px;
-            height: 80px;
-            font-size: 50px;
-            margin-left: 50px;
-            margin-top: 300px;
-        }
-
-
-        .about-section1 .left-section .heading img{
-            width: 190px;
-            height: 8px;
-            margin-bottom: 30px;
-        }
-
-        .about-section1 .right-section .image{
-            height:756px;
-            width:920px;
-            background-color: rgba(22, 27, 34, 1);
-            border: solid 0.5px #404040;
-            border-radius: 5px;
-            margin-left: 170px;
-     
-        }
-        .about-section1 .right-section .image img{
-            
-            margin: 80px;
-            /* width: 300px; */
-            
-        }
-
-
-
-
-
-        .services-section1 {
-            width: 90%;
-            display: flex;
-            margin-top: 0;
-            /* position: relative;
-            overflow: hidden; */
-            
-            /* margin-left: 70px;
-            margin-top: -90px; */
-        
-        }  
-        
-        
-            .services-section1  img.background{
-                position: absolute;
-                width: 200px;
-                height: 200px;
-                 top: 0px;
-                 right: 0px; 
-                z-index: -1;
-                animation: rotate 10s infinite linear;
-                 margin-top:1100px;
-                margin-right: 100px;
-                border: none;
-                opacity: 70%;
-             
-        
-            }
-        
-            .services-section1 .card{
-                position: relative;
-                z-index: 1;
-            }
-        
-            @keyframes rotate {
-                0%{
-                    transform: rotate(0deg);
-                }
-                100%{
-                    transform: rotate(360deg);
-                }
-        
-            }
-        
-        
-        
-        
-        
-        
-        
-        .services-section1 .left-section .card-section {
-            min-width: 273px;
-            height: 370.17px;
-            border: none;
-            border-radius: 15.64px;
-             border-color: #ffffff;
-            padding: 25px;
-            box-shadow: 
-                    7.82px 7.82px 3.91px 0px rgba(255, 255, 255, 0.1) inset, 
-                    0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
-            /* margin-left: -5px; */
-            background: #02001c;
-            margin-left: 0px;
-            
-        }
-        
-            
-        
-        .services-section1 .left-section .card-section .heading-card {
-            display: flex;
-            
-        }
-        .services-section1 .left-section .card-section .heading-card  h3{
-            margin-left: 25px;
-            
-        }
-        .services-section1 .left-section .card-section .card-items{
-            display: flex;
-            height: 260px;
-        
-            
-            
-        }
-        .services-section1 .left-section .card-section ul{
-            list-style: none;
-            line-height: 40px;
-            padding: 10px 0px;
-            opacity: 70%;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-        
-        }
-        .services-section1 .left-section .card-section button{
-            background-color: #01001c;
-            border: solid 1px rgb(19, 157, 248) ;
-            border-radius: 5px;
-            padding: 3px 6px;
-            /* opacity: 70%; */
-        
-            
-        }
-        
-        
-            .services-section1 .services{
-                display: flex;
-                flex-direction: column;
-                 /* width: 10%;  */
-            }
-        
-            .services-section1 .dot-section img{
-                width:55px;
-                height: 26pxpx;
-                margin-left: 55px;
-                margin-top: -10px;
-                
-        
-            }
-            .services-section1 .line-section img{
-                width: 70px;
-                height: 500px;
-                margin-top: 10px;
-                margin-left: 80px;    
-        
-            }
-        
-            .services-section1 .left-section {
-                padding: 1rem;
-                width: 90%;
-            }
-            .services-section1 .title-box{
-                width: 151px;
-                height: 28px; 
-                /* opacity: 70%; */
-                
-        
-        
-            }
-            .services-section1 .title-box h3{
-                font-size: 24px;
-                margin-top: -10px;
-                margin-left: -20px;
-            }
-        
-            .services-section1 .description{
-                width: 539px;
-                height: 100px;
-              
-                margin-top: -25px;        
-            }
-            .services-section1 .description h2{
-                font-size: 34px;
-                margin-left: -20px;
-            }
-            
-        
-        
-            .services-section1 .flex-container{
-                width: 100%;
-                overflow: scroll;
-                height: 380.17px;
-                gap: 26px;
-                scrollbar-width: none;
-            }
-            
-            .flex-container .app-section img {
-                width: 273px;
-                height: 380.17px;
-                border-radius: 15.64px;  
-                box-shadow: 
-                    7.82px 7.82px 3.91px 0px rgba(255, 255, 255, 0.1) inset, 
-                    0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
-            }
-            
-        
-            .flex-container .web-section img{
-                width: 273px;
-                height: 380.17px;
-                border-radius: 15.64px;
-            }
-        
-            .flex-container .ui-section img{
-                width: 273px;
-                height: 380.17px;
-                border-radius: 15.64px;
-            }
-            .flex-container .digital-section img{
-                width: 273px;
-                height: 380.17px;
-                border-radius: 15.64px;
-            }
-        
-        
-         
-
-
-
-   
-
-
-/* 
-.services-section1 {
-    width: 90%;
-    display: flex;
-    margin-top: 0;
+.navbar .has-dropdown{
     position: relative;
-    overflow: hidden;
-    margin-left: 60px;
-}  
-
-        .services-section1  img.background{
-            position: absolute;
-            width: 250px;
-            height: 250px;
-            top: 0px;
-            right: 0px;
-            z-index: -1;
-            animation: rotate 10s infinite linear;
-            margin-top: 70px;
-            margin-left: 90px;
-            border: none;
-            opacity: 70%;
-    
-        }
-    
-        .services-section1 .card{
-            position: relative;
-            z-index: 1;
-        }
-    
-        @keyframes rotate {
-            0%{
-                transform: rotate(0deg);
-            }
-            100%{
-                transform: rotate(360deg);
-            }
-    
-        }
-    
-    
-        .services-section1 .left-section .card-section {
-            min-width: 273px;
-            height: 370.17px;
-            border: none;
-            border-radius: 15.64px;
-            border-color: #ffffff;
-            padding: 25px;
-            box-shadow: 
-                    7.82px 7.82px 3.91px 0px rgba(255, 255, 255, 0.1) inset, 
-                    0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
-            margin-left: -5px;
-            background: #02001c;
-        }
-        
-            
-        
-        .services-section1 .left-section .card-section .heading-card {
-            display: flex;
-            
-        }
-        .services-section1 .left-section .card-section .heading-card  h3{
-            margin-left: 25px;
-            
-        }
-        .services-section1 .left-section .card-section .card-items{
-            display: flex;
-            height: 260px;
-        
-            
-            
-        }
-        .services-section1 .left-section .card-section ul{
-            list-style: none;
-            line-height: 40px;
-            padding: 10px 0px;
-            opacity: 70%;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-        
-        }
-        .services-section1 .left-section .card-section button{
-            background-color: #01001c;
-            border: solid 1px rgb(19, 157, 248) ;
-            border-radius: 5px;
-            padding: 3px 6px;
-            opacity: 70%;
-        
-            
-        }
-        
-    
-        .services-section1 .services{
-            display: flex;
-            flex-direction: column;
-            width: 10%;
-        }
-    
-        .services-section1 .dot-section img{
-            width:55px;
-            height: 26pxpx;
-            margin-left: -10px;
-            margin-top: 0px;
-            
-    
-        }
-        .services-section1 .line-section img{
-            width: 60.49px;
-            height: 500px;
-            margin-top: 10px;   
-            margin-left: 15px; 
-    
-        }
-    
-        .services-section1 .left-section {
-            padding: 1rem;
-            width: 90%;
-        }
-        .services-section1 .title-box{
-            width: 151px;
-            height: 28px; 
-            opacity: 70%;
-            
-    
-    
-        }
-        .services-section1 .title-box h3{
-            font-size: 24px;
-            margin-top: 0px;
-            margin-left: -80px;
-        }
-    
-        .services-section1 .description{
-            width: 539px;
-            height: 100px;
-          
-            margin-top: -25px;
-            margin-left: -60px;        
-        }
-        .services-section1 .description h2{
-            font-size: 34px;
-            margin-left: -20px;
-        }
-        
-    
-    
-        .services-section1 .flex-container{
-            width: 100%;
-            overflow: scroll;
-            height: 380.17px;
-            gap: 36px;
-            scrollbar-width: none;
-            margin-top: 20px;
-            margin-left: -30px;
-        }
-        
-        .flex-container .app-section img {
-            width: 273px;
-            height: 380.17px;
-            border-radius: 15.64px;  
-            box-shadow: 
-                7.82px 7.82px 3.91px 0px rgba(255, 255, 255, 0.1) inset, 
-                0px -3.91px 19.56px 0px rgba(0, 250, 250, 0.35) inset;
-        }
-        
-    
-        .flex-container .web-section img{
-            width: 273px;
-            height: 380.17px;
-            border-radius: 15.64px;
-        }
-    
-        .flex-container .ui-section img{
-            width: 273px;
-            height: 380.17px;
-            border-radius: 15.64px;
-        }
-        .flex-container .digital-section img{
-            width: 273px;
-            height: 380.17px;
-            border-radius: 15.64px;
-        }
-    
-    
-     */
-
-
-.choose-section{
-    width: 90%;
-    margin: 1rem auto;
-    display: flex;
-    font: ubuntu;
-                
 }
-
-    .choose-section .choose .dot-section img{
-        width: 55px;
-        height: 55px;
-        margin-left: -20px;
-    }
-
-    .choose-section .choose .line-section img{
-        width: 3px;
-        height: 606px;
-        margin-top: 20px;
-    }
-    .choose-section .left-section .left h2{
-        width: 332px;
-        height: 28px;
-        line-height: 17.58px;
-        letter-spacing: 2%;
-        opacity: 70%;
-        margin-left: 20px; 
-    } 
-    .choose-section .left1 h1{
-        width: 349px;
-        height: 40px;
-        size:35px;
-        font: ubuntu;
-        margin-left: 20px;
-
-    }
-
-    .choose-section .description {
-        width: 650px;
-        height: 596px;
-        opacity: 70%;
-        line-height: 36px; 
-        margin-left: 0px;
-        font: ubuntu;
-        font-size: 14px;
-        margin-left: 20px;
-
-
-    }
-
-    .choose-section .bottom .bottom-image img{
-        width: 1237px;
-        height: 101px;
-        border-radius: 5px;
-        margin-top: 70px;
-        
-    }
-
-    .choose-section  .image-section img{
-        width: 510px;
-        height: 502px;
-        border-radius: 5px;
-        border-radius: 1px;
-        margin-left: 70px;
-
-    }
-
-
-
-
-
-
-
-
-
-
-  
-
-
-.client-section1{
-        width: 90%;
-        margin: 0;
-        display: flex;
-        /* padding: 20px 60px; */
-        margin-left: 80px;
-}
-    /* .client-section1 .client{
-        width: 10%;
-    } */
-    .client-section1 .left-section{
-        width: 90%;
-        overflow: scroll;
-        scrollbar-width: none;
-    }
-
-
-            .review-sec {
-                overflow: scroll;
-                width: 100%;
-                scrollbar-width: none;
-                
-            }
-            .review-section{
-                width: 100%;
-            }
-
-
-
-
-
-
-            .client-section1 .left-section .review-section{
-                display: flex;
-                
-
-            
-            }
-            
-                    .client-section1 .client{
-                        display: flex;
-                        flex-direction: column;
-                        }
-            
-                    .client-section1 .dot-section img{
-                        width:55px;
-                        height: 56pxpx;
-                        top: 487px;
-                        left: 69px;
-                        margin-left: -25px;
-
-                        }
-                    .client-section1 .line-section img{
-                        width: 63.49px;
-                        height: 300px;
-                        margin-top: 10px;
-            
-                        } 
-            
-                    .client-section1 .heading-section h3{
-                            width: 114px;
-                            height: 28px;
-                            opacity: 70%;
-                            margin-top: 20px;
-                            /* margin-left: 50px; */
-            
-                      } 
-                      .client-section1 .discribe-section h2{
-                        width: 192px;
-                        height: 40px;
-                        margin-left: 5px;
-                        margin-top: -5px;
-                  } 
-                  
-                  .client-section1 .left-section  .review-section .heading-card h3{
-                    margin-left: -5px;
-                  } 
-    
-            
-            
-                  .client-section1 .left-section .card-section{
-                    width: 323px;
-                    border:  1px;
-                    border-radius: 5px;
-                    
-                    display: flex;
-                     padding: 20px; 
-                    background: rgba(22, 27, 34, 1);
-     
-                    opacity: 70%;
-            
-                    margin-left: 20px; 
-                    
-                  
-      
-                }
-
-
-    
-                .client-section1 .left-section .card-section .heading-card {
-                    display: flex;
-                    flex-direction: column;
-                    margin-left: 20px;
-                    margin-top:10px;
-                    
-                }
-                .client-section1 .left-section .card-section .heading-card .name{
-                    text-align: end;
-                    
-                    
-                }
-            
-                .client-section1 .left-section .card-section .heading-card  img{
-            
-                    width: 89px;
-                    height: 20px;
-            
-            
-                    
-                }
-                .client-section1 .left-section .card-section .card-items{
-                    display: flex;
-                    flex-direction: column;
-                    
-                    
-                }
-              
-                
-
-   
-
-
-
-
-
-.touch-section1 {
-    width: 90%;
-    margin: 1rem auto;  
-    display: flex;
-    position: relative;
-    width: 1360px;
-    height: 560px;
-
-                          
-}  
-                   
-                    .touch-section1 .dot-section img{
-                        width: 45px;
-                        height: 55px;
-                        margin-left: -20px;
-                        margin-top: -15px;
-                            
-                    }
-                    .touch-section1 .line-section img{
-                        width: 3px;
-                        height: 470px;
-                        border-radius: 2.77px;
-                        margin-top: 10px;
-                
-                    
-                    }  
-                    
-                    .touch-section1 .heading-section h3{
-                        width: 100px;
-                        height: 18px;
-                        opacity: 70%;
-                        margin-left: 30px;
-            
-            
-            
-                    }
-                    .touch-section1 .description h2{
-                        width: 441px;
-                        height: 80px;
-                        margin-left: 30px;
-                        margin-top: 10px;
-            
-                    }
-            
-                    .touch-section1 .image img{
-                        width: 525px;
-                        height: 432px;
-                    }
-                    .touch-section1 .second-section .images img{
-                        width: 525px;
-                        height: 432px;
-                        padding-top: 120px;
-                        margin-left: 70px;
-                    }
-            
-                    .touch-section1 .form-group label{
-                        width: 162px;
-                        height: 27px;
-                        font-size: 20px;
-                        margin-left: 30px;
-                        margin-top: 20px;
-                      
-                    }
-            
-                    .touch-section1 .form-group input{
-                        width: 275px;
-                        height: 48px;
-                        background-color: #161B224a;
-                        opacity: 70%;
-                        color: white;
-                        border-radius: 5px;
-                        margin-left: 30px;
-                        
-                    }
-            
-                    .touch-section1 .form1-group label{
-                        width: 162px;
-                        height: 27px;
-                        font-size: 20px;
-                        margin-left: 30px;
-            
-                    }
-            
-                    .touch-section1 .form1-group input{
-                        width: 575px;
-                        height: 84px;
-                        background-color: #161B224a;
-                         opacity: 70%; 
-                         color: white;
-                        border-radius: 5px;
-                        margin-left: 30px;
-        
-                    } 
-                    .touch-section1 .form2-group label{
-                        width: 162px;
-                        height: 27px;
-                        font-size: 20px;
-                        margin-left: 30px;
-            
-                    }
-                    .touch-section1 .form2-group input{
-                        width: 575px;
-                        height: 84px;
-                        background-color: #161B224a;
-                        opacity: 70%;
-                        color: white;
-                        border-radius: 5px;
-                        margin-left: 30px;    
-                    }
-                    .touch-section1 .phone{
-                        margin-top:-70px ;
-                        
-                    }
-                    .touch-section1 .phone label{
-                        width: 162px;
-                        height: 27px;
-                        font-size: 20px;
-                        margin-left: 50px;
-                    }
-                    .touch-section1 .phone input{
-                        width: 275px;
-                        height: 48px;
-                        background-color: #161B224a;
-                        opacity: 70%;
-                        color: white;
-                        border-radius: 5px;
-                        margin-left: 50px;
-                        /* border-color: none; */
-                        
-                    }
-                    .touch-section1 .custom-button{
-                        width: 164px;
-                        height: 51px;
-                    }
-                    .touch-section1 .form-section{
-                        margin-left: 10px;
-                    } 
-                    .touch-section1 .touch  .second-section .images img{
-                        width: 1625px;
-                        height: 425px;
-                    }
-                    .touch-section1 .second-section{
-                        position: relative;
-                    }
-
-
-
-
-                    .green-shadow {
-                        position: absolute;
-                        width: 1px;
-                        z-index: 9;
-                        height: 1px;
-                        box-shadow: 0px 0px 93px 114px rgba(0, 216, 54, 0.447);
-                        opacity: 0.5;
-                        border-radius: 50%;
-                        pointer-events: none;
-                        transition: all 0.1s ease; 
-                        top: 0;
-                        left: 0;
-                      }
-            
-
-                                /* FOOTER SECTION  */
-
-        
-.footer-section1{
-    width: 100%;
-    margin: 1rem auto;
-    display: flex;
-
-} 
-    .footer-section1 .final-section{
-        width: 1440px;
-        height: 341px;
-
-    }
-    .footer-section1  .footer-container{
-        width: 1300px;
-        height: 184px;
-
-    }
-    .footer-section1 .footer-container img{
-        width: 1440px;
-
-        
-    }
-
-    .footer-section1 .final-section .footer-container .footer img{
-        width:197px ;
-        height: 38px;
-        margin-left: 70px;
-        margin-top: 20px;
-
-    }
-    .footer-section1 .final-section .footer-container .description p{
-        width: 528px;
-        height: 87px;
-        margin-left: 70px;
-        margin-top: 20px;
-        padding-top: 30px;
-
-
-    }
-
-    .footer-section1 .final-section .ourServices {
-        width: 276px;
-        height: 184;
-        margin-left: 800px;
-        margin-top: -180px;
-
-
-    }
-
-    .footer-section1 .final-section .ourServices .Servicesss h2{
-        width: 111px;
-        height: 29px;
-        font-size: 20px;
-
-    }
-
-    .footer-section1 .final-section .ourServices .Servicesss .Services1 p{
-        width: 176px;
-        height: 139px;
-    }
-    .footer-section1 .final-section .Contact-section{
-        width: 270px;
-        height: 126px;
-        margin-top: -20px;
-
-    }
-    .footer-section1 .final-section .Contact-section .contact{
-        margin-left: 1100px;
-        margin-top: -220px;
-    }
-    .footer-section1 .final-section .Contact-section .contact .content-section h2{
-        width: 1251px;
-        height: 29px;
-
-    }
-    .footer-section1 .final-section .Contact-section .contact .detail-section p{
-        width: 270px;
-        height: 81px;
-    }
-     .footer-section1 .final-section .footer2{
-        background-color: rgba(22, 27, 34, 1);
-        margin-left: 90px;
-        margin-top: 90px;
-        width: 100%;
-        height: 100px;
-        margin-top: 120px;
-    } 
-    .footer-section1 .footer2 .footer2-content h3{
-        width: 469px ;
-        height: 24px;
-        padding-left: 50px;
-        padding-top: 50px;
-        margin-top: -60px;  
-    }
-    .footer-section1 .final-section .footer2 .flex-container{
-        display:flex;
-        margin-left: -20px;    
-    }
-    .footer-section1 .final-section .footer2 .flex-container .media-section{
-        width: 278px;
-        height: 40px;
-        margin-left: 1200px;
-        margin-top: -10px;   
-    }
-    .footer-section1 .final-section .footer2 .flex-container .media-section img{
-        width: 26px;
-        height: 27px;
-        margin-left: 10px;
-        margin-top: 0px;
-    }
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CONTACT US PAGE */
-
-
-
-
-
-*{
-    font: ubuntu;
-}
-
-
-
-.header-container1 {
-    margin-top: 2rem;
-    width: 90%;
-}
-
-
-.checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-
-}
-#check{
+.navbar .has-dropdown ul{
     display: none;
 }
-
-.headers1 {
-    width: 90%;
-    padding:1rem;
-    margin-left:200px;
-    display: table;
-    background: #161B224a;
-    backdrop-filter: blur(2px);
-    border-radius:10rem;
-    margin-left: 50px;
-    /* position: relative; */
-
-}
-
-.logo{
-    display:table-cell;
-    width:max-content;
-}
-.logo img{
-    width:10rem;
-}
-.navbar {
-    display: table-cell;
-    text-align: right;
-    vertical-align: middle;
-    /* margin-left: 20px; */
-    margin-left: 350px;
-}
-.navbar span{
-    margin:0 1rem;
-}
-
-
-
-
-.navbar span {
-    position: relative;
-    
-    padding: 5px 0px;
-    margin: 0 0.5rem;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-   
-    text-align: center;
-}
-
-.navbar .dropdown-content {
-    display: none;
+.navbar .has-dropdown:hover ul{
+    display: flex;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    top: 100%;
+    top: 30px;
     left: 0;
+    flex-direction: column;
+    width: 200px;
+    height: fit-content;
+    background-color: #07081e;
+    padding: 15px;
+    text-align: start;
 }
-
-.navbar .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.navbar .dropdown-content a:hover {
-    background-color: rgba(237, 93, 35, 1);
-    opacity: 90%;
-}
-
-.navbar .dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.navbar span{
-    margin:0 1rem;
-}
-
-
-
-.dropdown-submenu {
-    position: relative;
-}
-
-.dropdown-submenu-content {
+#hamburger , #crossBtn{
     display: none;
-    position: absolute;
-    left: 100%;
-    top: 0;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
-
-.dropdown-submenu:hover .dropdown-submenu-content {
-    display:block;
+#navbar ul{
+    margin: 0;
+}
+#navbar ul li{
+    margin: 0;
 }
 
 
-.nav-button .custom-button{
-    width:9.8rem;
-    height: 2.5rem;
-    border-radius:3.1rem;
-    border:0.5px;
-    padding:5px;
-    
-    border: 0.5px solid #fff;
-    background: #161B224a;
-    margin-left: 20px;
-    border: 1px solid rgba(242, 92, 0, 1);
-    background-color: #f9f9f9;
-    color: black;
-
-}
-
- .navbar .button-section{
-    width: 143px;
-    height:55px;
-    border-radius:3.1rem;
-    border: 0.5px;
-    padding:5px;
-
-
-}
-
-
-
-
-
-
-
-
-/* 
-    *{
-        font: ubuntu;
+@media screen and (max-width:768px) {
+    #hamburger, #crossBtn{
+        display: block;
     }
-    
-    
-    
-    .header-container {
-        margin-top: 2rem;
-        width: 100%
-    }
-    
-    .headers1 {
-        width: 95%;
-        padding:1rem;
-        margin: auto;
-        display: table;
-        background: #161B224a;
-        backdrop-filter: blur(2px);
-        border-radius:10rem;
-        position: relative;
-    
-    }
-    
-    .logo{
-        display:table-cell;
-        width:max-content;
-    }
-    .logo img{
-        width:10rem;
+    #crossBtn {
+        position: absolute;
+        top: 0;
+        right: 24px;
     }
     .navbar {
-        display: table-cell;
-        text-align: right;
-        vertical-align: middle;
-        margin-left: 20px;
-        margin-left: 300px;
-    }
-    .navbar span{
-        margin:0 1rem;
-    }
-    
-    
-    
-    
-    .navbar span {
-        position: relative;
-        
-        padding: 5px 0px;
-        margin: 0 0.5rem;
-    }
-    
-    .navbar a {
-        color: white;
-        text-decoration: none;
-       
-        text-align: center;
-    }
-    
-    .navbar .dropdown-content {
-        display: none;
+        display: flex;
         position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        top: 100%;
-        left: 0;
+        right: -100%;
+        width: 60%;
+        background: #07081e;
+        padding: 15px;
+        transition: .3s;
     }
-    
-    .navbar .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-    }
-    
-    .navbar .dropdown-content a:hover {
-        background-color: rgba(237, 93, 35, 1);
-        opacity: 90%;
-    }
-    
-    .navbar .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    
-    .navbar span{
-        margin:0 1rem;
-    }
-    
-    
-    
-    .dropdown-submenu {
-        position: relative;
-    }
-    
-    .dropdown-submenu-content {
-        display: none;
-        position: absolute;
-        left: 100%;
-        top: 0;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-    
-    .dropdown-submenu:hover .dropdown-submenu-content {
-        display:block;
-    }
-    
-
-    .nav-button .custom-button{
-        width:9.8rem;
-        height: 2.5rem;
-        border-radius:3.1rem;
-        border:0.5px;
-        padding:5px;
-        
-        border: 0.5px solid #fff;
-        background: #161B224a;
-        margin-left: 20px;
-        border: 1px solid rgba(242, 92, 0, 1);
-        background-color: #f9f9f9;
-        color: black;
-
-    }
-    
-     .navbar .button-section{
-        width: 143px;
-        height:55px;
-        border-radius:3.1rem;
-        border: 0.5px;
-        padding: 5px;
-
-
-
-    }
-
-
-  */
-
- 
-.contact-section {
-    width: 90%;
-    margin:  auto;
-    display: flex;
-     margin-top: 20px;  
-}
-
-        .contact-section .dot-section img{
-            width: 12px;
-            height: 12px;
-        }
-
-        .contact-section .line-section img{
-            width: 3px;
-            height: 750px;
-        }
-
-        .contact-section .left-section .heading {
-            width: 250px;
-            height: 80px;
-            font-size: 50px;
-            margin-left: 50px;
-            margin-top: 300px;
-        }
-
-
-        .contact-section .left-section .heading img{
-            width: 190px;
-            height: 8px;
-            margin-top: -80px;
-            margin-left: 10px;
-        }
-
-        .contact-section .right-section .image{
-            height:756px;
-            width:920px;
-            background-color: rgba(22, 27, 34, 1);
-            border: solid 0.5px #404040;
-            border-radius: 5px;
-            margin-left: 170px;
-     
-        }
-        .contact-section .right-section .image img{
-            
-            margin: 80px;
-            
-        }
-
-
-
-
-
-
-
-
-
-
-     .form-section {
+    .navbar ul {
+        background-color: #07081e;
+        flex-direction: column;
+        gap: 15px;
         width: 100%;
-        height: 396px;
-        display: flex;
-        
-    } 
-
-
-    .form-section  img.background{
-        position: absolute;
-        width: 200px;
-        height: 200px;
-        top: -80px;
-        right: 50px;
-        z-index: -1;
-        animation: rotate 10s infinite linear;
-         margin-top: 90px;
-        margin-left: 70px;
-        border: none;
-        opacity: 70%;
-
-
-
     }
-    .form-section  {
-        position: relative;
-        z-index: 1;
-    } 
-
-    @keyframes rotate {
-        0%{
-            transform: rotate(0deg);
-        }
-        100%{
-            transform: rotate(360deg);
-        }
-
-    }
-
-    .form-section .form .dot-section img{
-        width:45px ;
-        height: 45px;
-        margin-left: 55px;
-        margin-top: 20px;
-    }
-
-    .form-section .form .line-section img{
-        width:3px ;
-        height: 510px;
-        margin-left: 75px;
-        
-    }
-
-    .form-section .left-section {
-        background: rgba(22, 27, 34, 1); 
-        padding: 10px 20px 10px 20px;
-        border-radius: 10px;
-        max-width: 400px;
-        
-        text-align: center;
-        margin-top: 70px;
-        
-
-        width: 415px;
-        height: 216px;
-
-
-
-    }
-
-
-
-    .form-section .header h2 {
-        font-size: 24px;
-        
-        margin-bottom: 20px;
-        margin-top: -50px;
-        margin-left:-220px;
-
-    }
-
-    .form-section .left{
-        
-        width: 400px;
-        height: 256px;
-        margin-top: 40px;
-    }
-
-    
-
-    .form-section .contact-item {
-        display: flex;
-        
-        margin-bottom: 25px;
-    }
-
-    .form-section .contact-item .icon {
-        width: 24px;
-        height: 24px;
-        margin-right: 10px;
-    }
-
-    .form-section .contact-item span{
-        border: 0.5px solid rgba(48, 54, 61, 1);
-        padding: 5px 10px;
-        border-radius: 5px;
-         margin-right: 10px; 
-    }
-
-    .form-section .right-section{
-        background: rgba(22, 27, 34, 1); 
-        padding: 30px 30px 30px 30px;
-        border-radius: 10px;
-        margin-top: 70px;
-        margin-left: 60px;
-        width: 815px;
-        height: 516px;
-    }
-
-    
-
-    .form-section .right-section .final-form{
-        display: flex;
-        flex-direction: column;
-        font-size: 20px;
-        margin-top: 20px;
-    }
-    .form-section .final-form input{
-         width: 275px;
-         height: 48px;
-         background-color: #161B224a;
-         color: white;
-         border-radius: 10px;
-         border: 0.5px solid rgba(48, 54, 61, 1);
-         padding: 5px 10px;
-         border-radius: 5px;
-    }
-
-    .form-section .phone{
-        display: flex;
-        flex-direction: column;
-        font-size: 20px;
-        margin-left: 350px;
-        margin-top: -100px;
-    }
-
-    .form-section  .phone input{
-        width: 275px;
-        height: 48px;
-        background-color: #161B224a;
-        color: white;
-        border-radius: 10px;
-        border: 0.5px solid rgba(48, 54, 61, 1);
-        padding: 5px 10px;
-        border-radius: 5px;
-        margin-top: -10px;
-   }
-
-
-    .form-section .form11-group {
-        display: flex;
-        flex-direction: row;
-        font-size: 20px;
-        margin-top: 30px;
-    }
-
-    .form-section .form11-group input{
-        width: 675px;
-        height: 48px;
-        background-color: #161B224a;
-        color: white;
-        border-radius: 10px;
-        border: 0.5px solid rgba(48, 54, 61, 1);
-        padding: 5px 10px;
-        border-radius: 5px;
-         margin-top: 50px; 
-         margin-left:-50px;
-         
-    }
-
-    .form-section .form22-group{
-        display: flex;
-        flex-direction: row;
-        font-size: 20px;
-        margin-top: 30px;
-
-    }
-    .form-section .form22-group input{
-        width: 675px;
-        height: 48px;
-        background-color: #161B224a;
-        color: white;
-        border-radius: 10px;
-        border: 0.5px solid rgba(48, 54, 61, 1);
-        padding: 5px 10px;
-        border-radius: 5px;
-         margin-top: 50px; 
-         margin-left:-80px;
-    }
-
-    .form-section .button-section .custom-button {
-        width: 164px;
-        height: 51px;
-        margin-top:30px ;
-        margin-left:auto;
-        background-color: #161B224a;
-        color: white;
-        border-radius: 30px;
-        border: 1px solid rgba(48, 54, 61, 1);
-        /* padding: 5px 10px; */
-        /* border-radius: 5px; */
-    }
-   
-
-    
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.map-section{
-    width: 100%;
-    margin: 1rem auto;
-        
-} 
-
-    .map-section .map img{
-        width: 1237px;
-        height: 642px;
-        border: 1px;
-        border-radius: 5px;
-        margin-left: 150px;
-        margin-top: 200px;
-
-    }
-
-
-
-
-
-
-
-
-
-        
-        .footer-section2{
-            width: 100%;
-            margin: 1rem auto;
-            display: flex;
-            font: ubuntu;
-        
-        } 
-        
-
-
-
-
-            .footer-section2 .final-section{
-                width: 1440px;
-                height: 400px;
-        
-            }
-            .footer-section2  .footer-container{
-                width: 1300px;
-                height: 250px;
-        
-            }
-            .footer-section2 .footer-container img{
-                width: 1440px;
-        
-                
-            }
-        
-            .footer-section2 .final-section .footer-container .footer img{
-                width:197px ;
-                height: 38px;
-                margin-left: 70px;
-                margin-top: 20px;
-        
-            }
-            .footer-section2 .final-section .footer-container .description p{
-                width: 528px;
-                height: 87px;
-                margin-left: 70px;
-                margin-top: 20px;
-                padding-top: 30px;
-        
-        
-            }
-        
-            .footer-section2 .final-section .ourServices {
-                width: 276px;
-                height: 184;
-                margin-left: 800px;
-                margin-top: -160px;
-        
-        
-            }
-        
-            .footer-section2 .final-section .ourServices .Servicesss h2{
-                width: 211px;
-                height: 29px;
-                font-size: 20px;
-        
-            }
-        
-            .footer-section2 .final-section .ourServices .Servicesss .Services1 p{
-                width: 176px;
-                height: 139px;
-            }
-            .footer-section2 .final-section .Contact-section{
-                width: 270px;
-                height: 126px;
-                margin-top: -20px;
-        
-            }
-            .footer-section2 .final-section .Contact-section .contact{
-                margin-left: 1100px;
-                margin-top: -190px;
-                
-            }
-            .footer-section2 .final-section .Contact-section .contact .content-section h2{
-                width: 1251px;
-                height: 29px;
-        
-            }
-            .footer-section2 .final-section .Contact-section .contact .detail-section p{
-                width: 270px;
-                height: 81px;
-                
-            }
-
-
-           
-             .footer-section2 .final-section .footer2{
-                background-color: rgba(22, 27, 34, 1);
-                margin-left: 90px;
-                margin-top: 90px;
-                width: 100%;
-                height: 100px;
-                margin-top: 120px;
-            } 
-            .footer-section2 .footer2 .footer2-content h3{
-                width: 469px ;
-                height: 24px;
-                padding-left: 50px;
-                padding-top: 50px;
-                margin-top: -60px;  
-            }
-            .footer-section2 .final-section .footer2 .flex-container{
-                display:flex;
-                margin-left: -20px;    
-            }
-            .footer-section2 .final-section .footer2 .flex-container .media-section{
-                width: 278px;
-                height: 40px;
-                margin-left: 1200px;
-                margin-top: -10px;   
-            }
-            .footer-section2 .final-section .footer2 .flex-container .media-section img{
-                width: 26px;
-                height: 27px;
-                margin-left: 10px;
-                margin-top: 0px;
-            }
-        
-            .footer2 .green-shadow {
-                position: absolute;
-                width: 1px;
-                z-index: 9;
-                height: 1px;
-                box-shadow: 0px 0px 93px 114px rgba(0, 216, 54, 0.447);
-                opacity: 0.5;
-                border-radius: 50%;
-                pointer-events: none;
-                transition: all 0.1s ease; 
-                top: 0;
-                left: 0;
-              }
-        
-
-
-
-      
-
-    
-
-
+}
