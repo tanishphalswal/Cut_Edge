@@ -23,6 +23,38 @@
 
 
 
+@media screen and (max-width:768px) {
+    #hamburger, #crossBtn{
+        display: block;
+    }
+    #crossBtn {
+        position: absolute;
+        top: 0;
+        right: 24px;
+    }
+    .navbar {
+        display: flex;
+        position: absolute;
+        right: -100%;
+        width: 60%;
+        background: #07081e;
+        padding: 15px;
+        transition: .3s;
+    }
+    .navbar ul {
+        background-color: #07081e;
+        flex-direction: column;
+        gap: 15px;
+        width:100%;
+}
+} 
+
+
+
+
+
+
+
 
 
 

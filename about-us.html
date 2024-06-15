@@ -439,7 +439,7 @@
 
 
 
-
+<!-- 
  <div class="touch-section1 "  >
     <div class="touch">
         <div class="dot-section">
@@ -510,9 +510,181 @@
 
         </div>    
         
+    </div>     -->
+
+   
+
+
+
+
+
+
+
+<div class="touch-section1 "  >
+    <div class="touch">
+        <div class="dot-section">
+            <img src="assests/images/pictures/dot6 .png">
+        </div>    
+        <div class="line-section">
+            <img src="../assests/images/pictures/line6.png">
+        </div>    
+
+    </div>    
+    <div class="left-section">
+        <div class="heading-section">
+            <h3>Get in Touch</h3>
+        </div>    
+        <div class="description"  >
+            <h2>Do you have any Project?<br><span style="color:rgba(237, 93, 35, 1);">Discuss with us</span></h2>
+             <!-- <div class="form-section">
+
+                <div class="right-section">
+                    <div class="final-form">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name " placeholder="Olivia">
+            
+            
+                    
+                    </div>
+            
+                    <div class="phone">
+                        <label for="mobile">Mobile Number</label><br>
+                    <input type="text" id="phone" name="phone" placeholder="+91 1234567890">
+                    </div>  
+            
+                    <div class="form11-group">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                    </div>    
+            
+                    <div class="form22-group">
+                        <label for="message">Message</label><br>
+                        <input type="messasge" id="message" name="email" placeholder="main menu/2nd menu">
+                    </div> 
+            
+                     <div class="button-section">
+                        <button class="custom-button" type="button">
+                            Send Now <img class="arrow-img" src="../assests/images/pictures/arrow1.png" alt="Vector">
+                        </button>
+                        
+            
+                    </div> 
+                    
+                    <div class="second-section">
+                        <div class="green-shadow card-effect"></div>
+                        <div class="images">
+                            <img src="../assests/images/touchPic/touch1.png">
+                        </div>    
+            
+                    </div>  
+                </div>  -->
+
+
+
+                <div class="form-section">
+                    <form id="contactForm">
+                        <div class="right-section">
+                            <div class="final-form">
+                                <label for="name">Name</label><br>
+                                <input type="text" id="name" name="name" placeholder="Olivia"><br>
+                                <span id="nameError" class="error"></span>
+                            </div>
+                            <div class="phone">
+                                <label for="mobile">Mobile Number</label><br>
+                                <input type="text" id="phone" name="phone" placeholder="+91 1234567890"><br>
+                                <span id="phoneError" class="error"></span>
+                            </div>
+                            <div class="form11-group">
+                                <label for="email">Email</label><br>
+                                <input type="email" id="email" name="email" placeholder="example@gmail.com"><br>
+                                <span id="emailError" class="error"></span>
+                            </div>
+                            <div class="form22-group">
+                                <label for="message">Message</label><br>
+                                <input type="text" id="message" name="message" placeholder="main menu/2nd menu"><br>
+                                <span id="messageError" class="error"></span>
+                            </div>
+                            <div class="button-section">
+                                <button class="custom-button" type="submit">
+                                    Send Now <img class="arrow-img" src="../assests/images/pictures/arrow1.png" alt="Vector">
+                                </button>
+                            </div>
+                            <div class="second-section">
+                                <div class="green-shadow card-effect"></div>
+                                <div class="images">
+                                    <img src="../assests/images/touchPic/touch1.png" alt="Touch Image">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div> 
+            
+
+
+
+
+
+
+
+
+
+                
+                <!-- <div class="form">
+                    <form action="form_action.php" method="post">
+                        <div class="form-group">
+                            <label for="name">Name</label><br>
+                            <input type="text" id="name" name="name " placeholder="Olivia">
+
+                            
+                            <div class="phone">
+                                <label for="mobile">Mobile Number</label><br>
+                            <input type="text" id="phone" name="phone" placeholder="+91 1234567890">
+                            </div>    
+                            
+
+                            
+                        </div>    
+
+                        <div class="form1-group">
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                        </div>    
+
+                        <div class="form2-group">
+                            <label for="message">Message</label><br>
+                            <input type="messasge" id="message" name="email" placeholder="main menu/2nd menu">
+                        </div>    
+
+                        <div class="button-section">
+                            <button class="custom-button" type="button">
+                                Send Now <img class="arrow-img" src="../assests/images/pictures/arrow1.png" alt="Vector">
+                            </button>
+                            
+        
+                        </div>    
+
+                        
+                   </form>     
+                    
+                </div>     -->
+            </div>    
+        </div>    
+
+
+    </div>    
+
+        <!-- <div class="second-section">
+            <div class="green-shadow card-effect"></div>
+            <div class="images">
+                <img src="../assests/images/touchPic/touch1.png">
+            </div>    
+
+        </div>     -->
+        
     </div>    
 </div>    
    
+
 
 
 
@@ -596,6 +768,54 @@
 
 
 
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        let isValid = true;
+
+        // Name validation
+        const name = document.getElementById('name').value;
+        if (name === '') {
+            isValid = false;
+            document.getElementById('nameError').textContent = 'Name is required';
+        } else {
+            document.getElementById('nameError').textContent = '';
+        }
+
+        // Mobile number validation
+        const phone = document.getElementById('phone').value;
+        const phonePattern = /^[\+]?[0-9]{1,4}?[-.\s]?([0-9]{10})$/;
+        if (phone === '' || !phonePattern.test(phone)) {
+            isValid = false;
+            document.getElementById('phoneError').textContent = 'Valid mobile number is required';
+        } else {
+            document.getElementById('phoneError').textContent = '';
+        }
+
+        // Email validation
+        const email = document.getElementById('email').value;
+        const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+        if (email === '' || !emailPattern.test(email)) {
+            isValid = false;
+            document.getElementById('emailError').textContent = 'Valid email is required';
+        } else {
+            document.getElementById('emailError').textContent = '';
+        }
+
+        // Message validation
+        const message = document.getElementById('message').value;
+        if (message === '') {
+            isValid = false;
+            document.getElementById('messageError').textContent = 'Message is required';
+        } else {
+            document.getElementById('messageError').textContent = '';
+        }
+
+        if (!isValid) {
+            event.preventDefault();
+        }
+    });
+</script>
 
 
 <script src="/assests/js/jquert.min.js"></script>
