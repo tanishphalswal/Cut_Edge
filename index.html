@@ -72,7 +72,7 @@
 
             <i class="fa-solid fa-bars" id="hamburger"></i>
             
-            <div class="navbar" id="navbar">
+            <div class="navbar" id="navbar" id="navbar">
                 <i class="fa-solid fa-x" id="crossBtn"></i>
                 <span>  <a href="index.html" class="active" style="color: rgba(237, 93, 35, 1) ">HOME</a></span>
                 <span> <a href="about-us.html">ABOUT</a></span>
@@ -966,19 +966,19 @@
 <script>
 
 
-let hamburger = document.getElementById("hamburger");
+    let hamburger = document.getElementById("hamburger");
     let navbar = document.getElementById("navbar");
     let crossBtn = document.getElementById("crossBtn");
-    hamburger.addEventListener("click",function(){
-        navbar.style.right = "0px"
-    })
-    crossBtn.addEventListener("click",function(){
-        navbar.style.right = "-100%"
-    })     
+    // hamburger.addEventListener("click",function(){
+    //     navbar.style.right = "0px"
+    // })
+    // crossBtn.addEventListener("click",function(){
+    //     navbar.style.right = "-100%"
+    // })     
 
-    // hamburger.addEventListener("click", function() {
-    //         navbar.classList.add("open");
-    //     });
+    hamburger.addEventListener("click", function() {
+            navbar.classList.add("open");
+        });
 
     //     crossBtn.addEventListener("click", function() {
     //         navbar.classList.remove("open");
