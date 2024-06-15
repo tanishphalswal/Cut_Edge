@@ -178,8 +178,8 @@ input {
 
 .navbar .dropdown-content a:hover {
     
-    opacity: 70%;
-    background-color: orangered;
+    opacity: 100%;
+    background-color: rgba(237, 93, 35, 1);
 }
 
 .navbar .dropdown:hover .dropdown-content {
@@ -359,12 +359,13 @@ input {
         border: 0.5px solid #fff;
         background: #161B224a;
         margin-left: 20px;
-
+        
     }
     .custom-button .arrow-img{
         width:0.6rem ;
         height: 0.6rem;
-
+        margin-left: 0.6rem;
+        margin-top: -0.3rem;
 
     }
 
@@ -649,7 +650,9 @@ input {
         z-index: -1;
         animation: rotate 10s infinite linear;
         border: none;
-        opacity: 1;
+        opacity: 100%;
+        margin-left: 20px;
+        
 }
 
 
@@ -1940,7 +1943,7 @@ input {
 
         .about-section1 .line-section img{
             width: 3px;
-            height: 700px;
+            height: 600px;
             
         }
 
@@ -1960,18 +1963,21 @@ input {
         }
 
         .about-section1 .right-section .image{
-            height:680px;
-            width:920px;
+            height:580px;
+            width:820px;
             background-color: rgba(22, 27, 34, 1);
             border: solid 0.5px #404040;
             border-radius: 5px;
-            margin-left: 110px;
+            margin-left: 190px;
      
         }
         .about-section1 .right-section .image img{
             
-            margin: 20px;
-             /* width: 300px; */
+            margin-left: 70px;
+            width: 650px;
+            height: 480px;
+            margin-top: 40px;
+            
             
         }
 
@@ -2383,7 +2389,7 @@ input {
 
     .choose-section .choose .line-section img{
         width: 3px;
-        height: 606px;
+        height: 550px;
         margin-top: 20px;
     }
     .choose-section .left-section .left h2{
@@ -2404,14 +2410,17 @@ input {
     }
 
     .choose-section .description {
-        width: 650px;
-        height: 596px;
+        width: 685px;
+        height: 396px;
         opacity: 70%;
-        line-height: 36px; 
-        margin-left: 0px;
+        /* line-height: 36px; 
+        margin-left: 0px; */
         font: ubuntu;
-        font-size: 14px;
+        
+        top: 1601px;
+        left: 133px;
         margin-left: 20px;
+        
 
 
     }
@@ -2420,13 +2429,13 @@ input {
         width: 1237px;
         height: 101px;
         border-radius: 5px;
-        margin-top: 70px;
+        margin-top: 50px;
         
     }
 
     .choose-section  .image-section img{
         width: 510px;
-        height: 502px;
+        height: 402px;
         border-radius: 5px;
         border-radius: 1px;
         margin-left: 70px;
