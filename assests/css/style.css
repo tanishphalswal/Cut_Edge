@@ -3446,7 +3446,7 @@ input {
 
 
 
-  .header-container1 {
+  .header-container {
     margin-top: 2rem;
     width: 100%
         
@@ -3810,7 +3810,7 @@ input {
     .form-section .final-form span{
         font-size: 18px;
         color: #8B8B8B;
-        /* margin-top: -40px; */
+    
         position: relative;
 
 
@@ -3912,8 +3912,7 @@ input {
         color: white;
         border-radius: 30px;
         border: 1px solid rgba(48, 54, 61, 1);
-        /* padding: 5px 10px; */
-        /* border-radius: 5px; */
+        
     }
    
 
