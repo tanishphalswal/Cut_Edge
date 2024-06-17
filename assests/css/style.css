@@ -652,7 +652,7 @@ input {
         border: none;
         opacity: 100%;
         margin-left: 20px;
-        
+
 }
 
 
@@ -1712,7 +1712,7 @@ input {
     } 
 
     .footer-section  .footer2 .footer2-content h3{
-        width: 469px ;
+        width: 569px ;
         height: 24px;
         padding-left: 50px;
         padding-top: 50px;
@@ -1809,9 +1809,6 @@ input {
 
 
 
-
-
-
 .header-container {
     margin-top: 2rem;
     width: 100%
@@ -1832,6 +1829,8 @@ input {
         .logo{
             display:table-cell;
             width:max-content;
+            padding: 10px;
+            margin-top: -5px;
         }
         .logo img{
             width:10rem;
@@ -1933,7 +1932,7 @@ input {
     width: 90%;
     margin:  auto;
     display: flex;
-     margin-top: 20px;  
+     margin-top:60px;  
 }
 
         .about-section1 .dot-section img{
@@ -1988,12 +1987,13 @@ input {
         .services-section1 {
             width: 90%;
             display: flex;
-            margin-top: 0;
+            margin-top: 10px;
             /* position: relative;
             overflow: hidden; */
             
             /* margin-left: 70px;
             margin-top: -90px; */
+            
         
         }  
         
@@ -2006,7 +2006,7 @@ input {
                  right: 0px; 
                 z-index: -1;
                 animation: rotate 10s infinite linear;
-                 margin-top:950px;
+                 margin-top:920px;
                 margin-right: 100px;
                 border: none;
                 opacity: 30%;
@@ -2378,6 +2378,7 @@ input {
     margin: 1rem auto;
     display: flex;
     font: ubuntu;
+    margin-top: 10px;
                 
 }
 
@@ -2393,7 +2394,7 @@ input {
         margin-top: 20px;
     }
     .choose-section .left-section .left h2{
-        width: 332px;
+        width: 400px;
         height: 28px;
         line-height: 17.58px;
         letter-spacing: 2%;
@@ -2413,16 +2414,13 @@ input {
         width: 685px;
         height: 396px;
         opacity: 70%;
-        /* line-height: 36px; 
-        margin-left: 0px; */
+         line-height: 36px; 
+        margin-left: 0px; 
         font: ubuntu;
-        
+        font-size: 20px;
         top: 1601px;
         left: 133px;
         margin-left: 20px;
-        
-
-
     }
 
     .choose-section .bottom .bottom-image img{
@@ -2439,6 +2437,7 @@ input {
         border-radius: 5px;
         border-radius: 1px;
         margin-left: 70px;
+        margin-top: 30px;
 
     }
 
@@ -2458,7 +2457,6 @@ input {
         width: 90%;
         margin: 0;
         display: flex;
-        /* padding: 20px 60px; */
         margin-left: 80px;
 }
     /* .client-section1 .client{
@@ -2468,6 +2466,7 @@ input {
         width: 90%;
         overflow: scroll;
         scrollbar-width: none;
+        margin-left: -15px;
     }
 
 
@@ -2518,18 +2517,18 @@ input {
                             height: 28px;
                             opacity: 70%;
                             margin-top: 20px;
-                            /* margin-left: 50px; */
+                             margin-left: 20px; 
             
                       } 
                       .client-section1 .discribe-section h2{
                         width: 192px;
                         height: 40px;
-                        margin-left: 5px;
+                        margin-left: 20px;
                         margin-top: -5px;
                   } 
                   
                   .client-section1 .left-section  .review-section .heading-card h3{
-                    margin-left: -5px;
+                    margin-left: -20px;
                   } 
     
             
@@ -2562,6 +2561,7 @@ input {
                 }
                 .client-section1 .left-section .card-section .heading-card .name{
                     text-align: end;
+                    position: relative;
                     
                     
                 }
@@ -3033,10 +3033,10 @@ input {
     }
 
     .footer-section1 .final-section .ourServices {
-        width: 276px;
+        width: 376px;
         height: 184;
         margin-left: 800px;
-        margin-top: -180px;
+        margin-top: -230px;
 
 
     }
@@ -3045,6 +3045,7 @@ input {
         width: 111px;
         height: 29px;
         font-size: 20px;
+        margin-top: 70px;
 
     }
 
@@ -3055,7 +3056,7 @@ input {
     .footer-section1 .final-section .Contact-section{
         width: 270px;
         height: 126px;
-        margin-top: -20px;
+        margin-top: 40px;
 
     }
     .footer-section1 .final-section .Contact-section .contact{
@@ -3075,7 +3076,7 @@ input {
         background-color: rgba(22, 27, 34, 1);
         margin-left: 90px;
         margin-top: 90px;
-        width: 100%;
+        width: 95%;
         height: 100px;
         margin-top: 120px;
     } 
@@ -3085,6 +3086,7 @@ input {
         padding-left: 50px;
         padding-top: 50px;
         margin-top: -60px;  
+        font-size: 10px;
     }
     .footer-section1 .final-section .footer2 .flex-container{
         display:flex;
@@ -3469,7 +3471,7 @@ input {
 
         .contact-section .right-section .image{
             height:756px;
-            width:920px;
+            width:820px;
             background-color: rgba(22, 27, 34, 1);
             border: solid 0.5px #404040;
             border-radius: 5px;
@@ -3479,6 +3481,7 @@ input {
         .contact-section .right-section .image img{
             
             margin: 80px;
+            margin-left: ;
             
         }
 
@@ -3849,12 +3852,12 @@ input {
                 background-color: rgba(22, 27, 34, 1);
                 margin-left: 90px;
                 margin-top: 90px;
-                width: 100%;
+                width: 95%;
                 height: 100px;
                 margin-top: 120px;
             } 
             .footer-section2 .footer2 .footer2-content h3{
-                width: 469px ;
+                width: 569px ;
                 height: 24px;
                 padding-left: 50px;
                 padding-top: 50px;
@@ -3907,7 +3910,7 @@ input {
                                 About US
               -------------------------------------------------------------------- */
             
-              .about-us .left{
+              /* .about-us .left{
                 display: flex;
                 align-items: center;
               }
@@ -3954,4 +3957,4 @@ input {
                 }
                 .section-pad{
                     padding: 30px 0;
-                }
+                } */
