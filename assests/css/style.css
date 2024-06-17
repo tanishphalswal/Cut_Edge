@@ -3435,6 +3435,177 @@ input {
 
   */
 
+
+
+
+
+
+
+
+
+
+
+
+  .header-container1 {
+    margin-top: 2rem;
+    width: 100%
+        
+}
+
+        .headers {
+            width: 90%;
+            padding:1rem;
+            margin: auto;
+            display: table;
+            background: #161B224a;
+            backdrop-filter: blur(2px);
+            border-radius:10rem;
+            position: relative;
+            
+            
+        }
+
+        .logo{
+            display:table-cell;
+            width:max-content;
+            padding: 10px;
+            margin-top: -5px;
+        }
+        .logo img{
+            width:10rem;
+        }
+        .navbar {
+            display: table-cell;
+            text-align: right;
+            vertical-align: middle;
+            margin-left:40px;
+            font: ubuntu;
+        
+        }
+        .navbar span{
+            margin:0 1rem;
+        }
+
+        .navbar span {
+            position: relative;
+            
+            padding: 5px 0px;
+            margin: 0 0.5rem;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        
+            text-align: center;
+        }
+
+        .navbar .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            top: 100%;
+            left: 0;
+        }
+
+        .navbar .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            width: 180px;
+        }
+
+        .navbar .dropdown-content a:hover {
+            background-color: rgba(237, 93, 35, 1);
+            opacity: 90%;
+        }
+
+        .navbar .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .navbar span{
+            margin:0 1rem;
+        }
+
+
+
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu-content {
+            display: none;
+            position: absolute;
+            left: 100%;
+            top: 0;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+
+            margin-top: 60px;
+            margin-left: -120px;
+        }
+
+        .dropdown-submenu:hover .dropdown-submenu-content {
+            display:block;
+        }
+
+
+        
+    .nav-button .custom-button{
+        width:9.8rem;
+        height: 2.5rem;
+        border-radius:3.1rem;
+        border:0.5px;
+        padding:5px;
+        
+        border: 0.5px solid #fff;
+        background: #161B224a;
+        margin-left: 20px;
+        border: 1px solid rgba(242, 92, 0, 1);
+        background-color: #f9f9f9;
+        color: black;
+
+    }
+    
+     .navbar .button-section{
+        width: 143px;
+        height:55px;
+        border-radius:3.1rem;
+        border: 0.5px;
+        padding: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 .contact-section {
     width: 90%;
@@ -3475,13 +3646,14 @@ input {
             background-color: rgba(22, 27, 34, 1);
             border: solid 0.5px #404040;
             border-radius: 5px;
-            margin-left: 170px;
+            margin-left: 150px;
      
         }
         .contact-section .right-section .image img{
             
             margin: 80px;
-            margin-left: ;
+            margin-left: 50px;
+            width: 700px;
             
         }
 
@@ -3496,7 +3668,7 @@ input {
 
      .form-section {
         width: 100%;
-        height: 396px;
+        height: 496px;
         display: flex;
         
     } 
@@ -3542,8 +3714,9 @@ input {
 
     .form-section .form .line-section img{
         width:3px ;
-        height: 510px;
+        height: 610px;
         margin-left: 75px;
+
         
     }
 
@@ -3610,7 +3783,8 @@ input {
         margin-top: 70px;
         margin-left: 60px;
         width: 815px;
-        height: 516px;
+        height: 600px;
+        
     }
 
     
@@ -3619,7 +3793,8 @@ input {
         display: flex;
         flex-direction: column;
         font-size: 20px;
-        margin-top: 20px;
+        margin-top: 30px;
+        
     }
     .form-section .final-form input{
          width: 275px;
@@ -3630,6 +3805,15 @@ input {
          border: 0.5px solid rgba(48, 54, 61, 1);
          padding: 5px 10px;
          border-radius: 5px;
+    }
+
+    .form-section .final-form span{
+        font-size: 18px;
+        color: #8B8B8B;
+        /* margin-top: -40px; */
+        position: relative;
+
+
     }
 
     .form-section .phone{
@@ -3652,6 +3836,14 @@ input {
         margin-top: -10px;
    }
 
+   .form-section  .phone span{
+    font-size: 18px;
+        color: #8B8B8B;
+        
+        position: relative;
+   }
+
+ 
 
     .form-section .form11-group {
         display: flex;
@@ -3674,6 +3866,15 @@ input {
          
     }
 
+    .form-section .form11-group span{
+         font-size: 18px;
+            color: #8B8B8B;
+            margin-top: 100px;
+            margin-left: -670px;
+
+    }
+
+
     .form-section .form22-group{
         display: flex;
         flex-direction: row;
@@ -3692,6 +3893,14 @@ input {
         border-radius: 5px;
          margin-top: 50px; 
          margin-left:-80px;
+    }
+
+
+    .form-section .form22-group span{
+        font-size: 18px;
+        color: #8B8B8B;
+        margin-top: 100px;
+        margin-left: -670px;
     }
 
     .form-section .button-section .custom-button {

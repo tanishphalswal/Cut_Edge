@@ -873,6 +873,11 @@
 
 
 <script>
+
+
+
+
+    
     document.getElementById('contactForm').addEventListener('submit', function(event) {
         let isValid = true;
 
@@ -925,6 +930,17 @@
 <script src="/assests/js/tilt.js"></script>
 <script>
 
+
+
+let hamburger = document.getElementById("hamburger");
+    let navbar = document.getElementById("navbar");
+    let crossBtn = document.getElementById("crossBtn");
+    hamburger.addEventListener("click",function(){
+        navbar.style.right = "0px"
+    })
+    crossBtn.addEventListener("click",function(){
+        navbar.style.right = "-100%"
+    })  
 
 
   var containers = document.querySelectorAll('.second-section');
