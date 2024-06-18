@@ -22,7 +22,7 @@
 }
 
 
-
+ 
 @media screen and (max-width:768px) {
     #hamburger, #crossBtn{
         display: block;
@@ -48,39 +48,25 @@
         width:100%;
 }
 } 
+ 
 
 
 
 
 
-
-
-
-
-
-@media (min-width: 320px) and (max-width: 480px)
+ @media (min-width: 320px) and (max-width: 480px)
 {
 
 
-    grow-section {
-        height: auto; /* Allow content to define height */
-        padding: 20px; /* Add padding for better spacing */
-    }
+    
 
-    .grow-section .description {
-        font-size: 1rem; /* Adjust font size */
-        width: auto;
-        height: auto;
-        opacity: 70%;
-        line-height: 1.5rem;
-        margin: 10px auto; /* Center align description */
-        text-align: center;
-    }
-}
-    /* .grow-section{
+
+
+
+     .grow-section{
         height: 1000px;
-    }  */
-    /* .right-section .image img{
+    }  
+    .right-section .image img{
         width: 29rem;
         height: 38rem;
         margin-top: 270px;
@@ -102,12 +88,12 @@
         line-height: 2.25rem;
         margin-left: 20px;
     }
- */
+ 
+}
 
 
 
-
-
+@media (min-width: 320px) and (max-width: 480px){
     .services-section .dot-section img{
         width:55px;
         height: 26pxpx;
@@ -118,14 +104,14 @@
     }
     .services-section .line-section img{
         width: 70px;
-        height: 500px;
+        height: auto;
         margin-top: 10px;
         margin-left: 20px;    
 
     }
     .services-section .description{
-        width: 400px;
-        height: 100px;
+        width: 100%;
+        height: auto;
       
         margin-top: -25px;        
     }
@@ -149,53 +135,68 @@
     
 
 
+}
 
 
 
+@media (min-width: 320px) and (max-width: 480px){
 .company-section{
-    height: 630px;
+    height:auto;
+    width: 100%;
+}
+.company-section .dot-section img{
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 5px;
+
 }
 
 .company-section .line-section img{
     width: 5px;
-    height: 550px;
+    height: auto;
     border-radius: 6px;
     margin-top: 10px;
+    margin-left: 20px;
 
 }
 
     .company-section .left-section .title-section h2{
         margin-left: -10px;
+        width: 100%;
+        height: auto;
     }
 
     .company-section .left-section .heading-section h2 {
         font-size: 25px;
         margin-left: -10px;
-        width: 450px;
+        width: 100%;
+        height: auto;
     }
     .company-section .description-section{
-        width: 370px;
-        height: 144px;
+        width: 100%;
+        height: auto;
         opacity: 70%;
-        line-height: 36px;
+        /* line-height: 36px;
         size: 24px;
-        font-size: 20px;
-        margin-left: 0px;
+        font-size: 20px;*/
+        margin-left: 0px; 
+        padding: 10px;
     }
 
     .company-section .image2-section img{
-        width: 400px;
-        height: 51px;
+        width: 100%;
+        height: auto;
         border-radius: 5px;
         border: 1px;
         margin-left: 0px;
-        margin-top: 280px;
+        margin-top: 0px;
     }
 
-
+}
 
     /* leading section */ 
-
+    @media (min-width: 320px) and (max-width: 480px){
     .leading-section .client1-section .line-section img{
         width: 3px;
         height: 50px;
@@ -218,15 +219,20 @@
 
     }
 
+}
+
+    
+@media (min-width: 320px) and (max-width: 480px){
     .about-section{
-        height: 750px;
+        height: auto;
+        width: 100%;
     }
 
     .about-section .dot-section img{
         width: 45.59px;
         height: 45.59px;
         
-        margin-left: -15px;
+        margin-left: 0px;
         margin-top: -10px;
         
 
@@ -234,32 +240,32 @@
 
     .about-section .line-section img{
         width: 3px;
-        height: 680px;
+        height: 630px;
         border-radius: 6px;
         margin-top: 10px;
-        margin-left: 5px;
+    margin-left: 20px;
         
 
     }
 
     .about-section .left-section .description h3{
-        width: 305px;
+        width: 100%;
     }
 
     .about-section .left-section .detail-section{
-        width: 374px;
-        height: 180px;
-        top: 2047px;
-        left: 133px;
+        width: 100%;
+        height: auto;
+        /* top: 2047px;
+        left: 133px; */
         opacity: 70%;
         margin-left: 20px;
-        font-size: 20px;
+        /* font-size: 20px; */
         margin-left: 30px;
     }
 
 
     .about-section  .right-section .image2-section img{
-        width: 400px;
+        width: 300px;
         height: 279px;
         
         border-radius: 5px;
@@ -267,11 +273,16 @@
         margin-left: -540px;
         margin-top: 400px;
 
-    } 
+    }  
+
+}
+
+
+
 
     /* mobile section */
-
-    .mobile-section .line-section img{
+    @media (min-width: 320px) and (max-width: 480px){
+     .mobile-section .line-section img{
         width: 4.39px;
         height: 118px;
         border-radius: 9px;
@@ -298,55 +309,106 @@
     }
 
 
-
-.news-section{
-    height: 1800px;
 }
 
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+.news-section{
+    height: auto;
+    width: 100%;
+}
+
+
+    
+.news-section .news .dot-section img{
+    width: 51px;
+    height: 51px;
+    margin-left: 0px;
+    margin-top: -10px;
+
+}
 
 
     .news-section .line-section img{
         width: 5.39px;
         height: 1750px;
         border-radius: 2.77px;
+        margin-left: 20px;
     }
-/* 
+   
+
     .news-section  .left-section .button-section .custom-button{
-        width: 100px;
-        height: 39px;
+        width: 100%;
+        height: auto;
         border-radius: 60px;
-    margin-right:800px;
+        /* margin-right:800px; */
         
         
 
-    } */
+    } 
 
 
+    .news-section  .heading-section h2{
+        width: 410px;
+        height: 34px;
+        opacity: 70%;
+        font-family: ubuntu;
+        /* letter-spacing: 2%; */
+        /* line-height: 34px; */
+        margin-left: px;
+        
+    } 
+
+    .news-section .about-section .about h1{
+        width: 1237px;
+        height: 53px;
+        /* justify-content: space space-between; */
+        /* margin-top: -10px; */
+        /* margin-left: -60px; */
+
+    } 
+
+
+/* 
  .news-section .picture img{
-            width: 400px;
-            height: 396px;
+            width: 100%;
+            height: auto;
+            border-radius: 9.77px;
+            border: 1px solid rgba(48, 54, 61, 1);
+            margin-left: px; 
+             margin-top: -1100px;
+        } */
+
+        .news-section .picture img{
+            width: 494px;
+            height: 260px;
             border-radius: 9.77px;
             border: 1px solid rgba(48, 54, 61, 1);
             margin-left: px;
-            margin-top: -1100px;
+            margin-top: px;
             
     
         }
 
         .news-section .describe-section .describe h2{
-            width: 269px;
-            height: 22px;
+            width: 100%;
+            height: auto;
             font: ubuntu;
             line-height: 22.46px; 
-            margin-top: -350px; 
+            /* margin-top: -350px;  */
+            /* margin-left: 70px; */
     }
     
     .news-section .describe-section .describe h4{
-        width: 200px;
-        height: 15px;
+        width: 100%;
+        height: auto;
         font:ununtu;
         margin-top: 10px;
-         }
+    }
         
 
          .news-section .describe2-section .describe p{
@@ -359,14 +421,19 @@
         }
 
 
+        /* .news-section .right-section .describe{
+            margin-top: 160px;
+        } */
+
+
         .news-section .right-section .describe img{
             width: 188px;
             height: 183px;
             border-radius: 9.77px;
            
-            /* margin-left: -680px;
-            margin-top:120px; */
-            margin-left:-1290px;
+             margin-left: -680px;
+            margin-top:120px; 
+             margin-left:-1290px;
 
             margin-top:800px;
             
@@ -426,9 +493,8 @@
             font-size: 15px;
     
         }
-    
-    
-         .news-section .right-section .describe .describe4-section .describe  p{
+     
+          .news-section .right-section .describe .describe4-section .describe  p{
             width:450px;
             height: 93px;
             margin-left: -1090px;
@@ -456,25 +522,30 @@
         }
 
 
+    }
 
 
+ 
+ @media (min-width: 320px) and (max-width: 480px){
 
-
-
-
+    .client-section{
+        width: 100%;
+        height: auto;
+        
+    }
     .client-section .dot-section img{
         width:55px;
         height: 56pxpx;
         top: 487px;
         left: 69px;
-        margin-left: -65px;
+        margin-left: -85px;
 
         }
     .client-section .line-section img{
         width: 63.49px;
         height: 300px;
         margin-top: 10px;
-        margin-left: -40px;
+        margin-left: -60px;
 
         }
 
@@ -491,15 +562,15 @@
         height: 40px;
         margin-left: 10px;
         margin-top: -5px;
-  } 
+  }  
+
+ }
 
 
 
-
-
-  
+ @media (min-width: 320px) and (max-width: 480px){  
 .touch-section {
-    
+    width: 100%;
     height: 860px;
 
                           
@@ -508,7 +579,7 @@
     .touch-section .dot-section img{
         width: 45px;
         height: 55px;
-        margin-left: 15px;
+        margin-left: 5px;
         margin-top: -15px;
             
     }
@@ -517,10 +588,8 @@
         height: 800px;
         border-radius: 2.77px;
         margin-top: 10px;
-        margin-left: 35px;
-
-    
-    } 
+        margin-left: 25px;
+    }
 
     .touch-section .heading-section h3{
         width: 100px;
@@ -565,6 +634,7 @@
         margin-left: 10px;
         margin-top:20px;
 
+
     }
 
     .touch-section .form1-group input{
@@ -596,7 +666,8 @@
     }
     .touch-section .phone{
         margin-top:-70px ;
-        
+        margin-left: 20px;
+
     }
     .touch-section .phone label{
         width: 162px;
@@ -622,26 +693,30 @@
         padding-top: 120px;
         margin-left: -450px;
         margin-top: 450px;
-    }
-   
-    
-
-
-    
+    } 
+}
 
 
 
 
 
     
-/* 
-    footer */
 
+
+
+
+
+    /* main */
+
+
+    @media (min-width: 320px) and (max-width: 480px){
+
+    
 
     .footer-section
     {
-        padding-left: 40px;
-         padding-right: 40px;
+        padding-left: 50px;
+         /* padding-right: 50px; */
     }
     .footer-section .final-section {
         width: 100%;
@@ -721,15 +796,15 @@
     height:17px;
     
 }
+ 
+}
 
 
 
 
 
 
-
-
-                                    /* ABOUT US PAGE */
+                 /* ABOUT US PAGE */
 
 
 
@@ -737,60 +812,162 @@
 @media (min-width: 320px) and (max-width: 480px){
     
 
+    /* .about-section1{
+        width: 100%;
+        height: auto;
+        padding: 20px 20px 20px 20px;
+
+    }
     .about-section1 .left-section .heading {
-        width: 264px;
-        height: 80px;
+        width: 100%;
+        height: auto ;
         font-size: 50px;
         margin-left: 50px;
-        margin-top: 0px;
+        margin-top: 0px; 
     }
 
 
     .about-section1 .right-section .image{
-        height:756px;
-        width:520px;
+        height:auto !important;
+        width:100% !important;
         background-color: rgba(22, 27, 34, 1);
         border: solid 0.5px #404040;
         border-radius: 5px;
-        margin-left: -300px;
-        margin-top: 100px;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
  
+    }
+    .about-section1 {
+        width: 100%;
+        margin: auto;
+        display: block;
+        margin-top: 0px;
+    }
+    .about-section1 .line-section img {
+        width: 3px;
+        height: 600px;
+    }
+    
+    .about-section1 .left-section .heading
+    {
+        width:100% !important;
+        height: auto !important;
     }
     .about-section1 .right-section .image img{
             
-        margin: 80px;
-         width: 300px;
+        margin: 0px !important;
+         width: 100% !important;
+         height: auto !important;
         
+    } */
+
+
+
+
+    .about-section1 {
+        width: 100%;
+        height: auto;
+        padding :20px; 
+
+    }
+    
+            .about-section1 .dot-section img{
+                width: 12px;
+                height: 12px;
+            }
+    
+            .about-section1 .line-section img{
+                width: 3px;
+                height: 650px;
+            
+
+                
+            }
+    
+            .about-section1 .left-section .heading {
+                /* width: 264px;
+                height: 80px;
+                font-size: 50px;
+                margin-left: 50px;
+                margin-top: 300px; */
+                width: 100%;
+                height: auto;
+                margin-top: -30px;
+
+            }
+    
+    
+            .about-section1 .left-section .heading img{
+                /* width: 190px;
+                height: 8px;
+                margin-bottom: 30px; */
+                /* width: 100%; */
+                height: auto;
+                margin-top: -20px;
+            }
+    
+            .about-section1 .right-section .image{
+                /* height:580px;
+                width:820px;
+                background-color: rgba(22, 27, 34, 1);
+                border: solid 0.5px #404040;
+                border-radius: 5px;
+                margin-left: 190px; */
+                width: 380px;
+                height: 600px; 
+                margin-left: -300px;
+                margin-top: 70px;
+            }
+            .about-section1 .right-section .image img{
+                
+                /* margin-left: 70px;
+                width: 650px;
+                height: 480px;
+                margin-top: 40px; */
+                width: 250px;
+            
+                
+                
+            }
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    .services-section1{
+        width: 100%;
+
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .services-section1 .dot-section img{
+
         width:55px;
         height: 26px;
         margin-left: 0px;
-        margin-top: 20px;
+        margin-top: 0px;
         
 
     }
@@ -802,15 +979,67 @@
 
     }
 
+    .services-section1  img.background{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+         /* top: 0px;
+         right: 0px;  */
+        z-index: -1;
+        animation: rotate 10s infinite linear;
+         /* margin-top:920px;
+        margin-right: 100px; */
+        border: none;
+        opacity: 30%;
+     
+
+    }
+    
+    .services-section1 .left-section {
+        padding: 1rem;
+        width: 90%;
+    }
+    .services-section1 .title-box{
+        width: 151px;
+        height: 28px; 
+        /* opacity: 70%; */
+        
+
+
+    }
+    .services-section1 .title-box h3{
+        /* font-size: 24px; */
+        margin-top: -10px;
+        margin-left: -20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .services-section1 .description{
+        width: 100%;
+        height: auto;
+      
+        margin-top: -25px;        
+    }
+    .services-section1 .description h2{
+        font-size: 34px;
+        margin-left: -20px;
+    }
 
 
 
 
 
 
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
     .choose-section{
-        width: 450px;
-        height: 1400px;
+        width: 100%;
+        height: auto;
 
                     
     }
@@ -830,54 +1059,67 @@
 
 
     .choose-section .description {
-        width: 350px;
+        /* width: 350px;
         height: 396px;
         opacity: 70%;
         line-height: 36px; 
         margin-left: 0px;
         font: ubuntu;
         font-size: 14px;
-        margin-left: 20px;
+        margin-left: 20px; */
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
 
     }
 
     .choose-section .bottom .bottom-image img{
         width: 400px;
         height: 101px;
-        border-radius: 5px;
-        margin-top: -40px;
-        margin-left: -20px;      
+         border-radius: 5px;
+        margin-top: px;
+        margin-left: -25px;      
     }
 
     .choose-section  .image-section img{
-        width: 350px;
+           width: 350px;
         height: 502px;
         border-radius: 5px;
         border-radius: 1px;
-        margin-left: -360px;
-        margin-top: 850px;
+        margin-left: -400px;
+        margin-top: 850px; 
+         /* width: 100%; */
+        height: auto;
 
     }
+}
 
 
 
 
-
-
+@media (min-width: 320px) and (max-width: 480px){
     
+    .client-section1{
+        width:90%;
+        height: auto;
+        
+
+
+    }
     .client-section1 .dot-section img{
-        width:55px;
-        height: 56pxpx;
+        width:100%;
+        height: 56px;
         top: 487px;
         left: 69px;
-        margin-left: -65px;
+        margin-left: -70px;
 
         }
     .client-section1 .line-section img{
         width: 63.49px;
         height: 300px;
-        margin-top: 10px;
-        margin-left: -40px;
+        margin-top: 20px;
+        margin-left: -60px;
 
         }
 
@@ -886,7 +1128,7 @@
             height: 28px;
             opacity: 70%;
             margin-top: 20px;
-            margin-left: -0px;
+            margin-left: 0px;
 
       } 
       .client-section1 .discribe-section h2{
@@ -896,6 +1138,7 @@
         margin-top: -5px;
   } 
 
+}
 
 
 
@@ -912,11 +1155,11 @@
 
 
 
-
-
+@media (min-width: 320px) and (max-width: 480px){
 .touch-section1 {
     
     height: 830px;
+    width: 100%;
 
                           
 }   
@@ -924,7 +1167,7 @@
     .touch-section1 .dot-section img{
         width: 45px;
         height: 55px;
-        margin-left: 15px;
+        margin-left: 2px;
         margin-top: -15px;
             
     }
@@ -933,20 +1176,21 @@
         height: 800px;
         border-radius: 2.77px;
         margin-top: 10px;
-        margin-left: 35px;
+        margin-left: 20px;
 
     
     } 
 
     .touch-section1 .heading-section h3{
         width: 100px;
-        height: 18px;
+        height: auto;
         opacity: 70%;
         margin-left: 10px;
+    
     }
 
     .touch-section1 .description h2{
-        width: 441px;
+        width: 100%;
         height: 80px;
         margin-left: 10px;
         margin-top: 10px;
@@ -955,8 +1199,8 @@
 
 
     .touch-section1 .form-group label{
-        width: 100px;
-        height: 15px;
+        width: 100%;
+        height: auto;
         font-size: 20px;
         margin-left: 10px;
         margin-top: 20px;
@@ -964,8 +1208,8 @@
     }
 
     .touch-section1 .form-group input{
-        width: 175px;
-        height: 45px;
+        width: 100%;
+        height: auto;
         background-color: #161B224a;
         opacity: 70%;
         color: white;
@@ -975,8 +1219,8 @@
     }
 
     .touch-section1 .form1-group label{
-        width: 162px;
-        height: 27px;
+        width: 100%;
+        height: auto;
         font-size: 20px;
         margin-left: 10px;
         margin-top:20px;
@@ -984,8 +1228,8 @@
     }
 
     .touch-section1 .form1-group input{
-        width: 375px;
-        height: 84px;
+        width: 100%;
+        height: auto;
         background-color: #161B224a;
          opacity: 70%; 
          color: white;
@@ -994,16 +1238,16 @@
 
     } 
     .touch-section1 .form2-group label{
-        width: 162px;
-        height: 27px;
+        width: 100%;
+        height: auto;
         font-size: 20px;
         margin-left: 10px;
         margin-top: 10px;
 
     }
     .touch-section1 .form2-group input{
-        width: 375px;
-        height: 84px;
+        width: 100%;
+        height: auto;
         background-color: #161B224a;
         opacity: 70%;
         color: white;
@@ -1012,13 +1256,14 @@
     }
     .touch-section1 .phone{
         margin-top:-70px ;
+        /* margin-left: -250px; */
         
     }
     .touch-section1 .phone label{
         width: 162px;
         height: 27px;
         font-size: 20px;
-        margin-left: 20px;
+        margin-left: -200px;
     }
     .touch-section1 .phone input{
         width: 100px;
@@ -1032,7 +1277,7 @@
         
     }
    
-    
+  
 
 
     
@@ -1045,12 +1290,12 @@
     }
 
 
+}
 
 
 
 
-
-
+@media (min-width: 320px) and (max-width: 480px){
     .footer-section1
     {
         padding-left: 40px;
@@ -1158,51 +1403,57 @@
     
     .contact-section{
         width: 100%;
+        padding-left: 20px;
+        
+        
+
     }
 
     .contact-section .line-section img{
         width: 3px;
-        height: 770px;
+        height:850px;
+
+        
     }
 
 
 
     .contact-section .left-section .heading {
-        width: 250px;
-        height: 80px;
-        font-size: 50px;
+        width: 100%;
+        height: auto;
         margin-left: 50px;
         margin-top: -5px;
+
     }
 
 
     .contact-section .left-section .heading img{
         width: 190px;
         height: 8px;
-        margin-top: -80px;
-        margin-left: 10px;
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
     .contact-section .right-section .image{
         height:700px;
         width:350px;
-        background-color: rgba(22, 27, 34, 1);
-        border: solid 0.5px #404040;
-        border-radius: 5px;
+        /* background-color: rgba(22, 27, 34, 1);
+        border: solid 0.5px #404040; */
+        /* border-radius: 5px; */
         margin-left: -280px;
-        margin-top: 90px;
+        margin-top: 120px;
 
  
     }
     .contact-section .right-section .image img{
         width: 300px;
         /* margin: 80px; */
-        margin-left: 15px;
+        /* margin-left: 15px; */
         
-        
+      
     }
 
-
+}
 
 
 
@@ -1334,7 +1585,7 @@
 
 
 
-
+ @media (min-width: 320px) and (max-width: 480px){
 .form-section{
     width: 100%;
     height: auto;
@@ -1352,7 +1603,7 @@
 
 .form-section .form .line-section img{
     width:3px ;
-    height: 730px;
+    height: 930px;
     margin-left: 20px;
     
 }
@@ -1363,12 +1614,13 @@
     border-radius: 10px;
     max-width: 400px;
      */
-    text-align: center;
+    /* text-align: center; */
     
     
 
     width: 100%;
-    height: auto;
+    height: auto !important;
+    padding: 10px 20px 20px 10px;
     /* margin-left: -10px;
     margin-top: 70px; */
 
@@ -1394,6 +1646,7 @@
 }
 
 
+
 .form-section .right-section{
     /* background: rgba(22, 27, 34, 1); 
     padding: 30px 30px 30px 30px;
@@ -1404,12 +1657,22 @@
     height: 516px; */
     width: 100%;
     height: auto !important;
+    margin-left: -400px;
+    margin-top: 250px;
+    
 }
+
+.footer-section .final-form{
+    width: 100%;
+    position: absolute;
+
+}
+
 
 
 .form-section .final-form input{
     width: 100%;
-    height: 48px;
+    height: auto;
     
 }
 
@@ -1419,26 +1682,28 @@
 .form-section .phone{
 display: flex;
 flex-direction: column;
-font-size: 20px;
+/* font-size: 20px;
 margin-left: 170px;
-margin-top: -100px;
+margin-top: -100px; */
+margin-left: 0px;
+margin-top: 40px;
 }
 
 .form-section  .phone input{
-width: 170px;
-height: 48px;
-background-color: #161B224a;
+width: 100%;
+height: auto;
+ background-color: #161B224a;
 color: white;
 border-radius: 10px;
-border: 0.5px solid rgba(48, 54, 61, 1);
+border: 0.5px solid rgba(48, 54, 61, 1); 
 padding: 5px 10px;
-border-radius: 5px;
-margin-top: -10px;
+ border-radius: 5px;
+margin-top: -10px; 
 }
 
 
 .form-section .form11-group input{
-width: 275px;
+width: 100%;
 height: 48px;
 background-color: #161B224a;
 color: white;
@@ -1453,8 +1718,8 @@ border-radius: 5px;
 
 
 .form-section .form22-group input{
-width: 275px;
-height: 48px;
+width: 1005;
+height: auto;
 background-color: #161B224a;
 color: white;
 border-radius: 10px;
@@ -1463,30 +1728,35 @@ padding: 5px 10px;
 border-radius: 5px;
  margin-top: 50px; 
  margin-left:-80px;
+
 }
 
 
+ }
 
 
 
 
-
-
+ @media (min-width: 320px) and (max-width: 480px){
 .map-section .map img{
     /* width: 370px; */
     height: 442px;
     border: 1px;
     border-radius: 5px;
     margin-left:40px;
-    margin-top: 220px; 
+    /* margin-top: 220px;  */
      width: 100%; 
     
 
 }
 
+ }
 
 
 
+ @media (min-width: 320px) and (max-width: 480px){
+
+ 
 
     .footer-section2
     {
