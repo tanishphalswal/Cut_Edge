@@ -1847,3 +1847,107 @@ border-radius: 5px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 780px){
+    .footer-section3
+    {
+        padding-left: 40px;
+         padding-right: 40px;
+         
+    }
+    
+    .footer-section3 .final-section {
+        width: 100%;
+        height: auto;
+    }
+    .footer-section3 .footer-container
+    {
+        width: 100%;
+        height: auto;
+    }
+    .footer-section3 .footer-container img
+    {
+        width: 100%;
+    }
+    .footer-section3 .final-section .footer-container .footer img
+    {
+        width: 146px;
+        margin-left: 0px;
+        margin-top: 0px;
+        height:auto !important;
+    }
+    .footer-section3 .final-section .footer-container .description p
+    {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 40px;
+    }
+    .footer-section3 .final-section .ourServices
+    {
+        width: 100%;
+        height:auto;
+        margin-left: 0px;
+        margin-top: 0px;
+       
+    }
+    .footer-section3 .final-section .Contact-section
+    {
+        width:auto !important;
+        height:auto !important;
+    }
+
+    .footer-section3 .final-section .Contact-section .contact
+    {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .footer-section3 .final-section .footer2
+    {
+        margin-left: 0px;
+    margin-top: 90px;
+    }
+    .footer-section3 .final-section .footer2 .footer2-content h3
+    {
+        width: 100%;
+        height: auto !important;
+        padding-left: 13px;
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+    .footer-section3 .final-section .footer2 .flex-container .media-section
+    {
+        width: 100%; 
+    height: auto;
+    margin-left: 10px;
+    margin-top: 5px; 
+    }
+    .footer-section3 .final-section .Contact-section .contact .detail-section p
+{
+    height: auto;
+}
+.footer-section3 .final-section .footer2 .flex-container .media-section img {
+    width: 17px;
+    height:17px;
+    /* margin-left: 20px; */
+
+}
+
+}
+
+
+
+
