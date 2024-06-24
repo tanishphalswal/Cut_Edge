@@ -4396,7 +4396,7 @@ input {
     }
     
     .Service-us .left h2 {
-        font-size: 28px;
+        font-size: 40px;
         line-height: 1.5;
         margin: -90px;
         
@@ -4532,7 +4532,35 @@ input {
     }  */
 
 
+/* ***************************************** */
 
+
+.good h2 {
+    font-size: 40px;
+     
+} 
+.good .text-success {
+    color: #00c853 !important; /* Custom green color for check marks */
+}
+
+.good  li {
+    font-size: 18px;
+    padding: 10px;
+    max-width: 500px;
+}
+
+.good p {
+    font-size: 22px;
+    opacity: 70%;
+}
+
+.good .img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 699px;
+    height: 385px;
+    margin-top: 0px;
+}
 
 
 
@@ -4591,8 +4619,8 @@ input {
      .cutedge .right{
         padding: 20px 0;
         justify-content: space-between;
-        align-items: center;
-        margin-left: 130px;
+        /* align-items: center; */
+         margin-left: 120px; 
         
         
 
@@ -4666,6 +4694,7 @@ input {
     justify-content:left;
     text-align:start;
     margin-left: 100px;
+    
 }
 
 .website-offer-card {
@@ -4674,7 +4703,8 @@ input {
     padding: 30px;
     border-radius: 8px;
     text-align: center;
-    width: 250px;
+    width: 270px;
+    gap: 60px;
 }
 
 .website-offer-card h3 {
@@ -4692,11 +4722,13 @@ input {
 .website-offer-card p {
     font-size: 14px;
     text-align : start;
+    height: 150px;
 }
 
 .website-offer-card img {
     max-width: 100px;
     margin-top: 10px;
+    
 }
 
 .website-offer-card a {
@@ -4884,7 +4916,8 @@ input {
         font-size: 18px;
         margin-top: 20px;
         margin-left: -20px;
-
+        flex-wrap: wrap;
+        max-width: ;
     }
 
     .choose h2{
@@ -4901,6 +4934,8 @@ input {
          width: 520px;
          height: 400px;
         opacity: 70%;
+        flex-wrap: wrap;
+        max-width: 500px;
     }
 
     .choose .right{
@@ -5335,7 +5370,7 @@ input {
     }
     
     .Service-uss .left h2 {
-        font-size: 28px;
+        font-size: 40px;
         line-height: 1.5;
         margin: -90px;
         
@@ -5395,20 +5430,20 @@ input {
     width: 45px;
     height: 45px;
     margin-left: 15px;
-    margin-top: 30px;
+    margin-top: 35px;
 
 }
 
 .Mobile-App .line img{
     width: 3px;
     height: 270px;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 .Mobile-App .top h3{
-        font-size: 20px;
+        font-size: 26px;
         
-        margin-bottom: 10px;
-        opacity: 70%;
+        margin-top: -30px;
+         opacity: 70%; 
         
     }
     /* .web-developemnt .bottom  h3{        
@@ -5418,7 +5453,7 @@ input {
     } */
 
     .Mobile-App .top h1{
-        font-size: 26px;
+        font-size: 36px;
         margin-bottom: 10px;
         
         
@@ -5429,7 +5464,7 @@ input {
         font-family: ubuntu;
         /* margin-bottom: 10px; */
         opacity: 70%;
-        margin-left: 0px;
+        
         
         
     }
@@ -5437,11 +5472,11 @@ input {
     .Mobile-App  p{
         font-size:24px; 
        font-family: ubuntu;
-       
+       margin-left: -10px;
        opacity: 70%;
        
        
-   }
+   }  
     
 
 
@@ -5643,7 +5678,7 @@ body {
     align-items: center;  */
     height: 50px; 
     margin-bottom: 20px;
-    margin-left: -30px;
+    margin-left: -15px;
     width: 50px;
     
     
@@ -5654,7 +5689,7 @@ body {
     justify-content: center;
     align-items: center; */
     /* height: 100%; Adjust this to match your image height */
-    margin-left: -20px;
+    margin-left: -10px;
     width: 3px;
     height: 550px;
     
@@ -5813,12 +5848,349 @@ body {
 
 
 
+/* ************************
+************************************************ */
+
+
+
+.choose-app{
+    display: flex;
+    
+    
+}
+
+    .choose-app .dot img{
+        width: 50px;
+        margin: 10px;
+    }
+    .choose-app .line img{
+        width:3px;
+         margin-top: 60px; 
+        margin-left: -40px;
+        width: 45;
+
+    }
+    .choose-app  h3{
+        opacity: 70%;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: -20px;
+        flex-wrap: wrap;
+        
+    }
+
+    .choose-app h2{
+        font-size: 32px;
+        margin-top: 0px;
+        margin-left: -20px;
+
+    }
+
+    .choose-app p{
+        font-size: 24px;
+        margin-top: 10px;
+        margin-left: -20px;
+         width: 520px;
+         height: 400px;
+        opacity: 70%;
+        flex-wrap: wrap;
+        max-width: 500px;
+    }
+
+    .choose-app .right{
+        
+        width: 604px;
+        height: 470px;
+
+        margin-left: 50px;
+         
+        background-color:rgb(22 28 35);
+        border: 1px solid rgb(91, 91, 91);
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .choose-app .right img{
+        width: 540px;
+        height: 450px;    
+        height: 437px;
+
+    }
+
+/* **************************************************************************** */
+.Mission .top{
+    /* display: flex;  */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+
+}
+
+.Mission .dot img{
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
+    margin-top: 35px;
+
+}
+
+.Mission .line img{
+    width: 3px;
+    height: 270px;
+    margin-left: 35px;
+}
+
+    
+
+    .Mission .top h1{
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-family: ubuntu;
+        
+        
+    }
+
+  
+
+    .Mission p{
+        font-size:24px; 
+       font-family: ubuntu;
+       margin-left: -10px;
+       opacity: 70%;
+       font-family: ubuntu;
+       
+   }
+    
 
 
 
 
 
+   /* ***************************************************************************************************************** */
 
+
+   
+.touch-section-w {
+    width: 90%;
+    margin: 1rem auto;  
+    display: flex;
+    position: relative;
+    width: 1360px;
+    height: 680px;
+              
+}  
+
+       
+        .touch-section-w .dot-section img{
+            width: 45px;
+            height: 55px;
+            margin-left: -60px;
+            margin-top: -15px;
+                
+        }
+        .touch-section-w .line-section img{
+            width: 3px;
+            height: 650px;
+            border-radius: 2.77px;
+            margin-top: 30px;
+            margin-left: -40px;
+    
+        
+        }  
+        
+        .touch-section-w .left-section h3{
+            width: 100px;
+            height: 18px;
+            opacity: 70%;
+            
+
+
+
+        }
+        .touch-section-w .left-section h2{
+            width: 441px;
+            height: 80px;
+            margin-top: 0px;
+
+        }
+
+         /* .touch-section-w .images img{
+            width: 525px;
+            height: 432px;
+        }  */
+
+
+        .touch-section-w .form-section .right-section{
+            background: rgba(22, 27, 34, 1); 
+            padding: 30px 30px 30px 30px;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-left: 0px;
+            width: 1300px;
+            height: 550px;
+        } 
+    
+        
+    
+          .touch-section-w .form-section .right-section .final-form{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            margin-top: 0px;
+
+        } 
+        .touch-section-w .form-section .right-section .final-form input{
+             width: 275px;
+             height: 48px;
+             background-color: #161B224a;
+             color: white;
+             border-radius: 10px;
+             border: 0.5px solid rgba(48, 54, 61, 1);
+             /* padding: 5px 10px; */
+             border-radius: 5px;
+             margin-bottom: 20px;
+             
+    }
+    
+        .touch-section-w .form-section .right-section .final-form span{
+            font-size: 18px;
+            color: #8B8B8B;
+            margin-top: -40px;
+            position: relative;
+
+
+        }
+        .touch-section-w  .form-section .right-section .phone{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            margin-left: 350px;
+            margin-top: -115px;
+            position: relative;
+
+        }
+
+    
+        .touch-section-w .form-section .right-section .phone input{
+            width: 275px;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+             padding: 5px 10px; 
+            border-radius: 5px;
+            margin-top: 0px;
+       }
+    
+
+       .touch-section-w .form-section .right-section .phone span{
+        font-size: 18px;
+        color: #8B8B8B;
+        margin-top: -20px;
+
+       }
+    
+       .touch-section-w .form-section .right-section .form11-group {
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    
+        .touch-section-w .form-section .right-section .form11-group input{
+            width: 625px;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+            padding: 5px 10px;
+            border-radius: 5px;
+             margin-top: 40px; 
+             margin-left:-50px;
+             
+        }
+
+
+        .touch-section-w .form-section .right-section .form11-group span{
+            font-size: 18px;
+            color: #8B8B8B;
+            margin-top: 90px;
+            margin-left: -620px;
+
+
+        }
+    
+        .touch-section-w .form-section .right-section .form22-group{
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+            margin-top: 20px;
+    
+        }
+        .touch-section-w .form-section .right-section .form22-group input{
+            width: 625px;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+            padding: 5px 10px;
+            border-radius: 5px;
+             margin-top: 40px; 
+             margin-left:-80px;
+        }
+
+        .touch-section-w .form-section .right-section .form22-group span{
+            font-size: 18px;
+            color: #8B8B8B;
+            margin-top: 100px;
+            margin-left: -620px;
+
+        }
+    
+        .touch-section-w .button-section .custom-button {
+            width: 164px;
+            height: 51px;
+            margin-top:30px ;
+            margin-left:auto;
+            background-color: #161B224a;
+            color:white;
+            border-radius: 30px;
+            border: 1px solid rgba(48, 54, 61, 1);
+            /* padding: 5px 10px; */
+            /* border-radius: 5px; */
+        }
+       
+    
+        .touch-section-w .phone input{
+            
+            background-color: #161B224a;
+            
+            color: white;
+            
+
+
+            
+        }
+    
+    
+    
+
+
+
+         .touch-section-w .second-section .images img{
+            width: 525px;
+            height: 432px;
+            /* margin-top: -450px; */
+            /* margin-left: 700px; */
+            margin-top: 150px;
+            margin-left: 50px;
+            position: absolute;
+            z-index: 99999;
+        } 
 
 
 
@@ -5829,3 +6201,595 @@ body {
 
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* **********************************************DIGITAL MARKETING PAGE **************************************************** */
+
+
+        .Service-usss {
+            padding: 20px 0;
+        }
+        
+        .Service-usss .line-image {
+            width: 50px; 
+            margin-left: 40px;
+            height: 500px;
+            margin-top: -30px;
+        }
+        
+        .Service-usss .left h2 {
+            font-size: 40px;
+            line-height: 1.5;
+            margin: -90px;
+            width: 536px;
+
+
+            
+        }
+        .Service-usss .left img {
+            width: 160px;
+            margin-left: -100px;
+            margin-top: 100px;
+        }
+        
+        .Service-usss .right .first-image {
+            width: 800px;
+            margin-left: -400px;
+            height: 500px;
+            max-width: 900px;
+        }
+        
+        @media (max-width: 768px) {
+            .Service-uss .left h2 {
+                font-size: 1.2rem;
+            }
+            
+            .Service-usss .right .first-image {
+                max-width:900px;
+    }
+    }        
+
+
+
+
+
+
+
+
+
+
+
+/* ***************************************************     */
+
+
+.Digital-Marketing .top{
+    /* display: flex;  */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+
+}
+
+.Digital-Marketing .dot img{
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
+    margin-top: 35px;
+
+}
+
+.Digital-Marketing .line img{
+    width: 3px;
+    height: 400px;
+    margin-left: 35px;
+}
+.Digital-Marketing .top h3{
+        font-size: 20px;
+        
+        margin-bottom: 10px;
+        opacity: 70%;
+        
+    }
+    
+
+    .Digital-Marketing .top h1{
+        font-size: 26px;
+        margin-bottom: 10px;
+        
+        
+    }
+
+    .Digital-Marketing .top span{
+         font-size:28x; 
+        font-family: ubuntu;
+        
+        opacity: 70%;
+        
+        
+        
+    }
+
+    .Digital-Marketing  p{
+        
+        margin-left: -10px;
+        opacity: 70%;
+        font-family: Ubuntu; 
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: left;
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* *******************************************************CLEINT SECTION******************** */
+
+
+
+ 
+.client-section-Digital{
+    width: 90%;
+    margin: 0;
+    display: flex;
+                
+    margin-left: 80px;
+}
+            
+            .client-section-Digital .left-section{
+                width: 90%;
+                overflow: scroll;
+                scrollbar-width: none;
+                margin-left: -15px;
+                
+            }
+        
+        
+                    .review-sec {
+                        overflow: scroll;
+                        width: 100%;
+                        scrollbar-width: none;
+                        
+                    }
+                    .review-section{
+                        width: 100%;
+                    }
+        
+        
+        
+        
+        
+        
+                    .client-section-Digital .left-section .review-section{
+                        display: flex;
+                        
+        
+                    
+                    }
+                    
+                            .client-section-Digital .client{
+                                display: flex;
+                                flex-direction: column;
+
+                                }
+                    
+                            .client-section-Digital .dot-section img{
+                                width:55px;
+                                height: 56pxpx;
+                                top: 487px;
+                                left: 69px;
+                                margin-left: -55px;
+        
+                                }
+                            .client-section-Digital .line-section img{
+                                width: 63.49px;
+                                height: 300px;
+                                margin-top: 10px;
+                                margin-left: -30px;
+                    
+                                }
+                    
+                              .client-section-Digital .heading-section h3{
+                                    width: 114px;
+                                    height: 28px;
+                                    opacity: 70%;
+                                    margin-top: 20px;
+                                     margin-left: 20px; 
+                    
+                              } 
+                              .client-section-Digital .discribe-section h2{
+                                width: 192px;
+                                height: 40px;
+                                margin-left: 20px;
+                                margin-top: -5px;
+                          } 
+                          
+                          .client-section-Digital .left-section  .review-section .heading-card h3{
+                            margin-left: -5px;
+                          } 
+            
+                    
+                    
+                          .client-section-Digital .left-section .card-section{
+                            width: 323px;
+                            border:  1px;
+                            border-radius: 5px;
+                            
+                            display: flex;
+                             padding: 20px; 
+                            background: rgba(22, 27, 34, 1);
+             
+                            opacity: 70%;
+                            flex-wrap: wrap;
+                    
+                            margin-left: 20px; 
+                            
+                          
+              
+                        }
+        
+        
+            
+                        .client-section-Digital .left-section .card-section .heading-card {
+                            display: flex;
+                            flex-direction: column;
+                            margin-left: 20px;
+                            margin-top:10px;
+                            
+                        }
+                        .client-section-Digital .left-section .card-section .heading-card .name{
+                            text-align: end;
+                            position:relative;
+                            
+                            
+                        }
+                    
+                        .client-section-Digital .left-section .card-section .heading-card  img{
+                    
+                            width: 89px;
+                            height: 20px;
+                    
+                    
+                            
+                        }
+                        .client-section-Digital .left-section .card-section .card-items{
+                            display: flex;
+                            flex-direction: column;
+                            
+                            /* letter-spacing:inherit; */
+                            
+                            
+                 }
+                      
+/*                         
+          *************************************************
+           */
+
+
+
+
+           .ServicesDigital-section{
+            position: relative;
+        }
+        .ServicesDigital-section .dot-section img{
+            width: 45px;
+            height: 46px;
+            margin-left: 25px;
+            
+        }
+        .ServicesDigital-section .line-section img{
+            width: 53px;
+            height: 470px;
+            margin-left: 45px;
+        }
+        
+        .ServicesDigital-section .website-offer-section {
+            padding: 20px;
+            margin-top: -520px;
+        }
+        
+        .ServicesDigital-section .website-offer-section h2 {
+            
+            top: 10px;
+            margin-left: 100px;
+            font-size: 30px;
+            /* text-align: center; */
+        }
+        
+        .ServicesDigital-section .website-offer-section h3 {
+            margin-left: 100px;
+            
+            
+        } 
+        
+        .ServicesDigital-section .website-offer-grid {
+            display: flex;
+            gap: 60px;
+            flex-wrap: wrap;
+            justify-content:left;
+            text-align:start;
+            margin-left: 100px;
+        }
+        
+        .ServicesDigital-section.website-offer-card {
+            /* background-color: #222; */
+            background-color:rgb(22 28 35);
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            width: 250px;
+        }
+        
+        .ServicesDigital-section .website-offer-card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            background: rgba(30, 36, 45, 1);
+            width: 190px;
+            height: 60px;
+            margin-left: 3px;
+            padding: 10px;
+            
+            
+        }
+        
+        .ServicesDigital-section .website-offer-card p {
+            font-size: 14px;
+            text-align : start;
+            height: 170px;
+        }
+        
+        .ServicesDigital-section .website-offer-card img {
+            max-width: 100px;
+            margin-top: 10px;
+            float:bottom;
+        }
+        
+        .ServicesDigital-section .website-offer-card a {
+            color: #ff6347;
+            text-decoration: none;
+        }
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+        /* *************************************************Social Media Page************************************************************ */
+
+
+        .Service-ussss {
+            padding: 20px 0;
+        }
+        
+        .Service-ussss .line-image {
+            width: 50px; 
+            margin-left: 40px;
+            height: 500px;
+            margin-top: -30px;
+        }
+        
+        .Service-ussss .left h2 {
+            font-size: 40px;
+            line-height: 1.5;
+            margin: -90px;
+            width: 536px;
+
+
+            
+        }
+        .Service-ussss .left img {
+            width: 210px;
+            margin-left: -100px;
+            margin-top: 100px;
+        }
+        
+        .Service-ussss .right .first-image {
+            width: 800px;
+            margin-left: -400px;
+            height: 500px;
+            max-width: 900px;
+        }
+        
+        @media (max-width: 768px) {
+            .Service-usss .left h2 {
+                font-size: 1.2rem;
+            }
+            
+            .Service-usss .right .first-image {
+                max-width:900px;
+    }
+    }        
+
+
+
+
+/* ***************************************** */
+
+
+
+.Marketing .top{
+    /* display: flex;  */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+
+}
+
+.Marketing .dot img{
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
+    margin-top: 35px;
+
+}
+
+.Marketing .line img{
+    width: 3px;
+    height: 450px;
+    margin-left: 35px;
+}
+.Marketing .top h3{
+        font-size: 20px;
+        
+        margin-bottom: 10px;
+        opacity: 70%;
+        
+    }
+    
+
+    .Marketing .top h1{
+        font-size: 36px;
+        margin-bottom: 10px;
+        
+        
+    }
+
+    .Marketing .top span{
+         font-size:23x; 
+        font-family: ubuntu;
+        
+        opacity: 70%;
+        
+        
+        
+    }
+
+    .Marketing  p{
+        
+        margin-left: -10px;
+        opacity: 70%;
+        font-family: Ubuntu; 
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: left;
+
+   }
+
+
+
+
+   /* *************************************** */
+
+
+
+
+     .ServicesDigital1-section{
+            position: relative;
+        }
+        .ServicesDigital1-section .dot-section img{
+            width: 45px;
+            height: 46px;
+            margin-left: 25px;
+            
+        }
+        .ServicesDigital1-section .line-section img{
+            width: 53px;
+            height: 470px;
+            margin-left: 45px;
+        }
+        
+        .ServicesDigital1-section .website-offer-section {
+            padding: 20px;
+            margin-top: -520px;
+        }
+        
+        .ServicesDigital1-section .website-offer-section h2 {
+            
+            top: 10px;
+            margin-left: 100px;
+            font-size: 30px;
+            /* text-align: center; */
+        }
+        
+        .ServicesDigital1-section .website-offer-section h3 {
+            margin-left: 100px;
+                        
+            
+        } 
+        
+        .ServicesDigital1-section .website-offer-grid {
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+            justify-content:left;
+            text-align:start;
+            margin-left: 100px;
+        }
+        
+        .ServicesDigital1-section.website-offer-card {
+            /* background-color: #222; */
+            background-color:rgb(22 28 35);
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            width: 250px;
+        }
+        
+        .ServicesDigital1-section .website-offer-card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            background: rgba(30, 36, 45, 1);
+            width: 190px;
+            height: 60px;
+            margin-left: 3px;
+            padding: 10px;
+            
+            
+            
+        }
+        
+        .ServicesDigital1-section .website-offer-card p {
+            font-size: 14px;
+            text-align : start;
+            height: 150px;
+        }
+        
+        .ServicesDigital1-section .website-offer-card img {
+            max-width: 100px;
+            margin-top: 10px;
+            float:bottom;
+        }
+        
+        .ServicesDigital1-section .website-offer-card a {
+            color: #ff6347;
+            text-decoration: none;
+        }
+        
+        
+        
