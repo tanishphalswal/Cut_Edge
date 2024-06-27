@@ -580,7 +580,7 @@ input {
 
 .services-section .left-section .card-section {
     min-width: 273px;
-    height: 370.17px;
+    height: 380.17px;
     border: none;
     border-radius: 15.64px;
      border-color: #ffffff;
@@ -627,6 +627,7 @@ input {
     border: solid 1px rgb(19, 157, 248) ;
     border-radius: 5px;
     padding: 3px 6px;
+    margin: 0px;
     
 
     
@@ -1349,13 +1350,13 @@ input {
                                     height: 28px;
                                     opacity: 70%;
                                     margin-top: 20px;
-                                     margin-left: 20px; 
+                                     margin-left: 0px; 
                     
                               } 
                               .client-section .discribe-section h2{
                                 width: 192px;
                                 height: 40px;
-                                margin-left: 20px;
+                                margin-left: 0px;
                                 margin-top: -5px;
                           } 
                           
@@ -2109,7 +2110,7 @@ input {
 
         .about-section1 .line-section img{
             width: 3px;
-            height: 600px;
+            height: 500px;
             
         }
 
@@ -2129,8 +2130,8 @@ input {
         }
 
         .about-section1 .right-section .image{
-            height:580px;
-            width:820px;
+            height:530px;
+            width:720px;
             background-color: rgba(22, 27, 34, 1);
             border: solid 0.5px #404040;
             border-radius: 5px;
@@ -2558,7 +2559,9 @@ input {
     .choose-section .choose .line-section img{
         width: 3px;
         height: 550px;
-        margin-top: 20px;
+        margin-top: 50px;
+        margin-left: -30px;
+        
     }
     .choose-section .left-section .left h2{
         width: 400px;
@@ -2634,6 +2637,7 @@ input {
         overflow: scroll;
         scrollbar-width: none;
         margin-left: -15px;
+
     }
 
 
@@ -2654,6 +2658,7 @@ input {
 
             .client-section1 .left-section .review-section{
                 display: flex;
+                margin: 20px;
                 
 
             
@@ -2662,6 +2667,7 @@ input {
                     .client-section1 .client{
                         display: flex;
                         flex-direction: column;
+                        
                         }
             
                     .client-section1 .dot-section img{
@@ -2684,7 +2690,8 @@ input {
                             height: 28px;
                             opacity: 70%;
                             margin-top: 20px;
-                             margin-left: 20px; 
+                             margin-left: 20px;
+                             font-size: 15px; 
             
                       } 
                       .client-section1 .discribe-section h2{
@@ -2713,6 +2720,7 @@ input {
                     opacity: 70%;
             
                     margin-left: 20px; 
+
                     
                   
       
@@ -4788,7 +4796,7 @@ input {
         padding: 20px 0;
         justify-content: space-between;
         /* align-items: center; */
-         margin-left: 120px; 
+         margin-left: 80px; 
         
         
 
@@ -4799,6 +4807,8 @@ input {
         height: 100%;
         object-fit: cover;
         border-radius: 10px;
+        width: 600px;
+        height: 500px;
         
 
      }
@@ -4844,13 +4854,14 @@ input {
 .website-offer-section h2 {
     
     top: 10px;
-    margin-left: 100px;
+    margin-left: 70px;
+
     font-size: 30px;
     /* text-align: center; */
 }
 
 .website-offer-section h3 {
-    margin-left: 100px;
+    margin-left: 70px;
     
     
 } 
@@ -4862,6 +4873,7 @@ input {
     justify-content:left;
     text-align:start;
     margin-left: 100px;
+    margin-top: 0px;
     
 }
 
@@ -4871,7 +4883,7 @@ input {
     padding: 30px;
     border-radius: 8px;
     text-align: center;
-    width: 270px;
+    width: 250px;
     gap: 60px;
 }
 
@@ -5552,7 +5564,7 @@ input {
     .Service-uss .right .first-image {
         width: 800px;
         margin-left: -400px;
-        height: 500px;
+        height: 600px;
         max-width: 900px;
     }
     
@@ -5650,153 +5662,17 @@ input {
 
 /* *************************************************************************************************** */
 
-/* 
-body {
-    background-color: #10152b;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-} */
-
-/* 
-.expertise-section {
-    
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.expertise-section h2 {
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-
-.expertise-list {
-    list-style: none;
-    padding: 0;
-    width: 480px;
-   
-}
-
-.expertise-list li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: 26px;
-    opacity: 70%;
-}
-
-.expertise-list li i {
-    color: #00ff00;
-    margin-right: 10px;
-}
-
-.expertise-section p {
-    margin-top: 20px;
-    font-size: 16px;
-    width: 450px;
-    font-size: 26px;
-    opacity: 70%;
-}
-
-.img-fluid {
-    background-color: #1a1f36;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    padding: 160px 40px 20px 30px;
-} */
-
-
-/* .expertise-section {
-    
-    padding: 20px;
-    border-radius: 8px;
-    
-}
-
-.expertise-section h2 {
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-
-.expertise-list {
-    list-style: none;
-    padding: 0;
-    width: 400px;
-}
-
-.expertise-list li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: 22px;
-    opacity: 70%;
-}
-
-.expertise-list li i {
-    color: #00ff00;
-    margin-right: 10px;
-}
-
-.expertise-section p {
-    margin-top: 20px;
-    font-size: 16px;
-    width: 450px;
-    font-size: 22px;
-    opacity: 70%;
-
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-    border-radius: px;
-}
-
-.dot-section img{
-    display: block;
-    margin: 0 auto;
-    margin-left: -90px;
-    margin-top: -30px;
-    
-    
-}
-
-.line-section img {
-    display: block;
-     margin: 0 auto; 
-    
-    
-    
-}
-
-.line-section {
-    display: flex;
-     justify-content: center; 
-     align-items: center; 
-     height: 100%;
-} */
-
-
-
-
-/* 
-body {
-    background-color: #10152b;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-} */
 
 .expertise-section {
-    /* background-color: #1a1f36; */
-    /* padding: 20px; */
-    /* border-radius: 8px; */
     margin-left: 0px;
+
     
 }
 
 .expertise-section h2 {
     color: #ffffff;
     margin-bottom: 20px;
+    width: 600px;
     
     
 }
@@ -5804,7 +5680,11 @@ body {
 .expertise-list {
     list-style: none;
     padding: 0;
-
+    margin: 0;
+    width: 600px;
+    
+    
+    margin-left: 0px;
     
 }
 
@@ -5822,6 +5702,8 @@ body {
     color: #00ff00;
     margin-right: 10px;
     margin-top: -30px;
+    max-width: 450px;
+    
 }
 
 .expertise-section p {
@@ -5832,42 +5714,39 @@ body {
 }
 
 .img-fluid {
-    max-width: 350px;
+    max-width: 450px;
     height: auto;
 }
 
-/* .dot-section img, .line-section img {
-    display: block;
-} */
 
 .expertise-section .dot-section img {
-     /* display: flex;
-    justify-content: center;
-    align-items: center;  */
+    
     height: 50px; 
     margin-bottom: 20px;
-    margin-left: -15px;
+    margin-left: px;
     width: 50px;
+    
     
     
 }
 
 .expertise-section .line-section img {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* height: 100%; Adjust this to match your image height */
-    margin-left: -10px;
+    
+    margin-left: px;
     width: 3px;
-    height: 550px;
+    height: 580px;
     
 }
 
 .img-fluid1 {
-    max-width: 550px;
+    max-width: 600px;
+    margin-top: 50px;
     height: auto;
     padding: 60px 20px 10px 30px;
+    
+    
 }
+
 
 
     /* *************************************************************************************************** */
@@ -5883,11 +5762,12 @@ body {
         width: 45px;
         height: 46px;
         top: 20px;
+        margin-left: 15px;
     }
     .FRONTEND-section1 .line img {
         position: relative;
         top: 20px;
-        left: 20px;
+        left: 35px;
         height: 10px; 
         width: 3px;
         height: 200px;
@@ -5958,11 +5838,12 @@ body {
         width: 45px;
         height: 46px;
         top: 20px;
+        left: 15px;;
     }
     .BACKEND-section1 .line img {
         position: relative;
         top: 20px;
-        left: 20px;
+        left: 35px;
         height: 10px; 
         width: 3px;
         height: 200px;
@@ -6023,18 +5904,18 @@ body {
 
 .choose-app{
     display: flex;
-    
-    
+    margin-top: 20px;
 }
 
     .choose-app .dot img{
         width: 50px;
-        margin: 10px;
+        /* margin: 10px; */
+        left:60px;
     }
     .choose-app .line img{
         width:3px;
          margin-top: 60px; 
-        margin-left: -40px;
+        margin-left: -20px;
         width: 45;
 
     }
