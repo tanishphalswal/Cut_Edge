@@ -150,7 +150,7 @@ input {
         }
 
         .navbar .dropdown-content a:hover {
-            background-color: rgba(237, 93, 35, 1);
+            background-color: rgba(232, 88, 71, 1);
             opacity: 90%;
         }
 
@@ -509,7 +509,7 @@ input {
     .custom-button .arrow-img{
         width:0.6rem ;
         height: 0.6rem;
-        margin-left: 0.6rem;
+        margin-left: 3px;
         margin-top: -0.3rem;
 
     }
@@ -761,12 +761,29 @@ input {
     }
 
     .leading-section .image1-section img{
-        width: 1237px;
+        /* width: 1237px;
         height: 66px;
         border: 5px;
         margin-top: 20px;
-        margin-left: 40px;
+        margin-left: 40px; */
     }
+    .leading-section .client-logo {
+        /* border: 2px dashed #ffffff; */
+        /* padding: 10px; */
+        /* margin-bottom: 20px; */
+    
+      }
+      
+      .leading-section  .client-logo img {
+        max-width: 150px;
+        width: 1200px;
+        height: auto;
+        /* margin-right: 30px; */
+        padding: 50px;
+        
+      }
+      
+      
 
 
 
@@ -1880,11 +1897,13 @@ input {
     } 
 
     .footer-section  .footer2 .footer2-content h3{
-        width: 569px ;
+        width: 769px ;
         height: 24px;
-        padding-left: 50px;
+         padding-left: 100px;
         padding-top: 50px;
         margin-top: -60px;
+        
+    
 
         
         

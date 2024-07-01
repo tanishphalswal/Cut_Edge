@@ -61,22 +61,22 @@
 
 
      .grow-section{
-        height: 1000px;
+        height: 400px;
         
     }  
     .right-section .image img{
         width: 29rem;
         height: 38rem;
         margin-top: 270px;
-        margin-left: -470px;
+        margin-left: -570px;
         max-width: 0px;
     }
     
     .grow-section .line-section img{
         width: 0.1rem;
-        height: 55.8rem;
+        height: 15rem;
         top: 11.1rem;
-        left:5rem;
+        left:-35rem;
         border-radius:0.3rem;
     }
     .grow-section .description{
@@ -86,6 +86,16 @@
         opacity: 70%;
         line-height: 2.25rem;
         margin-left: 20px;
+    }
+
+    .grow-section .right-section .image img{
+        width: 300px;
+        height: 279px;
+        
+        border-radius: 5px;
+        border: 1px;
+        margin-left: -740px;
+        margin-top: 400px;
     }
  
 }
@@ -120,15 +130,15 @@
         position: absolute;
         width: 200px;
         height: 200px;
-         top: 0px;
+         top: 450px;
          right: 0px; 
         z-index: -1;
         animation: rotate 10s infinite linear;
-         margin-top:730px;
-        margin-right: 100px;
+         /* margin-top:730px; */
+        /* margin-right: 100px; */
         border: none;
         opacity: 70%;
-        margin-left: -600px;
+    
 
     }
     
@@ -317,7 +327,7 @@
 @media (min-width: 320px) and (max-width: 480px){
 
 .news-section{
-    height: auto;
+    height: 1400px;
     width: 100%;
 }
 
@@ -334,7 +344,7 @@
 
     .news-section .line-section img{
         width: 5.39px;
-        height: 1750px;
+        height: 1380px;
         border-radius: 2.77px;
         margin-left: 20px;
     }
@@ -358,7 +368,7 @@
         font-family: ubuntu;
         /* letter-spacing: 2%; */
         /* line-height: 34px; */
-        margin-left: px;
+        margin-left:10px;
         
     } 
 
@@ -368,6 +378,7 @@
         /* justify-content: space space-between; */
         /* margin-top: -10px; */
         /* margin-left: -60px; */
+        margin-left: 10px;
 
     } 
 
@@ -398,7 +409,7 @@
             height: auto;
             font: ubuntu;
             line-height: 22.46px; 
-            /* margin-top: -350px;  */
+             margin-top: -30px;  
             /* margin-left: 70px; */
     }
     
