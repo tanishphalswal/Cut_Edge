@@ -163,7 +163,7 @@
 
 .company-section .line-section img{
     width: 5px;
-    height: auto;
+    height: 950px;
     border-radius: 6px;
     margin-top: 10px;
     margin-left: 20px;
@@ -202,7 +202,18 @@
         margin-top: 0px;
     }
 
+
 }
+@media (max-width: 767px) {
+    .stat-box {
+      border-left: none;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .stat-box:first-child {
+      border-top: none;
+    }
+  }
+  
 
     /* leading section */ 
     @media (min-width: 320px) and (max-width: 480px){
@@ -400,6 +411,7 @@
             border: 1px solid rgba(48, 54, 61, 1);
             margin-left: px;
             margin-top: px;
+            max-width: 400px;
             
     
         }
