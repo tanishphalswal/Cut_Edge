@@ -472,10 +472,32 @@
                 <h2>Development Process</h2>
 
             </div>
-            <div class="image2-section">
-                <img src="../assests/images/pictures/mobile.webp">
-            </div> 
+            
+            <!-- <div class="image2-section">
+                <picutre> -->
+                    
 
+
+                    <!-- <source media = "(max-width: 600px)" srcset="../assests/images/pictures/1234.png">
+                    <img src="../assests/images/pictures/mobile.webp"> -->
+<!-- 
+                    <source media="(min-width: 300px)" src="assests/images/pictures/1234.png">
+                    <source media="(max-width: 601px)" src="assests/images/pictures/mobile.webp">
+                    <img src="../assests/images/pictures/mobile.webp" alt="Mobile Image">
+                </picutre>
+                
+
+            </div>  -->
+
+
+
+            <div class="image2-section">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="assests/images/pictures/1234.png">
+                    <source media="(min-width: 601px)" srcset="assests/images/pictures/mobile.webp">
+                    <img src="../assests/images/pictures/mobile.webp" alt="Mobile Image">
+                </picture>
+            </div>
 
 
 

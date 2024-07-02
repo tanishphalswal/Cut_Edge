@@ -304,16 +304,16 @@
     @media (min-width: 320px) and (max-width: 480px){
      .mobile-section .line-section img{
         width: 4.39px;
-        height: 118px;
+        height: 1500px;
         border-radius: 9px;
         margin-top: 10px;
 
     }
     .mobile-section .image2-section img {
-        width: 100%;
+        width: 300px;
         height: auto;
-        margin-left: 20px;
-        margin-top:10px ;
+        margin-left: 0px;
+        margin-top:0px ;
         
     }
     .mobile-section .heading-section h2 {
@@ -327,10 +327,13 @@
         opacity: 70%;
         font-size: 20px;
     }
+    /* .mobile-section .image2-section {
+
+    } */
 
 
 }
-
+ 
 
 
 
