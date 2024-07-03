@@ -1977,3 +1977,763 @@ border-radius: 5px;
 
 
 
+
+
+
+
+
+
+/* 
+
+**********************************************************************************************
+                                        Web Development
+********************************************************************************************** */
+
+
+
+@media (max-width: 768px) {
+    /* .Service-us .left h2 {
+        font-size: 1.2rem;
+        margin-left: 60px;
+    }
+    
+    .Service-us .right .first-image {
+        max-width:900px;
+
+} */
+
+
+.Service-us {
+    /* padding: 20px 0; */
+    display: flex;
+}
+
+.Service-us .line-image {
+    width: 50px; 
+    margin-left: 0px;
+    height: 500px;
+   
+}
+
+.Service-us .left h2 {
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 50px;
+    
+}
+.Service-us .left img {
+    width: 190px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.Service-us .right .first-image {
+    width: 400px;
+    margin-left: -50px;
+    height: 500px;
+    min-width: 300px;
+}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+.web-developemnt .top{
+    /* display: flex;  */
+    /* justify-content: space-between;
+    align-items: center; */
+    padding: 20px 0;
+
+
+}
+
+.web-developemnt .dot img{
+    width: 45px;
+    height: 45px;
+    margin-left: -15px;
+    margin-top: 30px;
+
+}
+
+.web-developemnt .line img{
+    width: 3px;
+    height: 370px;
+    margin-left: 5px;
+}
+
+.web-developemnt .left{
+    margin-left: 70px;
+    margin-top: -450px;
+}
+.web-developemnt .right{
+    margin-left: 70px;
+    
+
+}
+    .web-developemnt .top h3{
+        font-size: 20px;
+        
+        margin-bottom: 10px;
+        opacity: 70%;
+        
+    }
+ 
+
+    .web-developemnt .top h1{
+        font-size: 26px;
+        margin-bottom: 10px;
+        
+        
+    }
+
+    .web-developemnt .top span{
+         font-size:26px; 
+        font-family: ubuntu;
+        
+        
+    }
+
+}
+
+    .web-developemnt .bottom span{
+        font-size:20px; 
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       opacity: 70%;
+       margin-left: -10px;
+       
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (min-width: 320px) and (max-width: 480px) {
+    .cutedge {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .cutedge .left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: -285px;
+        margin-left: 40px;
+    }
+
+    .cutedge .dot img {
+        width: 45px;
+        height: 45px;
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+
+    .cutedge .line img {
+        width: 3px;
+        height: 500px;
+        margin-left: -5px;
+    }
+
+    .cutedge .left h3 {
+        opacity: 70%;
+        text-align: center;
+        font-size: 18px;
+        margin-left: -180px;
+        
+       
+    }
+
+    .cutedge .left h2 {
+        font-size: 24px;
+        margin-left: -100px;
+        
+    }
+
+    .cutedge .left1 span {
+        opacity: 70%;
+        width: 140px;
+        font-size: 20px;
+        margin-left: 0px;
+        text-align: center;
+    
+
+    }
+
+    .cutedge .right {
+        padding: 20px 0;
+        display: flex;
+        /* justify-content: center; */
+        width: 100%;
+    }
+
+    .cutedge .right img {
+        width: 90%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-left: -90px;
+    }
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .choose {
+        flex-direction: column;
+        /* align-items: center; */
+        position: relative;
+        height: 900px;
+    }
+
+    .choose .dot img {
+        position: absolute;
+        width: 40px;
+        margin: 5px;
+        /* margin-left: -150px; */
+        margin-top: 0px;
+    }
+
+    .choose .line img {
+        position: absolute;
+        width: 2px;
+        margin-top: 10px;
+        margin-left: 30px;
+        height: auto;
+
+    }
+
+    .choose h3 {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 60px;
+        /* text-align: center; */
+
+        /* margin-top: -350px; */
+    }
+
+    .choose h2 {
+        font-size: 28px;
+        margin-top: 10px;
+        margin-left: 60px;
+        /* text-align: center; */
+        width: 160%;
+    }
+
+    .choose p {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 60px;
+        width: 160%;
+        height: auto;
+        /* text-align: center; */
+    }
+
+    .choose .right {
+        width: 90%;
+        height: auto;
+        /* margin-left: 10px; */
+        padding: 10px;
+    }
+
+    .choose .right img {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.website-offer-grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content:left;
+    text-align:start;
+    margin-left: 60px;
+    margin-top: 0px;
+    
+}
+
+
+.website-offer-card {
+    /* background-color: #222; */
+    background-color:rgb(22 28 35);
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    gap: 60px;
+}
+
+.website-offer-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background: rgba(30, 36, 45, 1);
+    width: 190px;
+    height: 60px;
+    margin-left: 3px;
+    padding: 10px;
+    
+    
+    }
+
+}
+
+
+
+/* 
+
+@media (min-width: 320px) and (max-width: 480px) {
+.touch-section-w {
+    width: 100%;
+    height: 1300px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    
+    justify-content:left;
+    position: relative;
+
+    
+              
+}  
+
+       
+.touch-section-w .dot-section img{
+            width: 45px;
+            height: 55px;
+            margin-left: 10px;
+            margin-top: -15px;
+                
+        }
+        .touch-section-w .line-section img{
+            width: 3px;
+            height: 650px;
+            border-radius: 2.77px;
+            margin-top: 20px;
+            margin-left: -30px;
+            
+    
+        
+        }  
+        
+        .touch-section-w .heading-section h3{
+            width: 100px;
+            height: 18px;
+            opacity: 70%;
+            margin-left: 30px;
+            flex-wrap: wrap;
+
+
+
+        }
+        .touch-section-w .description h2{
+            width: 441px;
+            height: 80px;
+            margin-left: 30px;
+            margin-top: 10px;
+            font-size: 30px;
+            min-width: 100px;
+
+        }
+
+
+        .touch-section-w .image{
+            width: 100%;
+            height: auto;
+
+        }
+
+        .touch-section-w .image img{
+            width: 525px;
+            height: 432px;
+            
+        }
+
+
+        .touch-section-w .form-section .right-section{
+            background: rgba(22, 27, 34, 1); 
+            padding: 30px 30px 30px 30px;
+            border-radius: 10px;
+            margin-top: 0px;
+            margin-left: 20px;
+            width: 1300px;
+            height: 550px;
+        }
+    
+        
+    
+        .touch-section-w .form-section .right-section .final-form{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            margin-top: 0px;
+
+        }
+        .touch-section-w .form-section .right-section .final-form input{
+             width: 275px;
+             height: 48px;
+             background-color: #161B224a;
+             color: white;
+             border-radius: 10px;
+             border: 0.5px solid rgba(48, 54, 61, 1);
+
+             border-radius: 5px;
+             margin-bottom: 20px;
+             
+        }
+    
+        .touch-section-w .form-section .right-section .final-form span{
+            font-size: 18px;
+            color: #8B8B8B;
+            margin-top: -40px;
+            position: relative;
+
+
+        }
+        .touch-section-w  .form-section .right-section .phone{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            margin-left: 350px;
+            margin-top: -95px;
+            position: relative;
+
+        }
+
+    
+        .touch-section-w .form-section .right-section .phone input{
+            width: 275px;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+             padding: 5px 10px; 
+            border-radius: 5px;
+            margin-top: 0px;
+       }
+    
+
+       .touch-section-w .form-section .right-section .phone span{
+        font-size: 18px;
+        color: #8B8B8B;
+        margin-top: -20px;
+
+       }
+    
+       .touch-section-w .form-section .right-section .form11-group {
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    
+        .touch-section-w .form-section .right-section .form11-group input{
+            width: 625px;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+            padding: 5px 10px;
+            border-radius: 5px;
+             margin-top: 40px; 
+             margin-left:-50px;
+             
+        }
+
+
+        .touch-section-w .form-section .right-section .form11-group span{
+            font-size: 18px;
+            color: #8B8B8B;
+            margin-top: 90px;
+            margin-left: -620px;
+
+
+        }
+    
+        .touch-section-w .form-section .right-section .form22-group{
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+            margin-top: 20px;
+    
+        }
+        .touch-section-w .form-section .right-section .form22-group input{
+            width: 625px;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+            padding: 5px 10px;
+            border-radius: 5px;
+             margin-top: 40px; 
+             margin-left:-80px;
+        }
+
+        .touch-section-w .form-section .right-section .form22-group span{
+            font-size: 18px;
+            color: #8B8B8B;
+            margin-top: 100px;
+            margin-left: -620px;
+
+        }
+    
+        .touch-section-w .form-section .right-section  .button-section .custom-button {
+            width: 164px;
+            height: 51px;
+            margin-top:30px ;
+            margin-left:auto;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 30px;
+            border: 1px solid rgba(48, 54, 61, 1);
+            
+        }
+       
+    
+        .touch-section-w .phone input{
+            
+            background-color: #161B224a;
+            
+            color: white;
+            
+
+
+            
+        }
+    
+    
+    
+
+
+
+        .touch-section-w .form-section .second-section .images img{
+            width: 525px;
+            height: 432px;
+            margin-top: -450px;
+            margin-left: 700px;
+        } 
+
+    } */
+
+
+
+
+
+
+
+
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        .touch-section-w {
+            width: 100%;
+            height: 1500px;
+            margin: 0;
+            padding: 0;
+            /* justify-content: left; */
+            position: relative;
+        }  
+    
+        .touch-section-w .dot-section img {
+            width: 45px;
+            height: 55px;
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+    
+        .touch-section-w .line-section img {
+            width: 3px;
+            height: auto; 
+            border-radius: 2.77px;
+            margin-top: 30px;
+            margin-left: -20px;
+        }
+    
+        .touch-section-w .heading-section h3 {
+            width: auto;
+            height: auto;
+            opacity: 70%;
+            margin: 10px;
+            flex-wrap: wrap;
+            font-size: 16px; 
+            text-align: center;
+        }
+    
+        .touch-section-w .description h2 {
+            width: 100%;
+            height: auto;
+            margin: 10px;
+            font-size: 24px;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+    
+        .touch-section-w .image {
+            width: 100%;
+            height: auto;
+            display: flex;
+        
+        }
+    
+        .touch-section-w .image img {
+            width: 300px; 
+            height: 200px;
+            
+        }
+    
+        .touch-section-w .form-section .right-section {
+            background: rgba(22, 27, 34, 1); 
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            width: 160%;
+            height: auto;
+            margin-left:0px;
+        }
+    
+        .touch-section-w .form-section .right-section .final-form {
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            margin-top: 0;
+        }
+    
+        .touch-section-w .form-section .right-section .final-form input {
+            width: 90%;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+            margin-bottom: 20px;
+            padding: 0 10px;
+        }
+    
+        .touch-section-w .form-section .right-section .final-form span {
+            font-size: 14px;
+            color: #8B8B8B;
+            margin-top: -20px;
+        }
+    
+        .touch-section-w .form-section .right-section .phone {
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            margin-left: 0;
+            margin-top: -20px;
+        }
+    
+        .touch-section-w .form-section .right-section .phone input {
+            width: 90%;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+            padding: 0 10px;
+        }
+    
+        .touch-section-w .form-section .right-section .phone span {
+            font-size: 14px;
+            color: #8B8B8B;
+            margin-top: -10px;
+        }
+    
+        .touch-section-w .form-section .right-section .form11-group {
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    
+        .touch-section-w .form-section .right-section .form11-group input {
+            width: 90%;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+            padding: 0 10px;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+    
+        .touch-section-w .form-section .right-section .form11-group span {
+            font-size: 14px;
+            color: #8B8B8B;
+            margin-top: -10px;
+        }
+    
+        .touch-section-w .form-section .right-section .form22-group {
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    
+        .touch-section-w .form-section .right-section .form22-group input {
+            width: 90%;
+            height: 48px;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 10px;
+            border: 0.5px solid rgba(48, 54, 61, 1);
+            padding: 0 10px;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+    
+        .touch-section-w .form-section .right-section .form22-group span {
+            font-size: 14px;
+            color: #8B8B8B;
+            margin-top: -10px;
+        }
+    
+        .touch-section-w .form-section .right-section .button-section .custom-button {
+            width: 164px;
+            height: 51px;
+            margin-top: 30px;
+            margin-left: auto;
+            background-color: #161B224a;
+            color: white;
+            border-radius: 30px;
+            border: 1px solid rgba(48, 54, 61, 1);
+        }
+    
+        .touch-section-w .form-section .second-section .images img {
+            width: 90%;
+            height: auto;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+    
