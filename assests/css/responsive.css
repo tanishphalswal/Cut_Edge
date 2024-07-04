@@ -2563,8 +2563,8 @@ border-radius: 5px;
         .touch-section-w .dot-section img {
             width: 45px;
             height: 55px;
-            margin-left: 0px;
-            margin-top: 10px;
+            margin-left: 5px;
+            margin-top: -20px;
         }
     
         .touch-section-w .line-section img {
@@ -2736,4 +2736,248 @@ border-radius: 5px;
             display: block;
         }
     }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+    ***************************************************             APP DEVELOPMEENT
+    ************************************************** */
+
+
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        .expertise-section {
+            margin-left: 0;
+            padding: 0 10px;
+        }
+    
+        .expertise-section h2 {
+            color: #ffffff;
+            margin-bottom: 20px;
+            width: 100%;
+            margin-left: 40px;
+            margin-top: -480px;
+            
+        }
+    
+        .expertise-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            margin-left: 40px;
+        }
+    
+        .expertise-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 18px;
+            opacity: 70%;
+            word-wrap: break-word;
+        }
+    
+        .expertise-list li i {
+            color: #00ff00;
+            margin-right: 10px;
+            margin-top: 0;
+        }
+    
+        .expertise-section p {
+            margin-top: 20px;
+            font-size: 18px;
+            opacity: 70%;
+            width: 100%;
+            margin-left: 40px;
+        }
+    
+        .img-fluid {
+            width: 100%;
+            height: auto;
+        }
+    
+        .expertise-section .dot-section img {
+            width: 45px;
+            height: 45px;
+            /* margin-bottom: 20px; */
+            margin-left: -160px;
+        }
+    
+        .expertise-section .line-section img {
+            width: 3px;
+            height: auto;
+            margin-left: -140px;
+
+        }
+    
+        .img-fluid1 {
+            width: 100%;
+            margin-top: 20px;
+            height: auto;
+            padding: 10px;
+        }
+    }
+    
+
+
+ @media (min-width: 320px) and (max-width: 480px) {
+   .choose-app {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    .choose-app .dot img {
+        width: 45px;
+        margin-left: -5px;
+        margin-top: 20px;
+    }
+
+    .choose-app .line img {
+        width: 3px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    .choose-app h3 {
+        opacity: 70%;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 0;
+        /* text-align: center; */
+        width: 100%;
+        margin-top: -470px;
+    }
+
+    .choose-app h2 {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-left: 0;
+        /* text-align: center; */
+        min-width: 500px;
+        width: 500px;
+        margin-left: 20px;
+    }
+
+    .choose-app p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 0;
+        /* text-align: center; */
+        opacity: 70%;
+        min-width: 290px;
+        height: 400px;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .choose-app .right {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        background-color: rgb(22, 28, 35);
+        border: 1px solid rgb(91, 91, 91);
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .choose-app .right img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius:10px;
+    }
+
+}
+
+ 
+
+
+    @media (min-width: 320px) and (max-width: 480px) {
+    .Mission .top{
+       
+    }
+    
+    .Mission .dot img{
+        width: 45px;
+        height: 45px;
+        margin-left: -10px;
+        margin-top: 35px;
+    
+    }
+    
+    .Mission .line img{
+        width: 3px;
+        height: 270px;
+        margin-left: 10px;
+    }
+
+
+    .Mission .left{
+        margin-left: 60px;
+        margin-top: -345px;
+    }
+    
+        
+    
+        .Mission .top h1{
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-family: ubuntu;
+            
+            
+            
+        }
+    
+      
+    
+        .Mission p{
+           font-size:24px; 
+           font-family: ubuntu;
+           margin-left: 60px;
+           opacity: 70%;
+           font-family: ubuntu;
+           
+       }
+        
+    
+}
+
+
+    
     

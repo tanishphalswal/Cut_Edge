@@ -5830,12 +5830,12 @@ input {
         width: 45px;
         height: 46px;
         top: 20px;
-        margin-left: 15px;
+        margin-left: 10px;
     }
     .FRONTEND-section1 .line img {
         position: relative;
         top: 20px;
-        left: 35px;
+        left: 30px;
         height: 10px; 
         width: 3px;
         height: 200px;
@@ -5906,12 +5906,12 @@ input {
         width: 45px;
         height: 46px;
         top: 20px;
-        left: 15px;;
+        left: 10px;;
     }
     .BACKEND-section1 .line img {
         position: relative;
         top: 20px;
-        left: 35px;
+        left: 30px;
         height: 10px; 
         width: 3px;
         height: 200px;
@@ -5977,13 +5977,12 @@ input {
 
     .choose-app .dot img{
         width: 50px;
-        /* margin: 10px; */
-        left:60px;
+        margin-left:30px;
     }
     .choose-app .line img{
         width:3px;
          margin-top: 60px; 
-        margin-left: -20px;
+        margin-left: -30px;
         width: 45;
 
     }
@@ -6102,7 +6101,7 @@ input {
         .touch-section-w .dot-section img{
             width: 45px;
             height: 55px;
-            margin-left: -60px;
+            margin-left: -50px;
             margin-top: -15px;
                 
         }
@@ -6111,7 +6110,7 @@ input {
             height: 650px;
             border-radius: 2.77px;
             margin-top: 30px;
-            margin-left: -40px;
+            margin-left: -0px;
     
         
         }  
