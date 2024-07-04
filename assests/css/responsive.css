@@ -2776,6 +2776,114 @@ border-radius: 5px;
 
 
 
+
+
+    @media (min-width: 320px) and (max-width: 480px) {
+
+        .Service-uss {
+            display: flex;
+            flex-direction: column; /* Ensure elements stack vertically on small screens */
+            align-items: center; /* Center align elements */
+        }
+    
+        .Service-uss .line-image {
+            max-width: 50px;
+            margin-left: 10px;
+            height: auto; 
+        }
+    
+        .Service-uss .left h2 {
+            font-size: 24px; 
+            line-height: 1.2;
+            margin: 40px;
+            max-width: 200px;
+            /* text-align: center;  */
+        }
+    
+        .Service-uss .left img {
+            width: 80%; 
+            max-width: 190px;
+            margin: 0 auto; 
+        }
+    
+        .Service-uss .right .first-image {
+            width: 80%;
+            max-width: 300px;
+            margin: 0 auto; /* Center the image */
+            height: auto; /* Let the height adjust based on the width to maintain aspect ratio */
+        }
+    }
+    
+
+
+    
+    @media (min-width: 320px) and (max-width: 480px) {
+
+.Mobile-App .top{
+    /* display: flex;  */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+
+}
+
+.Mobile-App .dot img{
+    width: 45px;
+    height: 45px;
+    margin-left: -15px;
+    margin-top: px;
+
+}
+
+.Mobile-App .line img{
+    width: 3px;
+    height: 270px;
+    margin-left: 5px;
+}
+.Mobile-App .top{
+    margin-left: 50px;
+    margin-top: -170px;
+}
+.Mobile-App .top h3{
+        font-size: 26px;
+        
+        margin-top: -10px;
+         opacity: 70%; 
+        margin-left: -45px;
+    }
+    
+
+    .Mobile-App .top h1{
+        font-size: 36px;
+        margin-left: -45px;
+        
+        
+    }
+
+    .Mobile-App .top span{
+         font-size:28x; 
+        font-family: ubuntu;
+        /* margin-bottom: 10px; */
+        opacity: 70%;
+        
+        
+        
+    }
+
+    .Mobile-App  p{
+        font-size:24px; 
+       font-family: ubuntu;
+       margin-left: -10px;
+       opacity: 70%;
+       margin-top: -60px;
+       
+       
+   }  
+    
+    
+}
+
     @media (min-width: 320px) and (max-width: 480px) {
         .expertise-section {
             margin-left: 0;
@@ -2981,3 +3089,587 @@ border-radius: 5px;
 
     
     
+
+
+
+
+
+
+
+/* 
+
+**********************************************************************************************************
+
+                            Digital Makreting Page
+**********************************************************************************************************                           */
+
+@media (min-width: 320px) and (max-width: 480px) {
+.Service-usss {
+    /* padding: 20px 0; */
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+
+.Service-usss .line-image {
+    width: 50px; 
+    margin-left: 0px;
+    height: 500px;
+    /* margin-top: -30px; */
+}
+
+.Service-usss .left h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-left: 50px;
+    /* width: 536px; */
+    min-width: 300px;
+
+
+    
+}
+.Service-usss .left img {
+    width: 150px;
+    /* margin-left: 50px; */
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.Service-usss .right .first-image {
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+    min-width: 300px;
+}
+}
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+.Digital-Marketing .top{
+    /* display: flex;  */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* padding: 20px 0; */
+
+
+}
+
+.Digital-Marketing .dot img{
+    width: 45px;
+    height: 45px;
+    margin-left: 0px;
+    margin-top: 35px;
+
+}
+
+.Digital-Marketing .line img{
+    width: 3px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.Digital-Marketing .left{
+    margin-left:70px;
+    margin-top: -470px;
+
+}
+.Digital-Marketing .top h3{
+        font-size: 20px;
+        opacity: 70%;
+        
+    }
+    
+
+    .Digital-Marketing .top h1{
+        font-size: 26px;
+        margin-bottom: 10px;
+        
+        
+    }
+
+    .Digital-Marketing .top span{
+         font-size:28x; 
+        font-family: ubuntu;
+        
+        opacity: 70%;
+        
+        
+        
+    }
+
+    .Digital-Marketing  p{
+        
+        /* margin-left: -10px; */
+        /* opacity: 70%; */
+        /* font-family: Ubuntu;  */
+        /* font-size: 28px; */
+        /* font-weight: 400; */
+        /* line-height: 48px; */
+        /* text-align: left; */
+        margin-left: 60px;
+        margin-top: -380px;
+
+   }
+
+
+
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .cutedge1 {
+        display: flex;
+        flex-direction: column;
+        /* padding: 20px 0; */
+    }
+
+    .cutedge1 .left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 40px;
+        /* align-items: center; */
+        margin-top: -290px;
+    }
+
+    .cutedge1 .dot img {
+        width: 45px;
+        height: 45px;
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+
+    .cutedge1 .line img {
+        width: 3px;
+        height: 500px;
+        margin-left: -5px;
+    }
+
+    .cutedge1 .left h3 {
+        opacity: 70%;
+        /* text-align: center; */
+        font-size: 18px;
+        margin-left: -50px;
+
+        
+       
+    }
+
+    .cutedge1 .left h2 {
+        font-size: 24px;
+        margin-left: -50px;
+        
+    }
+
+    .cutedge1 .left1 span {
+        opacity: 70%;
+        width: 140px;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-top: -40px;
+        /* text-align: center; */
+    
+
+    }
+
+    .cutedge1 .right {
+        padding: 20px 0;
+        display: flex;
+        /* justify-content: center; */
+        width: 100%;
+    }
+
+    .cutedge1 .right img {
+        width: 90%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-left: -90px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.good {
+
+
+}
+
+
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .ServicesDigital-section{
+        position: relative;
+    }
+    .ServicesDigital-section .dot-section img{
+        width: 45px;
+        height: 46px;
+        margin-left: 0px;
+        
+    }
+    .ServicesDigital-section .line-section img{
+        width: 53px;
+        height: 470px;
+        margin-left: 15px;
+    }
+    
+    
+    .ServicesDigital-section .website-offer-section h2 {
+        
+        top: 10px;
+        margin-left: 50px;
+        font-size: 30px;
+        
+    }
+    
+    .ServicesDigital-section .website-offer-section h3 {
+        margin-left: 50px;
+        
+        
+    } 
+    
+    .ServicesDigital-section .website-offer-grid {
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+        justify-content:left;
+        text-align:start;
+        margin-left: 50px;
+    }
+    
+   
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+.result-section1{
+    display:flex;
+    flex-wrap:wrap;
+    
+    margin-top:50px;
+
+
+   }
+
+   .result-section1 .dot img{
+    width: 41px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+   }
+
+   .result-section1 .line img{
+    width: 3px;
+    height: 1400px;
+    margin-left: 15px;
+   }
+
+   .result-section1 .col-md-11{
+    margin-left: 40px;
+    margin-top: -1440px;
+   }
+   .result-section1 h2{
+    font-size:24px;
+    margin-bottom:20px;
+   }
+    
+   .result-section1 h1{
+    font-size:36px;
+    margin-bottom:20px;
+
+   }
+
+   .result-section1 .image img{
+    width:100%;
+    height:200px;
+    border-radius:10px;
+    height: 1300px;
+   }
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+.client-section-Digital{
+    width: 90%;
+    margin: 0;
+    display: flex;
+                
+    margin-left: 50px;
+}
+}
+
+
+
+
+
+/* 
+
+***************************************************************************************************
+                            Social Media Page
+****************************************************************************************************                          */
+
+/* 
+@media (min-width: 320px) and (max-width: 480px) {
+
+.Service-ussss {
+    display: flex;
+}
+
+.Service-ussss .line-image {
+    width: 50px; 
+    margin-left: 10px;
+    height: 500px;
+    
+}
+
+.Service-ussss .left h2 {
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 50px;
+    max-width: 200px;
+
+
+    
+}
+.Service-ussss .left img {
+    width: 190px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.Service-ussss .right .first-image {
+    width: 400px;
+    margin-left: -50px;
+    height: 500px; 
+    min-width: 300px;
+}
+
+} */
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .Service-ussss {
+        display: flex;
+        flex-direction: column; /* Ensure elements stack vertically on small screens */
+        align-items: center; /* Center align elements */
+    }
+
+    .Service-ussss .line-image {
+        max-width: 50px;
+        margin-left: 10px;
+        height: auto; 
+    }
+
+    .Service-ussss .left h2 {
+        font-size: 24px; 
+        line-height: 1.2;
+        margin: 40px;
+        max-width: 200px;
+        /* text-align: center;  */
+    }
+
+    .Service-ussss .left img {
+        width: 80%; 
+        max-width: 190px;
+        margin: 0 auto; 
+    }
+
+    .Service-ussss .right .first-image {
+        width: 80%;
+        max-width: 300px;
+        margin: 0 auto; /* Center the image */
+        height: auto; /* Let the height adjust based on the width to maintain aspect ratio */
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+.Marketing .top{
+    /* display: flex;  */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+
+}
+
+.Marketing .dot img{
+    width: 45px;
+    height: 45px;
+    margin-left: -10px;
+    /* margin-top: 35px; */
+
+}
+
+.Marketing .line img{
+    width: 3px;
+    height: 450px;
+    margin-left: 10px;
+}
+
+.Marketing .top{
+    margin-left: 70px;
+    margin-top: -260px;
+}
+
+.Marketing .top h3{
+        font-size: 20px;
+        
+        /* margin-bottom: 10px; */
+        opacity: 70%;
+        margin-left: -70px;
+        
+        
+    }
+    
+
+    .Marketing .top h1{
+        font-size: 36px;
+        /* margin-bottom: 10px; */
+        margin-left: -70px;
+        
+        
+    }
+
+    .Marketing .top span{
+         font-size:23x; 
+        font-family: ubuntu;  
+        opacity: 70%;
+  
+    }
+
+    .Marketing  p{
+        margin-left: -10px;
+        /* opacity: 70%; */
+        /* font-family: Ubuntu;  */
+        /* font-size: 28px; */
+        /* font-weight: 400; */
+        /* line-height: 48px; */
+        /* text-align: left; */
+        margin-top: -150px;
+
+   }
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.ServicesDigital1-section{
+    /* position: relative; */
+    margin-left: -20px;
+}
+
+
+.ServicesDigital1-section .website-offer-section {
+    padding: 0px;
+    margin-top: -520px;
+    
+}
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .result-section1{
+        display:flex;
+        flex-wrap:wrap;
+        
+        margin-top:50px;
+    
+    
+       }
+    
+       .result-section2 .dot img{
+        width: 41px;
+        height: 50px;
+        margin-left: 0px;
+        margin-top: 0px;
+       }
+    
+       .result-section2 .line img{
+        width: 3px;
+        height: 1400px;
+        margin-left: 15px;
+       }
+    
+       .result-section2 .col-md-11{
+        margin-left: 50px;
+        margin-top: -1440px;
+       }
+       .result-section2 h2{
+        font-size:24px;
+        margin-bottom:20px;
+       }
+        
+       .result-section2 h1{
+        font-size:36px;
+        margin-bottom:20px;
+    
+       }
+    
+       .result-section2 .image img{
+        width:100%;
+        height:200px;
+        border-radius:10px;
+        height: 1300px;
+       }
+    
+    }
+    
+    
+
+
+
+
+
+

@@ -5636,7 +5636,7 @@ input {
         max-width: 900px;
     }
     
-    @media (max-width: 768px) {
+    /* @media (max-width: 768px) {
         .Service-uss .left h2 {
             font-size: 1.2rem;
         }
@@ -5645,7 +5645,13 @@ input {
             max-width:900px;
 }
 }
-    
+     */
+
+
+     
+
+
+
 
 
 
@@ -6368,7 +6374,7 @@ input {
             max-width: 900px;
         }
         
-        @media (max-width: 768px) {
+        /* @media (max-width: 768px) {
             .Service-uss .left h2 {
                 font-size: 1.2rem;
             }
@@ -6376,7 +6382,7 @@ input {
             .Service-usss .right .first-image {
                 max-width:900px;
     }
-    }        
+    }         */
 
 
 
@@ -6456,8 +6462,118 @@ input {
 
 
 
+/* ************************************************************************ */
 
 
+
+.cutedge1 .left{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    }
+
+    .cutedge1 .dot img{
+       width: 45px;
+       height: 45px;
+       margin-top: 30px;
+       margin-left: 15px;
+
+    }
+    .cutedge1 .line img{
+       width: 3px;
+       height: 500px;
+       margin-left: 35px;
+    }
+
+    .cutedge1 .left{
+       width: 500px;
+    }
+
+    .cutedge1 .left h3{
+       opacity: 70%;
+       margin-bottom: 5px;
+       /* width: 350px; */
+       
+   }
+   .cutedge1 .left h2{
+       margin-bottom: 5px;
+
+       
+   }
+
+
+    .cutedge1 .left1 span{
+       opacity: 70%;
+       margin-bottom: 5px;
+       width: 150px;
+       font-size: 20px;
+    }
+
+    .cutedge1 .right{
+       padding: 20px 0;
+       justify-content: space-between;
+       /* align-items: center; */
+        margin-left: 80px; 
+       
+       
+
+    }
+
+    .cutedge1 .right img{
+       width: 70%;
+       height: 100%;
+       object-fit: cover;
+       border-radius: 10px;
+       width: 600px;
+       height: 500px;
+       
+
+    }
+
+
+
+/* ***************************** */
+.good1 h2 {
+    font-size: 40px;
+     
+} 
+.good1 .dot img{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+
+}
+
+.good1 .line img{
+    width: 4px;
+    height: 500px;
+    margin-left: 45px;
+}
+.good1 .text-success {
+    color: #00c853 !important; /* Custom green color for check marks */
+}
+
+
+.good1  li {
+    font-size: 18px;
+    padding: 10px;
+    max-width: 500px;
+    
+}
+
+.good1 p {
+    font-size: 22px;
+    opacity: 70%;
+}
+
+.good1 .img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 699px;
+    height: 385px;
+    margin-top: 0px;
+}
 
 
 
@@ -6699,16 +6815,28 @@ input {
        .result-section1{
         display:flex;
         flex-wrap:wrap;
-        justify-content:center;
+        
         margin-top:50px;
 
 
        }
 
-       .result-section1 .dot{
-        
+       .result-section1 .dot img{
+        width: 41px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 0px;
        }
 
+       .result-section1 .line img{
+        width: 3px;
+        height: 1400px;
+        margin-left: 50px;
+       }
+
+       .result-section1 .col-md-11{
+        margin-left: -60px;
+       }
        .result-section1 h2{
         font-size:24px;
         margin-bottom:20px;
@@ -6771,17 +6899,7 @@ input {
             max-width: 900px;
         }
         
-        @media (max-width: 768px) {
-            .Service-usss .left h2 {
-                font-size: 1.2rem;
-            }
-            
-            .Service-usss .right .first-image {
-                max-width:900px;
-    }
-    }        
-
-
+       
 
 
 /* ***************************************** */
@@ -6939,14 +7057,53 @@ input {
         }
         
         
+
+
+        /* ********************************************************** */
         
 
-
-
-
-
-
-
+        .result-section2{
+            display:flex;
+            flex-wrap:wrap;
+            
+            margin-top:50px;
+    
+    
+           }
+    
+           .result-section2 .dot img{
+            width: 41px;
+            height: 50px;
+            margin-left: 30px;
+            margin-top: 0px;
+           }
+    
+           .result-section2 .line img{
+            width: 3px;
+            height: 1400px;
+            margin-left: 50px;
+           }
+    
+           .result-section2 .col-md-11{
+            margin-left: -60px;
+           }
+           .result-section2 h2{
+            font-size:24px;
+            margin-bottom:20px;
+           }
+            
+           .result-section2 h1{
+            font-size:36px;
+            margin-bottom:20px;
+    
+           }
+    
+           .result-section2 .image img{
+            width:100%;
+            height:200px;
+            border-radius:10px;
+            height: 1300px;
+           }
 
 
 
