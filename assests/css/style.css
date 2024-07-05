@@ -138,6 +138,7 @@ input {
             z-index: 1;
             top: 100%;
             left: 0;
+            height: 140px;
         }
 
         .navbar .dropdown-content a {
@@ -178,7 +179,7 @@ input {
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
 
-            margin-top: 60px;
+            margin-top: 48px;
             margin-left: -120px;
         }
 
@@ -1037,7 +1038,7 @@ input {
             
         }
         .mobile-section .line-section img{
-            width: 1.39px;
+            width: 5px;
             height: 218px;
             border-radius: 2.77px;
             margin-top: 10px;
@@ -1168,7 +1169,7 @@ input {
         }
 
         .news-section .line-section img{
-            width: 1.39px;
+            width: 5px;
             height: 700px;
             border-radius: 2.77px;
         }
@@ -1394,6 +1395,7 @@ input {
         
                     .client-section .left-section .review-section{
                         display: flex;
+                        
                         
         
                     
@@ -2206,7 +2208,7 @@ input {
         }
 
         .about-section1 .right-section .image{
-            height:530px;
+            height:500px;
             width:720px;
             background-color: rgba(22, 27, 34, 1);
             border: solid 0.5px #404040;
@@ -2216,9 +2218,9 @@ input {
         }
         .about-section1 .right-section .image img{
             
-            margin-left: 70px;
+            margin-left: 50px;
             width: 650px;
-            height: 480px;
+            height: 450px;
             margin-top: 40px;
             
             
@@ -3017,7 +3019,7 @@ input {
              
 .touch-section1 {
     width: 90%;
-    margin: 1rem auto;  
+    margin: 1rem auto;
     display: flex;
     position: relative;
     width: 1360px;
@@ -3047,9 +3049,7 @@ input {
             height: 18px;
             opacity: 70%;
             margin-left: 30px;
-            
-
-
+            font-size: 17px;
 
         }
         .touch-section1 .description h2{
@@ -3377,7 +3377,7 @@ input {
 
 
 
-/* CONTACT US PAGE */
+                 /* CONTACT US PAGE */
 
 
 
@@ -3859,6 +3859,53 @@ input {
 
 
  
+
+
+    .Service-usS {
+        padding: 20px 0;
+    }
+    
+    .Service-usS .dot-image{ 
+        width: 15px;
+        height: 15px;
+        margin-left: 55px;
+        
+    }
+
+
+    .Service-usS .line-image {
+        width: 5px; 
+        margin-left: 60px;
+        height: 500px;
+        margin-top: -30px;
+    }
+    
+    .Service-usS .left h2 {
+        font-size: 40px;
+        line-height: 1.5;
+        margin: -90px;
+        
+    }
+    .Service-usS .left img {
+        width: 190px;
+        margin-left: -100px;
+        margin-top: 100px;
+    }
+    
+    .Service-usS .right .first-image {
+        width: 700px;
+        margin-left: -400px;
+        height: 500px;
+        max-width: 900px;
+    }
+    
+
+
+
+
+
+/*
+
 .contact-section {
     width: 90%;
     margin:  auto;
@@ -3913,6 +3960,7 @@ input {
 
 
 
+ */
 
 
 
@@ -4193,16 +4241,16 @@ input {
 
 
 
-
+/* 
 .map-section{
     width: 100%;
     margin: 1rem auto;
         
-} 
+}  */
 
-    .map-section .map img{
-        width: 1237px;
-        height: 642px;
+    .map-section .map {
+        /* width: 20px;
+        height: 442px; */
         border: 1px;
         border-radius: 5px;
         margin-left: 150px;
@@ -4313,15 +4361,16 @@ input {
                 margin-left: 90px;
                 margin-top: 90px;
                 width: 95%;
-                height: 100px;
+                height: 170px;
                 margin-top: 120px;
             } 
             .footer-section2 .footer2 .footer2-content h3{
-                width: 569px ;
+                width: 669px ;
                 height: 24px;
                 padding-left: 50px;
                 padding-top: 50px;
-                margin-top: -60px;  
+                margin-top: -60px; 
+                font-size: 20px; 
             }
             .footer-section2 .final-section .footer2 .flex-container{
                 display:flex;
@@ -5648,7 +5697,7 @@ input {
      */
 
 
-     
+
 
 
 

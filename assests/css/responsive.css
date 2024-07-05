@@ -1423,21 +1423,25 @@
 
 
                                             /* CONTACT US PAGE */
-
+/* 
 
 @media (min-width: 320px) and (max-width: 480px){
     
     .contact-section{
         width: 100%;
         padding-left: 20px;
-        
-        
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
+    .contact-section .dot-section img{
+        margin-left: -130px;
+    }
     .contact-section .line-section img{
         width: 3px;
         height:850px;
+        margin-left: -130px;
 
         
     }
@@ -1447,40 +1451,90 @@
     .contact-section .left-section .heading {
         width: 100%;
         height: auto;
-        margin-left: 50px;
-        margin-top: -5px;
-
+        margin-top: -500px;
+        
     }
 
 
     .contact-section .left-section .heading img{
-        width: 190px;
+        width: 80%;
+        max-width: 190px;
         height: 8px;
-        margin-top: 0px;
-        margin-left: 0px;
+        margin: 0 auto;
     }
 
     .contact-section .right-section .image{
-        height:700px;
-        width:350px;
-        /* background-color: rgba(22, 27, 34, 1);
-        border: solid 0.5px #404040; */
-        /* border-radius: 5px; */
-        margin-left: -280px;
-        margin-top: 120px;
+        height:auto;
+        width:250px;
+        
+        max-width:350px;
+        margin-left: -50px;
+        
 
  
     }
     .contact-section .right-section .image img{
-        width: 300px;
-        /* margin: 80px; */
-        /* margin-left: 15px; */
-        
-      
+        width: 100%;
+        height: 500px;
     }
 
 }
+ */
 
+
+
+ 
+@media (max-width: 768px) {
+    /* .Service-us .left h2 {
+        font-size: 1.2rem;
+        margin-left: 60px;
+    }
+    
+    .Service-us .right .first-image {
+        max-width:900px;
+
+} */
+
+
+.Service-usS {
+    /* padding: 20px 0; */
+    display: flex;
+}
+
+
+.Service-usS .dot-image {
+    width: 15px; 
+    margin-left: 0px;
+   
+}
+
+.Service-usS .line-image {
+    width: 5px; 
+    margin-left: 0px;
+    height: 500px;
+   
+}
+
+.Service-usS .left h2 {
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 50px;
+    
+}
+.Service-usS .left img {
+    width: 190px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.Service-usS .right .first-image {
+    width: 400px;
+    margin-left: -50px;
+    height: 500px;
+    min-width: 300px;
+}
+
+}
 
 
 
@@ -1615,6 +1669,7 @@
 .form-section{
     width: 100%;
     height: auto;
+    display: flex;
 
 }
 
@@ -1634,6 +1689,11 @@
     
 }
 
+
+.form-section .header h2{
+    margin-left: -150px;
+}
+
 .form-section .left-section {
     /* background: rgba(22, 27, 34, 1); 
     padding: 10px 20px 10px 20px;
@@ -1649,10 +1709,14 @@
     padding: 10px 20px 20px 10px;
     /* margin-left: -10px;
     margin-top: 70px; */
+    margin-left: 0px;
+    
 
 
 
 }
+
+
 
 .form-section  img.background{
     position: absolute;
@@ -1683,7 +1747,7 @@
     height: 516px; */
     width: 100%;
     height: auto !important;
-    margin-left: -400px;
+    margin-left: -300px;
     margin-top: 250px;
     
 }
@@ -1691,6 +1755,7 @@
 .footer-section .final-form{
     width: 100%;
     position: absolute;
+    
 
 }
 
@@ -1764,16 +1829,11 @@ border-radius: 5px;
 
 
  @media (min-width: 320px) and (max-width: 480px){
-.map-section .map img{
-    /* width: 370px; */
-    height: 442px;
-    border: 1px;
-    border-radius: 5px;
+.map-section .map {
+    height: auto;
     margin-left:40px;
-    /* margin-top: 220px;  */
-     width: 100%; 
-    
-
+     margin-top: 50px; 
+    min-width: 300px;
 }
 
  }
