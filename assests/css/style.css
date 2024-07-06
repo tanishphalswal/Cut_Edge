@@ -132,7 +132,9 @@ input {
         .navbar .dropdown-content {
             display: none;
             position: absolute;
-            background-color: #f9f9f9;
+            background-color:#161B224a;
+            filter: blur(0px);
+            z-index: -99999;
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
@@ -142,12 +144,13 @@ input {
         }
 
         .navbar .dropdown-content a {
-            color: black;
+            color:white;
             padding: 12px 16px;
             text-decoration: none;
             display: block;
             text-align: left;
             width: 180px;
+            background: blur;
         }
 
         .navbar .dropdown-content a:hover {
@@ -556,8 +559,8 @@ input {
          right: 0px; 
         z-index: -1;
         animation: rotate 10s infinite linear;
-         margin-top:650px;
-        margin-right: 100px;
+         margin-top:637px;
+        margin-right: 80px;
         border: none;
         opacity: 30%;
 
@@ -1453,7 +1456,8 @@ input {
              
                             opacity: 70%;
                     
-                            margin-left: 20px; 
+                            margin-left: 20px;
+                            height: 210px; 
                             
                           
               
@@ -1467,10 +1471,13 @@ input {
                             margin-left: 20px;
                             margin-top:10px;
                             
+                            
                         }
                         .client-section .left-section .card-section .heading-card .name{
                             text-align: end;
                             position:relative;
+                            margin-left: -40px;
+                            margin-top: 50px;
                             
                             
                         }
@@ -1479,6 +1486,7 @@ input {
                     
                             width: 89px;
                             height: 20px;
+                            margin-top: 10px;
                     
                     
                             
@@ -1491,10 +1499,20 @@ input {
                             
                             
                  }
+
+
+                 .client-section .left-section .card-section .card-items p{
+                   margin: -30px;
+                   margin-top: 10px;
+                   width: 250px;
+                   
+                    
+                    
+         }
                       
                         
         
-           
+             
         
 
 
@@ -1945,13 +1963,15 @@ input {
 
     }
 
-     .footer-section .final-section .footer2{
+     .footer-section  .footer2{
         background-color: rgba(22, 27, 34, 1);
-        margin-left: 70px;
+        margin-left: 0px;
         /* margin-top: 90px; */
-        /* width: 100%; */
-        height: 100px;
-        margin-top: 120px;
+        width: 140%;
+        height: 340px;
+        margin-top: 150px;
+        margin-bottom: 0px;
+        
 
     } 
 
@@ -1959,8 +1979,9 @@ input {
         width: 769px ;
         height: 24px;
          padding-left: 100px;
-        padding-top: 50px;
+        padding-top: 30px;
         margin-top: -60px;
+        font-size: 19px;
         
     
 
@@ -2252,8 +2273,8 @@ input {
                  right: 0px; 
                 z-index: -1;
                 animation: rotate 10s infinite linear;
-                 margin-top:920px;
-                margin-right: 100px;
+                 margin-top:690px;
+                margin-right: 90px;
                 border: none;
                 opacity: 30%;
              
@@ -2305,6 +2326,7 @@ input {
         }
         .services-section1 .left-section .card-section .heading-card  h3{
             margin-left: 25px;
+            font-size: 18px;
             
         }
         .services-section1 .left-section .card-section .card-items{
@@ -4083,7 +4105,7 @@ input {
         margin-top: 70px;
         margin-left: 60px;
         width: 815px;
-        height: 600px;
+        height: 570px;
         
     }
 
@@ -4112,8 +4134,6 @@ input {
         color: #8B8B8B;
     
         position: relative;
-
-
     }
 
     .form-section .phone{
@@ -4216,7 +4236,10 @@ input {
     }
    
 
-    
+    .form-section input::placeholder {
+        color: white;
+        font-size: 18px;
+    }
 
 
 
@@ -4979,6 +5002,7 @@ input {
     margin-left: 70px;
     
     
+    
 }
 
 
@@ -5005,14 +5029,14 @@ input {
 }
 
 .website-offer-card h3 {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 10px;
     background: rgba(30, 36, 45, 1);
     width: 190px;
-    height: 60px;
+    height: 50px;
     margin-left: 3px;
     padding: 10px;
-    
+    text-align: left;
     
 }
 
@@ -5657,6 +5681,7 @@ input {
 
     .Service-uss {
         padding: 20px 0;
+        overflow-x: hidden;
     }
     
     .Service-uss .line-image {
@@ -5679,9 +5704,9 @@ input {
     }
     
     .Service-uss .right .first-image {
-        width: 800px;
-        margin-left: -400px;
-        height: 600px;
+        width: 600px;
+        margin-left: -200px;
+        height: 500px;
         max-width: 900px;
     }
     
@@ -5732,15 +5757,15 @@ input {
 .Mobile-App .dot img{
     width: 45px;
     height: 45px;
-    margin-left: 15px;
-    margin-top: 35px;
+    margin-left: 20px;
+    margin-top: 50px;
 
 }
 
 .Mobile-App .line img{
     width: 3px;
     height: 270px;
-    margin-left: 35px;
+    margin-left: 40px;
 }
 .Mobile-App .top h3{
         font-size: 26px;
@@ -5846,7 +5871,7 @@ input {
     
     height: 50px; 
     margin-bottom: 20px;
-    margin-left: px;
+    margin-left: 10px;
     width: 50px;
     
     
@@ -5855,17 +5880,18 @@ input {
 
 .expertise-section .line-section img {
     
-    margin-left: px;
+    margin-left: 10px;
     width: 3px;
     height: 580px;
     
 }
 
 .img-fluid1 {
-    max-width: 600px;
+    max-width: 650px;
     margin-top: 50px;
-    height: auto;
+    height: 550px;
     padding: 60px 20px 10px 30px;
+    margin-left: 90px;
     
     
 }
@@ -6165,7 +6191,7 @@ input {
             height: 650px;
             border-radius: 2.77px;
             margin-top: 30px;
-            margin-left: -0px;
+            margin-left: -30px;
     
         
         }  
@@ -6367,7 +6393,158 @@ input {
 
 
 
-
+        .footer-section9{
+            width: 100%;
+            margin: 1rem auto;
+            display: flex;
+        
+        } 
+        
+        
+        
+        
+            .footer-section9 .final-section{
+                width: 1440px;
+                height: 341px;
+        
+            }
+            .footer-section9  .footer-container{
+                width: 1300px;
+                height: 184px;
+        
+            }
+            .footer-section9 .footer-container img{
+                width: 1440px;
+        
+                
+            }
+        
+            .footer-section9 .final-section .footer-container .footer img{
+                width:197px ;
+                height: 38px;
+                margin-left: 70px;
+                margin-top: 20px;
+        
+            }
+            .footer-section9 .final-section .footer-container .description p{
+                width: 528px;
+                height: 87px;
+                margin-left: 70px;
+                margin-top: 20px;
+                padding-top: 30px;
+        
+        
+            }
+        
+            .footer-section9 .final-section .ourServices {
+                width: 276px;
+                height: 184px;
+                margin-left: 800px;
+                margin-top: -180px;
+            }
+        
+            .footer-section9 .final-section .ourServices .Servicesss h2{
+                width: 211px;
+                height: 19px;
+                font-size: 20px;
+        
+            }
+        
+            .footer-section9 .final-section .ourServices .Servicesss .Services1 p{
+                width: 476px;
+                height: 139px;
+            }
+        
+        
+            
+        
+            .footer-section9 .final-section .Contact-section{
+                width: 470px;
+                height: 126px;
+                margin-top: 50px;
+        
+            }
+        
+            .footer-section9 .final-section .Contact-section .contact{
+                margin-left: 1100px;
+                margin-top: -220px;
+            }
+        
+        
+            .footer-section9 .final-section .Contact-section .contact .content-section h2{
+                width: 1251px;
+                height: 29px;
+        
+            }
+        
+            .footer-section9 .final-section .Contact-section .contact .detail-section p{
+                width: 270px;
+                height: 81px;
+        
+            }
+        
+             .footer-section9  .footer2{
+                background-color: rgba(22, 27, 34, 1);
+                margin-left: 0px;
+            
+                width: 140%;
+                height: 90px;
+                margin-top: 150px;
+                margin-bottom: 0px;
+                
+        
+            } 
+        
+            .footer-section9  .footer2 .footer2-content h3{
+                width: 769px ;
+                height: 24px;
+                 padding-left: 100px;
+                padding-top: 30px;
+                margin-top: -60px;
+                font-size: 19px;
+                
+            
+        
+                
+                
+            }
+        
+        
+            
+        
+            .footer-section9 .final-section .footer2 .flex-container{
+                display:flex;
+                margin-left: -20px;
+            
+                
+                
+                
+                
+            }
+        
+            .footer-section9 .final-section .footer2 .flex-container .media-section{
+                width: 478px;
+                height: 40px;
+                margin-left: 1200px;
+                margin-top: -10px;
+        
+                
+            }
+        
+            .footer-section9 .final-section .footer2 .flex-container .media-section img{
+                width: 26px;
+                height: 27px;
+                margin-left: 10px;
+                margin-top: 0px;
+                
+        
+            
+            }
+        
+        
+        
+        
+        
 
 
 
