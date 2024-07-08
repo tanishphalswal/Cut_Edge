@@ -949,8 +949,8 @@ input {
 
         }
         .company-section .line-section img{
-            width: 3px;
-            height: 350px;
+            width: 5px;
+            height: 370px;
             border-radius: 6px;
             margin-top: 10px;
 
@@ -1204,6 +1204,7 @@ input {
             height: 39px;
             border-radius: 60px;
             margin-top: -20px;
+            text-align: center;
         }
 
 
@@ -1477,7 +1478,7 @@ input {
                             text-align: end;
                             position:relative;
                             margin-left: -40px;
-                            margin-top: 50px;
+                            margin-top: 30px;
                             
                             
                         }
@@ -2234,12 +2235,12 @@ input {
             background-color: rgba(22, 27, 34, 1);
             border: solid 0.5px #404040;
             border-radius: 5px;
-            margin-left: 190px;
+            margin-left: 300px;
      
         }
         .about-section1 .right-section .image img{
             
-            margin-left: 50px;
+            margin-left:40px; 
             width: 650px;
             height: 450px;
             margin-top: 40px;
@@ -2722,16 +2723,14 @@ input {
 
   
 
-
+/* 
 .client-section1{
         width: 90%;
         margin: 0;
         display: flex;
         margin-left: 80px;
 }
-    /* .client-section1 .client{
-        width: 10%;
-    } */
+    
     .client-section1 .left-section{
         width: 90%;
         overflow: scroll;
@@ -2857,7 +2856,7 @@ input {
                     
                 }
               
-                
+                 */
 
    
 
@@ -5004,6 +5003,9 @@ input {
     
     
 }
+.more {
+    display: none;
+  }
 
 
 .website-offer-grid {
@@ -7352,32 +7354,34 @@ input {
         .AppDevelopment{
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            /* justify-content: space-between; */
 
         }
 
         .AppDevelopment .dot img{
-            width: 25px;
-            height: 25px;
-
-        }
-
-        .AppDevelopment .dot img{
-            width: 35px;
+            width: 40px;
             height: 35px;
-            
+            margin-left: -85px;
 
         }
 
         .AppDevelopment .line img{
             width: 5px;
             height: 679px;
+            margin-left: -70px;
             
+
         }
-        
+        .AppDevelopment h1{
+            margin-left: -140px;
+            padding: 20px;
+            margin-top: -20px;
+        }
+ 
 
         .AppDevelopment img{
-            width:1230px;
+            width:1350px;
             height: 619px;
+            margin-left: -120px;
 
         }

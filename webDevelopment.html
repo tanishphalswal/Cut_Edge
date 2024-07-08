@@ -45,6 +45,11 @@
             
              padding: 0; 
       }  
+
+      .footer-section {
+            
+            overflow: hidden; 
+        } 
     </style>
     
 </head>
@@ -319,7 +324,7 @@
 
 
   <!-- ***************************************************************************************************************************************************** -->
-
+<!-- 
 <div class="offer-section">
  
         <div class="dot-section">
@@ -359,7 +364,49 @@
     </div>
 </div>
 
-<!-- </div> -->
+
+</div> -->
+
+
+
+
+
+<div class="offer-section">
+
+  <div class="dot-section">
+    <img src="assests/images/service-us/dot3.png">
+  </div>
+  <div class="line-section">
+    <img src="assests/images/service-us/line1.png">
+  </div>
+
+  <div class="website-offer-section">
+    <h3>What Kind of</h3>
+    <h2>Websites We Offer!!</h2>
+
+    <div class="website-offer-grid">
+      <div class="website-offer-card">
+        <h3>Static and Dynamic Websites</h3>
+        <p>We also offer static and dynamic error-free websites at a minimum cost and with better results. The websites created by us will take less time to load and<span class="dots">...</span><span class="more"> provide a seamless user experience. Whether you need a simple brochure website or a complex, data-driven site, we can deliver it efficiently.</span> <a href="#" class="read-more" style="font-size: 15px;">Read More</a></p>
+        <img src="assests/images/service-us/image3.1.png">
+      </div>
+      <div class="website-offer-card">
+        <h3>Responsive Websites</h3>
+        <p>As everyone knows, most people worldwide use mobile devices and conduct all of their online searches on them. If your website is not responsive means mobile<span class="dots">...</span><span class="more"> users will struggle to navigate it. We design responsive websites that adapt seamlessly to different screen sizes, ensuring an optimal user experience on any device.</span> <a href="#" class="read-more" style="font-size: 15px;">Read More</a></p>
+        <img src="assests/images/service-us/image3.2.png">
+      </div>
+      <div class="website-offer-card">
+        <h3>SEO Friendly Websites</h3>
+        <p>We primarily concentrate on creating websites that are SEO-friendly. There are a lot of websites in Google's storage, but you only view some of them because<span class="dots">...</span><span class="more"> they are not optimized for search engines. Our SEO-friendly websites are designed to rank higher in search results, driving more organic traffic to your site.</span> <a href="#" class="read-more" style="font-size: 15px;">Read More</a></p>
+        <img src="assests/images/service-us/image3.3.png">
+      </div>
+      <div class="website-offer-card">
+        <h3>WordPress Websites</h3>
+        <p>Contact us if you want to build your website using the WordPress content management system. We have skilled designers and developers who specialize in WordPr<span class="dots">...</span><span class="more">ess, offering custom themes and plugins to meet your specific needs.</span> <a href="#" class="read-more" style="font-size: 15px;">Read More</a></p>
+        <img src="assests/images/service-us/image3.4.png">
+      </div>
+    </div>
+  </div>
 </div>
 
 
@@ -572,8 +619,78 @@
 
 
 
-  
+<!--   
 <div class="footer-section3">
+  <div class="final-section">
+      <div class="footer-container">
+          <img src="../assests/images/footer-pictures/line.png">
+          <div class="footer">
+              <img src="../assests/images/footer-pictures/logo.png">
+          </div>
+          <div class="description">
+              <p>We Cut Edge Technology, web and app development company in Delhi NCR specializing in providing businesses worldwide with cutting edge technology solutions.</p>
+          </div>
+          <div class="ourServices">
+              <div class="Servicesss">
+                  <h2>Our Services</h2>
+              </div>
+              
+              <div class="Services1">
+                  <p>Website Development</p>
+                  <p>Application Development</p>
+                  <p>Digital Marketing </p>
+                  <p>Social Media Marketing</p>
+                  <p>Search Engine Optimazation</p>
+
+              </div>
+
+          </div>
+
+          <div class="Contact-section">
+              <div class="contact">
+                  <div class="content-section">
+                      <h2>Contact Address</h2>
+                  </div>
+                  <div class="detail-section">
+                      <p>B-38, Old DLF Colony, Sector 14, Gurugram, Haryana 122001<br><br>
+                      cutedgeweb@gmail.com<br><br>
+                      <p>+91 7988315190</p>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="footer2">
+          <div class="footer2-content">
+              <h3>B-38, Old DLF Colony, Sector 14, Gurugram, Haryana 122001</h3>
+          </div>
+          <div class="flex-container">
+          
+
+              <div class="media-section">
+                  <img src="../assests/images/footer-pictures/facebook.png">
+                  <img src="../assests/images/footer-pictures/message.png">
+
+                  <img src="../assests/images/footer-pictures/linkedin.png">
+                  <img src="../assests/images/footer-pictures/github.png">
+
+
+                  
+  
+              </div>
+          </div>
+      </div>
+  </div>   
+</div> -->
+
+
+
+
+
+
+<div class="footer-section">
   <div class="final-section">
       <div class="footer-container">
           <img src="../assests/images/footer-pictures/line.png">
@@ -640,6 +757,7 @@
 
 
 
+
     <!-- ****************************************************Bootstrap seperate***************** -->
       
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -670,5 +788,33 @@
 
 
        </script> 
+
+
+<!-- *****************************Read more******************* -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  const readMoreLinks = document.querySelectorAll(".read-more");
+
+  readMoreLinks.forEach(link => {
+    link.addEventListener("click", function(event) {
+      event.preventDefault();
+      const card = link.closest(".website-offer-card");
+      const dots = card.querySelector(".dots");
+      const moreText = card.querySelector(".more");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        moreText.style.display = "none";
+        link.textContent = "Read More";
+      } else {
+        dots.style.display = "none";
+        moreText.style.display = "inline";
+        link.textContent = "Read More";
+      }
+    });
+  });
+});
+
+</script>
 </body>
 </html>
