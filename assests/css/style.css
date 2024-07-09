@@ -588,13 +588,13 @@ input {
             margin-left: 10px;
         }
         
-         .company-section .image2-section img{
-            width: 960px;
+         /* .company-section .image2-section img{
+            width: 760px;
             height: 101px;
             border-radius: 5px;
             border: 1px;
             margin-left: 10px;
-        } 
+        }  */
 
 
         .stats-section {
@@ -602,22 +602,28 @@ input {
             border-radius: 8px;
             margin-bottom: 30px;
             margin-top: -50px;
+            width: 900px;
+            height: 110px;
           }
           
           .stat-box {
             border-left: 1px solid rgba(255, 255, 255, 0.2);
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             margin-top: 10px;
+            width: 290px;
+            height: 80px;
           }
  
           .stat-box:first-child {
             border-left: none;
+            
           }
           
           .stat-number {
             color: rgba(232, 88, 36, 1);
             font-size: 2rem;
             margin-bottom: 0.5rem;
+        
           }
           .stat-label {
             font-size: 30px;
@@ -950,8 +956,10 @@ input {
                                 margin-top: -5px;
                           } 
                           
-                          .client-section .left-section  .review-section .heading-card h3{
+                          .client-section .left-section  .review-section .heading-card h2{
                             margin-left: -5px;
+                            margin-top: 0px;
+                            font-size: 20px;
                           } 
             
                           .client-section .left-section .card-section{
@@ -964,7 +972,7 @@ input {
                             background: rgba(22, 27, 34, 1); 
                             opacity: 70%;
                             margin-left: 20px;
-                            height: 210px; 
+                            height: 240px; 
                         }
                         .client-section .left-section .card-section .heading-card {
                             display: flex;
@@ -984,8 +992,8 @@ input {
                         .client-section .left-section .card-section .heading-card  img{
                     
                             width: 89px;
-                            height: 20px;
-                            margin-top: 10px;
+                            height: 30px;
+                            margin-top: px;
                     
                     
                             
@@ -996,8 +1004,17 @@ input {
                  }
                  .client-section .left-section .card-section .card-items p{
                    margin: -30px;
-                   margin-top: 10px;
-                   width: 250px;            
+                   margin-top: -90px;
+                   width: 250px; 
+
+         }
+
+
+         .client-section .left-section .card-section .card-items img{
+            width: 3px;
+            height: 90px;
+            margin-left: -50px;
+            margin-top: 15px;
          }
                       
 /* ***********************TOUCH SECTION ******************************** */
@@ -1063,11 +1080,14 @@ input {
              width: 275px;
              height: 48px;
              background-color: #161B224a;
-             color: white;
+             color: rgba(255, 255, 255, 1);
              border-radius: 10px;
              border: 0.5px solid rgba(48, 54, 61, 1);
              border-radius: 5px;
              margin-bottom: 20px;
+             background: rgba(30, 36, 45, 1);
+
+             
         }
     
         .touch-section .form-section .right-section .final-form span{
@@ -1090,12 +1110,14 @@ input {
             width: 275px;
             height: 48px;
             background-color: #161B224a;
-            color: white;
+            color: rgba(255, 255, 255, 1);
             border-radius: 10px;
             border: 0.5px solid rgba(48, 54, 61, 1);
              padding: 5px 10px; 
             border-radius: 5px;
             margin-top: 0px;
+            background: rgba(30, 36, 45, 1);
+
        }
     
 
@@ -1117,13 +1139,15 @@ input {
             width: 625px;
             height: 48px;
             background-color: #161B224a;
-            color: white;
+            color: rgba(255, 255, 255, 1);
             border-radius: 10px;
             border: 0.5px solid rgba(48, 54, 61, 1);
             padding: 5px 10px;
             border-radius: 5px;
              margin-top: 40px; 
              margin-left:-50px;
+             background: rgba(30, 36, 45, 1);
+
              
         }
 
@@ -1146,13 +1170,15 @@ input {
             width: 625px;
             height: 48px;
             background-color: #161B224a;
-            color: white;
+            color: rgba(255, 255, 255, 1);
             border-radius: 10px;
             border: 0.5px solid rgba(48, 54, 61, 1);
             padding: 5px 10px;
             border-radius: 5px;
              margin-top: 40px; 
              margin-left:-80px;
+             background: rgba(30, 36, 45, 1);
+
         }
 
         .touch-section .form-section .right-section .form22-group span{
@@ -1177,6 +1203,8 @@ input {
         .touch-section .phone input{        
             background-color: #161B224a;
             color: white;
+            background: rgba(30, 36, 45, 1);
+
         }
          .touch-section .form-section .second-section .images img{
             width: 525px;
@@ -1669,11 +1697,13 @@ input {
              border: 0.5px solid rgba(48, 54, 61, 1);
              border-radius: 5px;
              margin-bottom: 20px;
+             background: rgba(30, 36, 45, 1);
+
              
         }
     
         .touch-section1 .form-section .right-section .final-form span{
-            font-size: 18px;
+            font-size: 15px;
             color: #8B8B8B;
             margin-top: -40px;
             position: relative;
@@ -1683,7 +1713,7 @@ input {
             flex-direction: column;
             font-size: 20px;
             margin-left: 350px;
-            margin-top: -95px;
+            margin-top: -120px;
             position: relative;
 
         }
@@ -1697,10 +1727,12 @@ input {
              padding: 5px 10px; 
             border-radius: 5px;
             margin-top: 0px;
+            background: rgba(30, 36, 45, 1);
+
        }
     
        .touch-section1 .form-section .right-section .phone span{
-        font-size: 18px;
+        font-size: 15px;
         color: #8B8B8B;
         margin-top: -20px;
 
@@ -1723,12 +1755,14 @@ input {
             padding: 5px 10px;
             border-radius: 5px;
              margin-top: 40px; 
-             margin-left:-50px;       
+             margin-left:-50px;  
+             background: rgba(30, 36, 45, 1);
+     
         }
 
 
         .touch-section1 .form-section .right-section .form11-group span{
-            font-size: 18px;
+            font-size: 15px;
             color: #8B8B8B;
             margin-top: 90px;
             margin-left: -620px;
@@ -1752,10 +1786,12 @@ input {
             border-radius: 5px;
              margin-top: 40px; 
              margin-left:-80px;
+             background: rgba(30, 36, 45, 1);
+
         }
 
         .touch-section1 .form-section .right-section .form22-group span{
-            font-size: 18px;
+            font-size: 15px;
             color: #8B8B8B;
             margin-top: 100px;
             margin-left: -620px;
@@ -1888,23 +1924,28 @@ input {
         margin-bottom: 20px;
         margin-top: -50px;
         margin-left:-220px;
+        
 
     }
     .form-section .left{   
         width: 400px;
         height: 256px;
         margin-top: 40px;
+        
     }
 
     .form-section .contact-item {
         display: flex;
         margin-bottom: 25px;
+        
     }
 
     .form-section .contact-item .icon {
         width: 24px;
         height: 24px;
         margin-right: 10px;
+        background: rgba(30, 36, 45, 1);
+
     }
 
     .form-section .contact-item span{
@@ -1941,6 +1982,8 @@ input {
          border: 0.5px solid rgba(48, 54, 61, 1);
          padding: 5px 10px;
          border-radius: 5px;
+         background: rgba(30, 36, 45, 1);
+
     }
 
     .form-section .final-form span{
@@ -1968,6 +2011,9 @@ input {
         padding: 5px 10px;
         border-radius: 5px;
         margin-top: -10px;
+        background: rgba(30, 36, 45, 1);
+
+
    }
 
    .form-section  .phone span{
@@ -1994,6 +2040,8 @@ input {
         border-radius: 5px;
          margin-top: 50px; 
          margin-left:-50px;
+         background: rgba(30, 36, 45, 1);
+
          
     }
 
@@ -2022,6 +2070,8 @@ input {
         border-radius: 5px;
          margin-top: 50px; 
          margin-left:-80px;
+         background: rgba(30, 36, 45, 1);
+
     }
 
 
@@ -3500,7 +3550,7 @@ input {
     margin-top: 0px;
 }
    /* *******************************************************CLEINT SECTION******************** */ 
-.client-section-Digital{
+/* .client-section-Digital{
     width: 90%;
     margin: 0;
     display: flex;
@@ -3528,7 +3578,7 @@ input {
                     }
         
         
-        /* *******************Client Section******************************* */
+        
                     .client-section-Digital .left-section .review-section{
                         display: flex;
                     }
@@ -3606,7 +3656,129 @@ input {
                             flex-direction: column;
                             
                             
-                 }
+                 } */
+
+
+                 .client-section1{
+                    width: 90%;
+                    margin: 0;
+                    display: flex;          
+                    margin-left: 80px;
+                }
+                            
+                            .client-section1 .left-section{
+                                width: 90%;
+                                overflow: scroll;
+                                scrollbar-width: none;
+                                margin-left: -15px;   
+                            }
+                                    .review-sec {
+                                        overflow: scroll;
+                                        width: 100%;
+                                        scrollbar-width: none;
+                                    }
+                                    .review-section{
+                                        width: 100%;
+                                    }
+                                    .client-section1 .left-section .review-section{
+                                        display: flex;
+                                    }
+                                            .client-section1 .client{
+                                                display: flex;
+                                                flex-direction: column;
+                                                }
+                                    
+                                            .client-section1 .dot-section img{
+                                                width:55px;
+                                                height: 56pxpx;
+                                                top: 487px;
+                                                left: 69px;
+                                                margin-left: -50px;
+                        
+                                                }
+                                            .client-section1 .line-section img{
+                                                width: 63.49px;
+                                                height: 300px;
+                                                margin-top: 10px;
+                                                margin-left: -30px;
+                                    
+                                                }
+                                    
+                                              .client-section1 .heading-section h3{
+                                                    width: 114px;
+                                                    height: 28px;
+                                                    opacity: 70%;
+                                                    margin-top: 20px;
+                                                     margin-left: 0px; 
+                                    
+                                              } 
+                                              .client-section1 .discribe-section h2{
+                                                width: 192px;
+                                                height: 40px;
+                                                margin-left: 0px;
+                                                margin-top: -5px;
+                                          } 
+                                          
+                                          .client-section1 .left-section  .review-section .heading-card h2{
+                                            margin-left: -5px;
+                                            margin-top: 0px;
+                                            font-size: 20px;
+                                          } 
+                            
+                                          .client-section1 .left-section .card-section{
+                                            width: 323px;
+                                            border:  1px;
+                                            border-radius: 5px;
+                                            
+                                            display: flex;
+                                             padding: 20px; 
+                                            background: rgba(22, 27, 34, 1); 
+                                            opacity: 70%;
+                                            margin-left: 20px;
+                                            height: 240px; 
+                                        }
+                                        .client-section1 .left-section .card-section .heading-card {
+                                            display: flex;
+                                            flex-direction: column;
+                                            margin-left: 20px;
+                                            margin-top:10px;   
+                                        }
+                                        .client-section1 .left-section .card-section .heading-card .name{
+                                            text-align: end;
+                                            position:relative;
+                                            margin-left: -40px;
+                                            margin-top: 30px;
+                                            
+                                            
+                                        }
+                                    
+                                        .client-section1 .left-section .card-section .heading-card  img{
+                                    
+                                            width: 89px;
+                                            height: 30px;
+                                            margin-top: px;
+                                    
+                                    
+                                            
+                                        }
+                                        .client-section1 .left-section .card-section .card-items{
+                                            display: flex;
+                                            flex-direction: column;
+                                 }
+                                 .client-section1 .left-section .card-section .card-items p{
+                                   margin: -30px;
+                                   margin-top: -90px;
+                                   width: 250px; 
+                
+                         }
+                
+                
+                         .client-section1 .left-section .card-section .card-items img{
+                            width: 3px;
+                            height: 90px;
+                            margin-left: -50px;
+                            margin-top: 15px;
+                         }
                       
 /*                        *********************SERVICE DIGITAL ****************************
            */
@@ -3966,4 +4138,202 @@ input {
             height: 619px;
             margin-left: -120px;
 
+
         }
+
+
+
+
+
+        /* .navbar-dark .navbar-nav .nav-link {
+            color:
+            rgba(255, 255, 255, 1);
+            padding-left: 20px;
+        }
+        
+        .navbar-dark .navbar-nav .nav-link.active {
+            color: rgba(237, 93, 35, 1);
+            border-bottom: 2px solid rgba(237, 93, 35, 1);
+        }
+        
+        .navbar-dark .form-control {
+            background-color: #333;
+            border: none;
+            color: #fff;
+        }
+        
+        .navbar-dark .btn-outline-light {
+            border-color: #fff;
+            color: #fff;
+        }
+        
+        .navbar-dark .btn-outline-light:hover {
+            background-color: #fff;
+            color: #000;
+        }
+                */
+
+
+
+                /* .navbar {
+                    padding: 0.5rem 2rem;
+                }
+                
+                .navbar .navbar-nav .nav-link {
+                    color:rgba(255, 255, 255, 1);
+                    padding: 0.75rem 1rem;
+                }
+                
+                .navbar .navbar-nav .nav-link.active {
+                    color: rgba(237, 93, 35, 1);
+                    border-bottom: 2px solid rgba(237, 93, 35, 1);
+                }
+                
+                .navbar .form-control {
+                    margin-left: 170px;
+                    border-radius:17px;
+                    background: rgba(22, 27, 34, 1);
+
+                    border: 1px solid rgba(48, 54, 61, 1)
+                
+                }
+                
+                .navbar .btn-outline-light {
+                    border-color: rgba(255, 255, 255, 1);
+                    color:rgba(255, 255, 255, 1);
+                }
+                
+                .navbar .btn-outline-light:hover {
+                    background-color: #fff;
+                    color: #000;
+                }
+                 */
+
+
+
+                 /* .navbar {
+                    padding: 0.5rem 2rem;
+                }
+                
+                .navbar .navbar-nav .nav-link {
+                    color: rgba(255, 255, 255, 1);
+                    padding: 0.75rem 1rem;
+                }
+                
+                .navbar .navbar-nav .nav-link.active {
+                    color: rgba(237, 93, 35, 1);
+                    border-bottom: 2px solid rgba(237, 93, 35, 1);
+                }
+                
+                .navbar .form-control {
+                    margin-left: 170px;
+                    border-radius: 17px;
+                    background: rgba(22, 27, 34, 1);
+                    border: 1px solid rgba(48, 54, 61, 1);
+                    color: #fff; 
+                }
+                
+                .navbar .form-control::placeholder {
+                    color: #fff; 
+                }
+                
+                .navbar .input-group-append .btn {
+                    border-radius: 17px;
+                }
+                
+                .navbar .btn-outline-light {
+                    border-color: rgba(255, 255, 255, 1);
+                    color: rgba(255, 255, 255, 1);
+                }
+                
+                .navbar .btn-outline-light:hover {
+                    background-color: #fff;
+                    color: #000;
+                }
+                 */
+
+                 .navbar {
+                    padding: 0.5rem 2rem;
+                }
+                
+                .navbar .navbar-nav .nav-link {
+                    color: rgba(255, 255, 255, 1);
+                    padding: 0.75rem 1rem;
+                }
+                
+                .navbar .navbar-nav .nav-link.active {
+                    color: rgba(237, 93, 35, 1);
+                    border-bottom: 2px solid rgba(237, 93, 35, 1);
+                }
+                
+                .navbar .form-control {
+                    margin-left: 170px;
+                    border-radius: 30px;
+                    background: rgba(22, 27, 34, 1);
+                    border: 1px solid rgba(48, 54, 61, 1);
+                    color: #fff;
+                    padding-right: 80px;
+                    
+                }
+                
+                .navbar .form-control::placeholder {
+                    color: #fff; 
+                }
+                
+                .input-group-append {
+                    position: absolute;
+                    right: 10px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                
+                .btn-search {
+                    background: none;
+                    border: none;
+                    color: rgba(255, 255, 255, 1);
+                    cursor: pointer;
+                }
+                
+                .btn-search:hover {
+                    color: rgba(237, 93, 35, 1);
+                }
+                
+
+
+
+
+
+
+
+                
+                .article-title {
+                    font-size: 1.75rem;
+                    color: #fff; 
+                }
+                
+                .article-meta {
+                    font-size: 0.9rem;
+                    color: #b0b0b0; 
+                }
+                
+                .sub-title {
+                    font-size: 1.25rem;
+                    color: #fff; 
+                }
+                
+                .article-content {
+                    font-size: 1rem;
+                    color: rgba(97, 116, 149, 1);
+                }
+                
+                .list-unstyled li {
+                    font-size: 1rem;
+                    color: #d0d0d0; 
+                    margin-bottom: 0.5rem;
+                }
+                
+                .list-unstyled li i {
+                    color: #b0b0b0; 
+                    margin-right: 0.5rem;
+                }
+                            
