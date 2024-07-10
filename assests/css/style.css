@@ -122,7 +122,7 @@ input {
             min-width: 160px;
             box-shadow: 0px 12px 24px 0px rgb(0 0 0 / 47%);
             z-index: 1;
-            top: 39px;
+            top: 30px;
             left: 0;
             height: 140px;
         }
@@ -1830,23 +1830,23 @@ input {
     .Service-usS .dot-image{ 
         width: 15px;
         height: 15px;
-        margin-left: 55px;
+        margin-left: 30px;
     }
     .Service-usS .line-image {
         width: 5px; 
-        margin-left: 60px;
+        margin-left: 30px;
         height: 500px;
         margin-top: -30px;
     }
     .Service-usS .left h2 {
         font-size: 40px;
         line-height: 1.5;
-        margin: -90px; 
+        margin: -120px; 
     }
     .Service-usS .left img {
         width: 190px;
-        margin-left: -100px;
-        margin-top: 100px;
+        margin-left: -120px;
+        margin-top: 120px;
     }
     
     .Service-usS .right .first-image {
@@ -1858,7 +1858,7 @@ input {
   
 
 /* ************************FORM SECTION ************** */
-     .form-section {
+     .form-section { 
         width: 100%;
         height: 496px;
         display: flex;        
@@ -2121,7 +2121,7 @@ input {
     
     .Service-us .line-image {
         width: 50px; 
-        margin-left: 40px;
+        margin-left: 10px;
         height: 500px;
         margin-top: -30px;
     }
@@ -2129,13 +2129,13 @@ input {
     .Service-us .left h2 {
         font-size: 40px;
         line-height: 1.5;
-        margin: -90px;
+        margin: -120px;
         
     }
     .Service-us .left img {
         width: 190px;
         margin-left: -100px;
-        margin-top: 100px;
+        margin-top: 120px;
     }
     
     .Service-us .right .first-image {
@@ -2160,7 +2160,7 @@ input {
 .web-developemnt .dot img{
     width: 45px;
     height: 45px;
-    margin-left: 15px;
+    margin-left: -5px;
     margin-top: 30px;
 
 }
@@ -2168,7 +2168,7 @@ input {
 .web-developemnt .line img{
     width: 3px;
     height: 370px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
     .web-developemnt .top h3{
         font-size: 20px;
@@ -2182,8 +2182,10 @@ input {
     }
 
     .web-developemnt .top span{
-         font-size:26px; 
-        font-family: ubuntu;        
+         font-size:20px; 
+        font-family: ubuntu;
+        margin-left: 0px;
+                
     }
 
     .web-developemnt .bottom span{
@@ -2237,13 +2239,13 @@ input {
         width: 45px;
         height: 45px;
         margin-top: 20px;
-        margin-left: 5px;
+        margin-left: -10px;
 
      }
      .cutedge .line img{
         width: 3px;
         height: 500px;
-        margin-left: 25px;
+        margin-left: 5px;
      }
 
      .cutedge .left{
@@ -2293,13 +2295,13 @@ input {
 .offer-section .dot-section img{
     width: 45px;
     height: 46px;
-    margin-left: 15px;
+    margin-left: 20px;
     
 }
 .offer-section .line-section img{
     width: 53px;
     height: 470px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .website-offer-section {
@@ -2309,12 +2311,12 @@ input {
 
 .website-offer-section h2 {
     top: 10px;
-    margin-left: 70px;
+    margin-left: 110px;
     font-size: 30px;
 }
 
 .website-offer-section h3 {
-    margin-left: 70px;
+    margin-left: 110px;
 }
 
 
@@ -2324,7 +2326,7 @@ input {
     flex-wrap: wrap;
     justify-content:left;
     text-align:start;
-    margin-left: 100px;
+    margin-left: 110px;
     margin-top: 0px;
     
 }
@@ -2352,14 +2354,14 @@ input {
 }
 
 .website-offer-card p {
-    font-size: 14px;
+    font-size: 12px;
     text-align : start;
     height: 150px;
 }
 
 .website-offer-card img {
     max-width: 100px;
-    margin-top: 10px;
+    margin-top: 40px;
     
 }
 
@@ -2381,13 +2383,14 @@ input {
         position: relative;
         width: 45px;
         height: 46px;
-        
+        left: 90px;
+        margin-top:20px ;
 
     }
     .technology-section .line img {
         position: relative;
-        top: 10px;
-        left: 10px;
+        /* top: 10px; */
+        left: 90px;
         height: 10px; 
         width: 3px;
         height: 200px;
@@ -2448,12 +2451,13 @@ input {
         position: relative;
         width: 45px;
         height: 46px;
-        top: 20px;
+        left: 90px;
+        
     }
     .technology-section1 .line img {
         position: relative;
         top: 10px;
-        left: 10px;
+        left: 90px;
         height: 10px; 
         width: 3px;
         height: 200px;
@@ -2512,7 +2516,7 @@ input {
 
     .choose .dot img{
         width: 50px;
-        margin: 10px;
+        margin: 15px;
     }
     .choose .line img{
         width:3px;
@@ -2583,7 +2587,7 @@ input {
     .touch-section-w .dot-section img{
                 width: 45px;
                 height: 55px;
-                margin-left: -20px;
+                margin-left: -25px;
                 margin-top: -15px;
                     
             }
@@ -2592,6 +2596,7 @@ input {
                 height: 650px;
                 border-radius: 2.77px;
                 margin-top: 10px;
+                left: -20px;
             
             }  
             
@@ -2774,11 +2779,12 @@ input {
     .Service-uss {
         padding: 20px 0;
         overflow-x: hidden;
+        
     }
     
     .Service-uss .line-image {
         width: 50px; 
-        margin-left: 40px;
+        margin-left: 20px;
         height: 500px;
         margin-top: -30px;
     }
@@ -2786,13 +2792,13 @@ input {
     .Service-uss .left h2 {
         font-size: 40px;
         line-height: 1.5;
-        margin: -90px;
+        margin: -120px;
         
     }
     .Service-uss .left img {
         width: 110px;
-        margin-left: -100px;
-        margin-top: 100px;
+        margin-left: -120px;
+        margin-top: 120px;
     }
     
     .Service-uss .right .first-image {
@@ -2812,6 +2818,7 @@ input {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    margin-left: -20px;
 
 
 }
@@ -2819,7 +2826,7 @@ input {
 .Mobile-App .dot img{
     width: 45px;
     height: 45px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 50px;
 
 }
@@ -2827,18 +2834,20 @@ input {
 .Mobile-App .line img{
     width: 3px;
     height: 270px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 .Mobile-App .top h3{
         font-size: 26px;
         margin-top: -30px;
          opacity: 70%; 
+         margin-left: 20px;
         
     }
 
     .Mobile-App .top h1{
         font-size: 36px;
-        margin-bottom: 10px;  
+        margin-bottom: 10px; 
+        margin-left:20px; 
     }
 
     .Mobile-App .top span{
@@ -2946,7 +2955,7 @@ input {
     .FRONTEND-section1 .line img {
         position: relative;
         top: 20px;
-        left: 30px;
+        left: 100px;
         height: 10px; 
         width: 3px;
         height: 200px;
@@ -3010,12 +3019,12 @@ input {
         width: 45px;
         height: 46px;
         top: 20px;
-        left: 10px;;
+        left: 100px;;
     }
     .BACKEND-section1 .line img {
         position: relative;
         top: 20px;
-        left: 30px;
+        left: 100px;
         height: 10px; 
         width: 3px;
         height: 200px;
@@ -3133,6 +3142,7 @@ input {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    margin-left: -5px;
 
 
 }
@@ -3140,7 +3150,7 @@ input {
 .Mission .dot img{
     width: 45px;
     height: 45px;
-    margin-left: 15px;
+    margin-left: -10px;
     margin-top: 35px;
 
 }
@@ -3148,13 +3158,14 @@ input {
 .Mission .line img{
     width: 3px;
     height: 270px;
-    margin-left: 35px;
+    margin-left: 10px;
 }
 
     .Mission .top h1{
         font-size: 24px;
         margin-bottom: 10px;
-        font-family: ubuntu;   
+        font-family: ubuntu;
+        margin-left: -5px;   
     }
 
     .Mission p{
@@ -3360,7 +3371,7 @@ input {
         
         .Service-usss .line-image {
             width: 50px; 
-            margin-left: 40px;
+            margin-left: 0px;
             height: 500px;
             margin-top: -30px;
         }
@@ -3368,14 +3379,14 @@ input {
         .Service-usss .left h2 {
             font-size: 40px;
             line-height: 1.5;
-            margin: -90px;
+            margin: -120px;
             width: 536px;
             
         }
         .Service-usss .left img {
             width: 160px;
-            margin-left: -100px;
-            margin-top: 100px;
+            margin-left: -120px;
+            margin-top: 120px;
         }
         
         .Service-usss .right .first-image {
@@ -3396,13 +3407,12 @@ input {
     align-items: center;
     padding: 20px 0;
 
-
 }
 
 .Digital-Marketing .dot img{
     width: 45px;
     height: 45px;
-    margin-left: 15px;
+    margin-left: -10px;
     margin-top: 35px;
 
 }
@@ -3410,19 +3420,21 @@ input {
 .Digital-Marketing .line img{
     width: 3px;
     height: 400px;
-    margin-left: 35px;
+    margin-left: 5px;
 }
 .Digital-Marketing .top h3{
         font-size: 20px;
         
         margin-bottom: 10px;
         opacity: 70%;
+        margin-left: -30px;
         
     }
 
     .Digital-Marketing .top h1{
         font-size: 26px;
         margin-bottom: 10px;
+        margin-left: -30px;
   
     }
 
@@ -3430,6 +3442,7 @@ input {
          font-size:28x; 
         font-family: ubuntu;  
         opacity: 70%;  
+        margin-left: -20px;
     }
 
     .Digital-Marketing  p{
@@ -3440,6 +3453,9 @@ input {
         font-weight: 400;
         line-height: 48px;
         text-align: left;
+        margin-left: -40px;
+        
+
 
    }
 
@@ -3450,32 +3466,39 @@ input {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+
     }
 
     .cutedge1 .dot img{
        width: 45px;
        height: 45px;
        margin-top: 30px;
-       margin-left: 15px;
+       margin-left: -20px;
 
     }
     .cutedge1 .line img{
        width: 3px;
-       height: 500px;
-       margin-left: 35px;
+       height: 450px;
+       margin-left: 0px;
+       text-align: start;
     }
 
     .cutedge1 .left{
        width: 500px;
+       margin-left: -40px;
+       
     }
 
     .cutedge1 .left h3{
        opacity: 70%;
        margin-bottom: 5px;
+       /* margin-left: -40px; */
        
    }
    .cutedge1 .left h2{
        margin-bottom: 5px;
+       margin-left: 40px;
+       
        
    }
     .cutedge1 .left1 span{
@@ -3483,6 +3506,7 @@ input {
        margin-bottom: 5px;
        width: 150px;
        font-size: 20px;
+       margin-left: 0px;
     }
 
     .cutedge1 .right{
@@ -3513,14 +3537,14 @@ input {
 .good1 .dot img{
     width: 50px;
     height: 50px;
-    margin-left: 30px;
+    margin-left: -90px;
 
 }
 
 .good1 .line img{
     width: 4px;
     height: 500px;
-    margin-left: 45px;
+    margin-left: -70px;
 }
 .good1 .text-success {
     color: #00c853 !important;
@@ -3531,12 +3555,12 @@ input {
     font-size: 18px;
     padding: 10px;
     max-width: 500px;
-    
 }
 
 .good1 p {
     font-size: 22px;
     opacity: 70%;
+    margin-top: -90px;
 }
 
 .good1 .img-fluid {
@@ -3544,7 +3568,8 @@ input {
     height: auto;
     width: 699px;
     height: 385px;
-    margin-top: 0px;
+    margin-top: -110px;
+    margin-left: -230px;
 }
    /* *******************************************************CLEINT SECTION******************** */ 
 /* .client-section-Digital{
@@ -3661,6 +3686,7 @@ input {
                     margin: 0;
                     display: flex;          
                     margin-left: 80px;
+
                 }
                             
                             .client-section1 .left-section{
@@ -3780,8 +3806,9 @@ input {
 /*                        *********************SERVICE DIGITAL ****************************
            */
 
-           .ServicesDigital-section{
+        .ServicesDigital-section{
             position: relative;
+            
         }
         .ServicesDigital-section .dot-section img{
             width: 45px;
@@ -3791,13 +3818,13 @@ input {
         }
         .ServicesDigital-section .line-section img{
             width: 53px;
-            height: 470px;
+            height: 550px;
             margin-left: 45px;
         }
         
         .ServicesDigital-section .website-offer-section {
             padding: 20px;
-            margin-top: -520px;
+            margin-top: -600px;
         }
         
         .ServicesDigital-section .website-offer-section h2 {            
@@ -3820,7 +3847,7 @@ input {
             margin-left: 100px;
         }
         
-        .ServicesDigital-section.website-offer-card {
+        .ServicesDigital-section .website-offer-card {
             background-color:rgb(22 28 35);
             padding: 30px;
             border-radius: 8px;
@@ -3841,14 +3868,14 @@ input {
         }
         
         .ServicesDigital-section .website-offer-card p {
-            font-size: 14px;
+            font-size: 13px;
             text-align : start;
             height: 170px;
         }
         
         .ServicesDigital-section .website-offer-card img {
             max-width: 100px;
-            margin-top: 10px;
+            margin-top: 70px;
             float:bottom;
         }
         
@@ -3906,21 +3933,21 @@ input {
         }
         .Service-ussss .line-image {
             width: 50px; 
-            margin-left: 40px;
+            margin-left: 0px;
             height: 500px;
             margin-top: -30px;
         }
         .Service-ussss .left h2 {
             font-size: 40px;
             line-height: 1.5;
-            margin: -90px;
+            margin: -120px;
             width: 536px;
             
         }
         .Service-ussss .left img {
             width: 210px;
-            margin-left: -100px;
-            margin-top: 100px;
+            margin-left: -120px;
+            margin-top: 120px;
         }
         
         .Service-ussss .right .first-image {
@@ -3936,6 +3963,7 @@ input {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    margin-left: -20px;
 
 
 }
@@ -3943,25 +3971,27 @@ input {
 .Marketing .dot img{
     width: 45px;
     height: 45px;
-    margin-left: 15px;
+    margin-left: -15px;
     margin-top: 35px;
 
 }
 
 .Marketing .line img{
     width: 3px;
-    height: 450px;
-    margin-left: 35px;
+    height: 500px;
+    margin-left: 5px;
 }
 .Marketing .top h3{
         font-size: 20px;
         margin-bottom: 10px;
         opacity: 70%;   
+        margin-left: 20px;
     }  
 
     .Marketing .top h1{
         font-size: 36px;
-        margin-bottom: 10px;   
+        margin-bottom: 10px;  
+        margin-left: 20px; 
     }
 
     .Marketing .top span{
@@ -4431,6 +4461,9 @@ input {
                     border: none;
                     margin-left: -20px;
                 }
+
+
+
                 
                 .footer-logo{
                     width: 200px;
@@ -4470,3 +4503,646 @@ input {
                 .container-fluid{
                     padding: 0 40px;
                 }
+
+
+
+
+
+
+     
+
+    /* ****************************************ABOUT PAGE HEADER********             */
+
+  
+    .header-container1 {
+        margin-top: 2rem;
+        width: 100%   
+    }
+            .headers {
+                width: 90%;
+                padding:0rem;
+                margin: auto;
+                display: table;
+                background: #161B224a;
+                backdrop-filter: blur(2px);
+                border-radius:10rem;
+                position: relative;
+            }
+    
+            .logo{
+                display:table-cell;
+                width:max-content;
+                padding: 10px;
+                margin-top: -5px;
+            }
+            .logo img{
+                width:10rem;
+            }
+            .navbar {
+                display: table-cell;
+                text-align: right;
+                vertical-align: middle;
+                margin-left: 20px;
+                padding-left: -30pxpx;
+                font: ubuntu;
+            }
+            .navbar span{
+                margin:0 1rem;
+            }
+            .navbar span {
+                position: relative;   
+                padding: 5px 0px;
+                margin: 0 0.5rem;
+            }
+    
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                text-align: center;
+            }
+    
+            .navbar .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color:#07081e;
+                filter: blur(0px);
+                z-index: -99999;
+                min-width: 160px;
+                box-shadow: 0px 12px 24px 0px rgb(0 0 0 / 47%);
+                z-index: 1;
+                top: 25px;
+                left: 0;
+                height: 140px;
+            }
+    
+            .navbar .dropdown-content a {
+                color:white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                width: 180px;
+                background: blur;
+            }
+            .navbar .dropdown-content a:hover {
+                background-color: rgba(237, 93, 35, 1);
+                opacity: 90%;
+            }
+            .navbar .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            .navbar span{
+                margin:0 1rem;
+            }
+            .dropdown-submenu {
+                position: relative;
+            }
+            .dropdown-submenu-content {
+                display: none;
+                position: absolute;
+                left: 167px;
+                top: -6px;
+                background-color: rgb(7 8 30);
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+    
+            .dropdown-submenu:hover .dropdown-submenu-content {
+                display:block;
+            }
+            #hamburger , #crossBtn{
+                display: none;
+            }
+
+
+ /* ************************************WEB DEVELOPMENT PAGE**********            */
+
+
+
+.header-container2 {
+    margin-top: 2rem;
+    width: 100%   
+}
+        .headers {
+            width: 90%;
+            padding:0rem;
+            margin: auto;
+            display: table;
+            background: #161B224a;
+            backdrop-filter: blur(2px);
+            border-radius:10rem;
+            position: relative;
+        }
+
+        .logo{
+            display:table-cell;
+            width:max-content;
+            padding: 10px;
+            margin-top: -5px;
+        }
+        .logo img{
+            width:10rem;
+        }
+        .navbar {
+            display: table-cell;
+            text-align: right;
+            vertical-align: middle;
+            margin-left: 20px;
+            padding-left: -30pxpx;
+            font: ubuntu;
+        }
+        .navbar span{
+            margin:0 1rem;
+        }
+        .navbar span {
+            position: relative;   
+            padding: 5px 0px;
+            margin: 0 0.5rem;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color:#07081e;
+            filter: blur(0px);
+            z-index: -99999;
+            min-width: 160px;
+            box-shadow: 0px 12px 24px 0px rgb(0 0 0 / 47%);
+            z-index: 1;
+            top: 25px;
+            left: 0;
+            height: 140px;
+        }
+
+        .navbar .dropdown-content a {
+            color:white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            width: 180px;
+            background: blur;
+        }
+        .navbar .dropdown-content a:hover {
+            background-color: rgba(237, 93, 35, 1);
+            opacity: 90%;
+        }
+        .navbar .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .navbar span{
+            margin:0 1rem;
+        }
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu-content {
+            display: none;
+            position: absolute;
+            left: 167px;
+            top: -6px;
+            background-color: rgb(7 8 30);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-submenu:hover .dropdown-submenu-content {
+            display:block;
+        }
+        #hamburger , #crossBtn{
+            display: none;
+        }
+
+
+
+
+
+
+        /* *****************DIGITAL PAGE ************** */
+
+       
+        .header-container3 {
+            margin-top: 2rem;
+            width: 100%   
+        }
+                .headers {
+                    width: 90%;
+                    padding:0rem;
+                    margin: auto;
+                    display: table;
+                    background: #161B224a;
+                    backdrop-filter: blur(2px);
+                    border-radius:10rem;
+                    position: relative;
+                }
+        
+                .logo{
+                    display:table-cell;
+                    width:max-content;
+                    padding: 10px;
+                    margin-top: -5px;
+                }
+                .logo img{
+                    width:10rem;
+                }
+                .navbar {
+                    display: table-cell;
+                    text-align: right;
+                    vertical-align: middle;
+                    margin-left: 20px;
+                    padding-left: -30pxpx;
+                    font: ubuntu;
+                }
+                .navbar span{
+                    margin:0 1rem;
+                }
+                .navbar span {
+                    position: relative;   
+                    padding: 5px 0px;
+                    margin: 0 0.5rem;
+                }
+        
+                .navbar a {
+                    color: white;
+                    text-decoration: none;
+                    text-align: center;
+                }
+        
+                .navbar .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color:#07081e;
+                    filter: blur(0px);
+                    z-index: -99999;
+                    min-width: 160px;
+                    box-shadow: 0px 12px 24px 0px rgb(0 0 0 / 47%);
+                    z-index: 1;
+                    top: 30px;
+                    left: 0;
+                    height: 140px;
+                }
+        
+                .navbar .dropdown-content a {
+                    color:white;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                    width: 180px;
+                    background: blur;
+                }
+                .navbar .dropdown-content a:hover {
+                    background-color: rgba(237, 93, 35, 1);
+                    opacity: 90%;
+                }
+                .navbar .dropdown:hover .dropdown-content {
+                    display: block;
+                }
+                .navbar span{
+                    margin:0 1rem;
+                }
+                .dropdown-submenu {
+                    position: relative;
+                }
+                .dropdown-submenu-content {
+                    display: none;
+                    position: absolute;
+                    left: 167px;
+                    top: -6px;
+                    background-color: rgb(7 8 30);
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                    z-index: 1;
+                }
+        
+                .dropdown-submenu:hover .dropdown-submenu-content {
+                    display:block;
+                }
+                #hamburger , #crossBtn{
+                    display: none;
+                }
+
+      /* *******************************SOCIAL MEDIA PAGE *********************           */
+
+
+      *{
+        font: ubuntu;
+    }
+    .header-container4 {
+        margin-top: 2rem;
+        width: 100%   
+    }
+            .headers {
+                width: 90%;
+                padding:0rem;
+                margin: auto;
+                display: table;
+                background: #161B224a;
+                backdrop-filter: blur(2px);
+                border-radius:10rem;
+                position: relative;
+            }
+    
+            .logo{
+                display:table-cell;
+                width:max-content;
+                padding: 10px;
+                margin-top: -5px;
+            }
+            .logo img{
+                width:10rem;
+            }
+            .navbar {
+                display: table-cell;
+                text-align: right;
+                vertical-align: middle;
+                margin-left: 20px;
+                padding-left: -30pxpx;
+                font: ubuntu;
+            }
+            .navbar span{
+                margin:0 1rem;
+            }
+            .navbar span {
+                position: relative;   
+                padding: 5px 0px;
+                margin: 0 0.5rem;
+            }
+    
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                text-align: center;
+            }
+    
+            .navbar .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color:#07081e;
+                filter: blur(0px);
+                z-index: -99999;
+                min-width: 160px;
+                box-shadow: 0px 12px 24px 0px rgb(0 0 0 / 47%);
+                z-index: 1;
+                top: 30px;
+                left: 0;
+                height: 140px;
+            }
+    
+            .navbar .dropdown-content a {
+                color:white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                width: 180px;
+                background: blur;
+            }
+            .navbar .dropdown-content a:hover {
+                background-color: rgba(237, 93, 35, 1);
+                opacity: 90%;
+            }
+            .navbar .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            .navbar span{
+                margin:0 1rem;
+            }
+            .dropdown-submenu {
+                position: relative;
+            }
+            .dropdown-submenu-content {
+                display: none;
+                position: absolute;
+                left: 167px;
+                top: -6px;
+                background-color: rgb(7 8 30);
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+    
+            .dropdown-submenu:hover .dropdown-submenu-content {
+                display:block;
+            }
+            #hamburger , #crossBtn{
+                display: none;
+            }
+
+
+     /* **************************APP DEVELOPMENT **********************        */
+
+
+   
+    .header-container5 {
+        margin-top: 2rem;
+        width: 100%   
+    }
+            .headers {
+                width: 90%;
+                padding:0rem;
+                margin: auto;
+                display: table;
+                background: #161B224a;
+                backdrop-filter: blur(2px);
+                border-radius:10rem;
+                position: relative;
+            }
+    
+            .logo{
+                display:table-cell;
+                width:max-content;
+                padding: 10px;
+                margin-top: -5px;
+            }
+            .logo img{
+                width:10rem;
+            }
+            .navbar {
+                display: table-cell;
+                text-align: right;
+                vertical-align: middle;
+                margin-left: 20px;
+                padding-left: -30pxpx;
+                font: ubuntu;
+            }
+            .navbar span{
+                margin:0 1rem;
+            }
+            .navbar span {
+                position: relative;   
+                padding: 5px 0px;
+                margin: 0 0.5rem;
+            }
+    
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                text-align: center;
+            }
+    
+            .navbar .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color:#07081e;
+                filter: blur(0px);
+                z-index: -99999;
+                min-width: 160px;
+                box-shadow: 0px 12px 24px 0px rgb(0 0 0 / 47%);
+                z-index: 1;
+                top: 25px;
+                left: 0;
+                height: 140px;
+            }
+    
+            .navbar .dropdown-content a {
+                color:white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                width: 180px;
+                background: blur;
+            }
+            .navbar .dropdown-content a:hover {
+                background-color: rgba(237, 93, 35, 1);
+                opacity: 90%;
+            }
+            .navbar .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            .navbar span{
+                margin:0 1rem;
+            }
+            .dropdown-submenu {
+                position: relative;
+            }
+            .dropdown-submenu-content {
+                display: none;
+                position: absolute;
+                left: 167px;
+                top: -6px;
+                background-color: rgb(7 8 30);
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+    
+            .dropdown-submenu:hover .dropdown-submenu-content {
+                display:block;
+            }
+            #hamburger , #crossBtn{
+                display: none;
+            }
+
+   /* ********************CONTACT-US *******************          */
+
+
+.header-container6 {
+    margin-top: 2rem;
+    width: 100%   
+}
+        .headers {
+            width: 90%;
+            padding:0rem;
+            margin: auto;
+            display: table;
+            background: #161B224a;
+            backdrop-filter: blur(2px);
+            border-radius:10rem;
+            position: relative;
+        }
+
+        .logo{
+            display:table-cell;
+            width:max-content;
+            padding: 10px;
+            margin-top: -5px;
+        }
+        .logo img{
+            width:10rem;
+        }
+        .navbar {
+            display: table-cell;
+            text-align: right;
+            vertical-align: middle;
+            margin-left: 20px;
+            padding-left: -30pxpx;
+            font: ubuntu;
+        }
+        .navbar span{
+            margin:0 1rem;
+        }
+        .navbar span {
+            position: relative;   
+            padding: 5px 0px;
+            margin: 0 0.5rem;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color:#07081e;
+            filter: blur(0px);
+            z-index: -99999;
+            min-width: 160px;
+            box-shadow: 0px 12px 24px 0px rgb(0 0 0 / 47%);
+            z-index: 1;
+            top: 30px;
+            left: 0;
+            height: 140px;
+        }
+
+        .navbar .dropdown-content a {
+            color:white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            width: 180px;
+            background: blur;
+        }
+        .navbar .dropdown-content a:hover {
+            background-color: rgba(237, 93, 35, 1);
+            opacity: 90%;
+        }
+        .navbar .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .navbar span{
+            margin:0 1rem;
+        }
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu-content {
+            display: none;
+            position: absolute;
+            left: 167px;
+            top: -6px;
+            background-color: rgb(7 8 30);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-submenu:hover .dropdown-submenu-content {
+            display:block;
+        }
+        #hamburger , #crossBtn{
+            display: none;
+        }
