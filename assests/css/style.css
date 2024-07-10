@@ -116,13 +116,13 @@ input {
         .navbar .dropdown-content {
             display: none;
             position: absolute;
-            background-color:#161B224a;
+            background-color:#07081e;
             filter: blur(0px);
             z-index: -99999;
             min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            box-shadow: 0px 12px 24px 0px rgb(0 0 0 / 47%);
             z-index: 1;
-            top: 100%;
+            top: 39px;
             left: 0;
             height: 140px;
         }
@@ -152,14 +152,12 @@ input {
         .dropdown-submenu-content {
             display: none;
             position: absolute;
-            left: 100%;
-            top: 0;
-            background-color:rgba(255, 255, 255, 1);
+            left: 167px;
+            top: -6px;
+            background-color: rgb(7 8 30);
             min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
             z-index: 1;
-            margin-top: 48px;
-            margin-left: -120px;
         }
 
         .dropdown-submenu:hover .dropdown-submenu-content {
@@ -1220,8 +1218,7 @@ input {
     display: flex;
 }
     .footer-section .final-section{
-        width: 1440px;
-        height: 341px;
+        width: 100%;
     }
     .footer-section  .footer-container{
         width: 1300px;
@@ -4435,3 +4432,41 @@ input {
                     margin-left: -20px;
                 }
                 
+                .footer-logo{
+                    width: 200px;
+                    display: block;
+                    margin-bottom: 20px;
+                }
+                footer ul{
+                    padding: 0;
+                }
+                footer h5{
+                    font-weight: 700;
+                }
+                footer li a{
+                    font-size: 18px;
+                }
+                footer p{
+                    font-size: 18px;
+                }
+                footer .socials a{
+                    margin: 0 6px;
+                }
+                footer .socials img{
+                    width: 25px;
+                }
+                footer .bottom-footer .content{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 25px 0;
+                    align-items: center;
+                }
+                footer .bottom-footer{
+                    background-color: #161b22;
+                }
+                footer .bottom-footer p{
+                    margin: 0;
+                }
+                .container-fluid{
+                    padding: 0 40px;
+                }
