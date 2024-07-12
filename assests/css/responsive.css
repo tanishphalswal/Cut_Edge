@@ -55,51 +55,26 @@
 
 
  @media (min-width: 320px) and (max-width: 480px)
-{
-
-
-
-
-     .grow-section{
-        height: 400px;
-        
-    }  
-    .right-section .image img{
-        width: 29rem;
-        height: 38rem;
-        margin-top: 270px;
-        margin-left: -570px;
-        max-width: 0px;
+{  
+    .dot-sec img{
+        margin-left: 5px;
     }
-    
-    .grow-section .line-section img{
+    .line-sec img{
         width: 0.1rem;
         height: 15rem;
         top: 11.1rem;
-        left:-35rem;
+        margin-left: 5px;
         border-radius:0.3rem;
     }
-    .grow-section .description{
-        font-size: 1.5rem;
-        width:25rem;
-        height: 6.75rem;
-        opacity: 70%;
-        line-height: 2.25rem;
-        margin-left: 20px;
-    }
+    
 
-    .grow-section .right-section .image img{
-        width: 300px;
-        height: 279px;
-        
-        border-radius: 5px;
-        border: 1px;
-        margin-left: -740px;
-        margin-top: 400px;
+    .right-section .image-fluid img{
+        width: 100%;
+        height: auto;
     }
  
 }
-
+ 
 
 
 @media (min-width: 320px) and (max-width: 480px){
@@ -107,22 +82,22 @@
         width:55px;
         height: 26pxpx;
         margin-left: 0px;
-        margin-top: -20px;
+        margin-top: 30px;
         
 
     }
     .services-section .line-section img{
         width: 70px;
         height: auto;
-        margin-top: 10px;
+        margin-top: 30px;
         margin-left: 20px;    
 
     }
-    .services-section .description{
+    .services-section .title-box{
         width: 100%;
         height: auto;
       
-        margin-top: -25px;        
+        margin-top: 50px;        
     }
 
 
@@ -134,8 +109,7 @@
          right: 0px; 
         z-index: -1;
         animation: rotate 10s infinite linear;
-         /* margin-top:730px; */
-        /* margin-right: 100px; */
+         
         border: none;
         opacity: 70%;
     
@@ -204,7 +178,15 @@
 
 
 }
-@media (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 480px) {
+    .dot1 img{
+        margin-left: -40px; 
+
+    }
+    .line1 img{
+        margin-left: -20px;
+    }
+
     .stat-box {
       border-left: none;
       border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -214,6 +196,7 @@
     }
   }
   
+
 
     /* leading section */ 
     @media (min-width: 320px) and (max-width: 480px){
@@ -340,6 +323,43 @@
 
 @media (min-width: 320px) and (max-width: 480px){
 
+    
+.news-section  img.background{
+    position: absolute;
+    width: 300px;
+    height:300px;
+     top: 500;
+     right: 0; 
+    z-index: -1;
+    animation: rotate 10s infinite linear;
+     margin-top:0px; 
+     margin-left: 40px;  
+    border: none;
+    opacity: 30%;
+
+}
+
+.news-section .dot3 img{
+    width: 45px;
+    height: 45px;
+    margin-left: -40px;
+}
+
+.news-section .line3 img{
+    width: 5px;
+    height: 700px;
+    margin-left: -20px;
+}
+/* .news-section .main-article .img-fluid img{
+    width: 1000px;
+    height: 100px;
+} */
+
+
+
+
+
+
 .news-section{
     height: 1400px;
     width: 100%;
@@ -351,7 +371,7 @@
     width: 51px;
     height: 51px;
     margin-left: 0px;
-    margin-top: -10px;
+    margin-top: -40px;
 
 }
 
@@ -360,7 +380,7 @@
         width: 5.39px;
         height: 1380px;
         border-radius: 2.77px;
-        margin-left: 20px;
+        margin-left: 0px;
     }
    
 
@@ -368,7 +388,7 @@
         width: 100%;
         height: auto;
         border-radius: 60px;
-        /* margin-right:800px; */
+        margin-right:800px;
         
         
 
@@ -380,8 +400,8 @@
         height: 34px;
         opacity: 70%;
         font-family: ubuntu;
-        /* letter-spacing: 2%; */
-        /* line-height: 34px; */
+        letter-spacing: 2%;
+        line-height: 34px;
         margin-left:10px;
         
     } 
@@ -389,15 +409,15 @@
     .news-section .about-section .about h1{
         width: 1237px;
         height: 53px;
-        /* justify-content: space space-between; */
-        /* margin-top: -10px; */
-        /* margin-left: -60px; */
+        justify-content: space space-between;
+        margin-top: -10px;
+        margin-left: -60px;
         margin-left: 10px;
 
     } 
 
 
-/* 
+ 
  .news-section .picture img{
             width: 100%;
             height: auto;
@@ -405,7 +425,7 @@
             border: 1px solid rgba(48, 54, 61, 1);
             margin-left: px; 
              margin-top: -1100px;
-        } */
+        } 
 
         .news-section .picture img{
             width: 494px;
@@ -451,7 +471,7 @@
         } */
 
 
-        .news-section .right-section .describe img{
+        /* .news-section .right-section .describe img{
             width: 188px;
             height: 183px;
             border-radius: 9.77px;
@@ -463,11 +483,11 @@
             margin-top:800px;
             
     
-        } 
+        }  */
 
 
 
-        .news-section .right-section .describe1 img{
+        /* .news-section .right-section .describe1 img{
             width: 188px;
             height: 183px;
             border-radius: 9.77px;
@@ -476,9 +496,9 @@
             
             
     
-        } 
+        }  */
 
-
+/* 
         .news-section .right-section .describe2 img{
             width: 188px;
             height: 183px;
@@ -487,29 +507,29 @@
             margin-left: -1290px;
             margin-top:-330px;
     
-        } 
+        }  */
     
-        .news-section .right-section .describe{
+        /* .news-section .right-section .describe{
             width: 489px;
             height: 373px;
             
-        }      
-        .news-section .right-section .describe .describe3 h2{
+        }       */
+        /* .news-section .right-section .describe .describe3 h2{
             width: 269px;
             height: 22px;
             margin-top: -180px;
             margin-left: -1090px;
             font-size: 15px;
-        }
+        } */
     
-        .news-section .right-section .describe .describe3 h4{
+        /* .news-section .right-section .describe .describe3 h4{
             width: 217px;
             height: 15px;
             margin-top: -5px;
             margin-left: -1090px;
             font-size: 10px;
-        }
-        .news-section .right-section .describe3-section .describe1 h4{
+        } */
+        /* .news-section .right-section .describe3-section .describe1 h4{
 
             width:250px;
             height: 50px;
@@ -517,17 +537,17 @@
             margin-top: -5px;
             font-size: 15px;
     
-        }
+        } */
      
-          .news-section .right-section .describe .describe4-section .describe  p{
+          /* .news-section .right-section .describe .describe4-section .describe  p{
             width:450px;
             height: 93px;
             margin-left: -1090px;
             margin-top: -20px;
         } 
+ */
 
-
-        .news-section .right-section .describe1 .describe3 h2{
+        /* .news-section .right-section .describe1 .describe3 h2{
             width: 269px;
             height: 22px;
             margin-top: -290px;
@@ -544,7 +564,7 @@
             margin-left: -px;
             font-size: 15px;
 
-        }
+        } */
 
 
     }
@@ -556,12 +576,13 @@
     .client-section{
         width: 100%;
         height: auto;
+        margin-top: 1100px;
         
     }
     .client-section .dot-section img{
         width:55px;
         height: 56pxpx;
-        top: 487px;
+        /* top: 987px; */
         left: 69px;
         margin-left: -85px;
 
@@ -569,7 +590,7 @@
     .client-section .line-section img{
         width: 63.49px;
         height: 300px;
-        margin-top: 10px;
+        /* margin-top: 10px; */
         margin-left: -60px;
 
         }
@@ -578,7 +599,7 @@
             width: 114px;
             height: 28px;
             opacity: 70%;
-            margin-top: 20px;
+            /* margin-top: 20px; */
             margin-left: -0px;
 
       } 
@@ -586,7 +607,7 @@
         width: 192px;
         height: 40px;
         margin-left: 10px;
-        margin-top: -5px;
+        /* margin-top: -5px; */
   }  
 
  }
@@ -714,13 +735,14 @@
     }
 
     .touch-section .second-section .images img{
-        width: 400px;
-        height: 432px;
-        padding-top: 120px;
+        width: 100%;
+        height: aut0;
+        padding-top: 220px;
         margin-left: -450px;
         margin-top: 450px;
     } 
 }
+
 
 
 
