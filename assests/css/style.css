@@ -844,8 +844,16 @@ input {
 
 }
 
-.news-section .title-box{
-    margin-left: 120px;
+.news-section .row3 img{
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.news-section .line3 img{
+    width: 5px;
+    height: 700px;
+    margin-left: 30px;
 }
 
 
@@ -1095,24 +1103,30 @@ font-size: 15px;
                                 height: 56pxpx;
                                 top: 487px;
                                 left: 69px;
-                                margin-left: -25px;
+                                margin-left: -35px;
         
                                 }
                             .client-section .line-section img{
                                 width: 63.49px;
                                 height: 300px;
                                 margin-top: 10px;
+                                margin-left: -10px;
                     
-                                }
-                    
+                               
+                            }
+
+                            .client-section .title-box{
+                                margin-left: 50px;
+                            }
+/*                     
                               .client-section .heading-section h3{
                                     width: 114px;
                                     height: 28px;
                                     opacity: 70%;
                                     margin-top: 20px;
-                                     margin-left: 0px; 
+                                     margin-left: 40px; 
                     
-                              } 
+                              }  */
                               /* .client-section .discribe-section h2{
                                 width: 192px;
                                 height: 40px;
@@ -1183,7 +1197,7 @@ font-size: 15px;
                       
 /* ***********************TOUCH SECTION ******************************** */
 .touch-section {
-    width: 90%;
+    width: 100%;
     margin: 1rem auto;  
     display: flex;
     position: relative;
@@ -1194,31 +1208,35 @@ font-size: 15px;
         .touch-section .dot-section img{
             width: 45px;
             height: 55px;
-            margin-left: -20px;
+            margin-left: -30px;
             margin-top: -15px;
                 
         }
         .touch-section .line-section img{
             width: 3px;
-            height: 650px;
+            height: 630px;
             border-radius: 2.77px;
-            margin-top: 10px;     
+            margin-top: 10px;
+            margin-left: -10px;     
         }  
         
-        .touch-section .heading-section h3{
+        /* .touch-section .heading-section h3{
             width: 100px;
             height: 18px;
             opacity: 70%;
             margin-left: 30px;
 
-        }
-        .touch-section .description h2{
+        } */
+        /* .touch-section .description h2{
             width: 441px;
             height: 80px;
             margin-left: 30px;
             margin-top: 10px;
 
-        }
+        } */
+         .touch-section .title-box{
+            margin-left: 60px;
+         }
 
         .touch-section .image img{
             width: 525px;
@@ -1229,9 +1247,9 @@ font-size: 15px;
             padding: 30px 30px 30px 30px;
             border-radius: 10px;
             margin-top: 10px;
-            margin-left: 20px;
+            margin-left: 60px;
             width: 1300px;
-            height: 550px;
+            height: 530px;
         }
 
          .touch-section .form-section .right-section .final-form{
